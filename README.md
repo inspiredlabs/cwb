@@ -19,7 +19,7 @@ region: en
 
 
 
-# <!-- animation: Courage, Care, logo --><img class="w3 h3 v-mid" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+# <!-- animation: Courage, Care, logo --><img width="128" height="128" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
 # Scope of Work
 
@@ -105,9 +105,8 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 
 ##### Perception
 
-<div class="tc f3 b">
-<img class="w2 h2 v-mid" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
-</div>
+
+<img width="128" height="128" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
 - Animate:
   - Courses Without Borders
