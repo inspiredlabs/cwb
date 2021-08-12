@@ -1,5 +1,9 @@
 
-# <!-- animation: Courage, Care, logo --><img width="48" height="48" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+<!-- animation: Courage, Care, logo
+# <img width="48" height="48" style="vertical-align: middle" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+-->
+
+# cwb.org.uk
 
 # Scope of Work
 
@@ -7,14 +11,14 @@
 
 This doc is a response to _"Improving digital presence"_, and aims to bring clarity to _"agreed outcomes"_, through clear deliverables.
 
-The project has a _"fundraising-focus"_ contained within a: _"website platform/infrastructure [...] fit for purpose"_. The goal will be to orient the organisation towards `sustainment` and long-term fundraising.
+The project has a _"fundraising-focus"_. Contained within an actionable: _"website platform/infrastructure [...] fit for purpose"_, to orient the organisation towards `sustainment`, and long-term fundraising.
 
 ### Deliverables
 
-- Information Architecture to influence people using consistent terminology.
+- IA to influence consistent terminology for writing _"emotive case studies"_.
 - Define a niche `target audience`, and their appropriate channels of contact.
 - `memes` to communicate effectively about how people experience our work.
-- Help `visitors` esp. our `target audience` take action via the website.
+- Help `visitors` take action appropriately via the website.
 
 ### Challenges
 
@@ -22,7 +26,7 @@ Although there are numerous challenges presented in this document, probably the 
 
 CWB is a serious charity _"changing the landscape of how we treat children"_. By correctly understanding our `key-insight` for our `target audience`, we will implement perception change and lay the foundation of `sustainment`.
 
-If possible we need to _design out_ any fundraising conflict of interest.
+Fundraising conflict of interest should be _design out_ through how different `visitors` take action.
 
 Currently our `memes` aren't accessible, although people do know of our impact.
 
@@ -41,13 +45,13 @@ Effective accountability is a challenge. Our `target audience` may not realise t
 - This is the monitoring we ask people in our training to work with: SEE GRAPHIC
 ```
 
-
+x
 
 ### Information Architecture
 
-IA is as a tool to produce consistent language and terminology. We use it to structure our information, and create ideas that move people towards the kind of action we want them to take.
+IA is as a tool to produce consistency throughout design systems. We use it to structure our information, and create ideas that move people towards the kind of action we want them to take.
 
-#### Top level navigation (w. reps.):
+#### Top level navigation (repetition):
 
 ```
 - our courses:
@@ -73,7 +77,7 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 - support us:
   - donate directly (stripe)
   - fundraising
-  - sign-up (subscribe or telephone)
+  - sign-up (subscribe/telephone)
   - work with us:
     - volunteer
     - as a facilitator (safeguarding)
@@ -83,15 +87,12 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 
 #### Website Content
 
-##### Perception
+# <!-- animation: Courage, Care, logo --><img width="48" height="48" style="vertical-align: middle" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
-
-<img width="48" height="48" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
-
-- Animate:
-  - Courses Without Borders
-  - Care Without Borders
-  - Courage Without Borders
+##### Logo animation
+- Courage Without Borders
+- Courses Without Borders
+- Care Without Borders
 
 ##### Misc/unsorted
 
@@ -110,7 +111,14 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 
 ### Target Audience
 
-- Define and list exactly who, in the humanitarian setting this website is for. eg:
+```
+Our biggest income, over three years is NGO's funding:
+- Performances to support psycho-social first aid
+- Capacity building workshops for staff
+- and train-the-trainer programmes
+```
+
+- by using this information we can list who, in the humanitarian setting this website is for. eg:
   - NGO "A":
     - Performances to support psycho-social first aid
     - Capacity building workshops for staff
@@ -168,6 +176,14 @@ UNICEF, OXFAM Case Studies
 - Develop:
   - MAKE WASH FUN: `When children learn through play, we create a win-win scenario... with WASH, we trained 100's of adult facilitators that then reached 10,000's children, that reach more children!`
 
+### The business problem we are solving
+
+> We create relevant, inspiring activities that teach more effectively
+
+Telling is ineffective compared to doing! Our depth and range of activities help staff, volunteers and community outreach workers teach more effectively.
+
+Once they learn our approach to learning through doing, they can do this inclusive, engaging and age appropriate activities by themselves.
+
 
 
 ### Fundraising Focus
@@ -179,6 +195,6 @@ Aim to build a platform where `funding & delivery` scale together.
 The workload responsibility for delivering `sustainment` may have to be shared with `our network`, what can we do to:
 - create a more _"outward facing board"_?
 - improve interactions with "fundraisers on the board, this is because it represents a conflict of interest. We have discussed this and their priority is to the charity that employs them, then us."
-- better actions to help:
+- `visitor` actions to help:
   - `David is a fundraising leader`
   - `Ed has been a trusts and institutions fundraiser`.
