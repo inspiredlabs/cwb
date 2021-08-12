@@ -1,16 +1,19 @@
 <script>
 	import { page } from '$app/stores';
 	//import logo from './svelte-logo.svg';
-	import logo from './cwb.svg';
+	import logo from '$lib/cwb.svg';
 	let alt = 'CWB.org.uk';
 </script>
 
 <header>
 	<div class="corner">
 		<a
+
 		class="h3 h3"
 		href="/">
-			<img src={logo} alt={alt} />
+			<img
+			style="fill:#d42900"
+			src={logo} alt={alt} />
 		</a>
 	</div>
 

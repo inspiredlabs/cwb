@@ -3,7 +3,7 @@
 # <img width="48" height="48" style="vertical-align: middle" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 -->
 
-# cwb.org.uk
+# <!-- animation: Courage, Care, logo --><img width="32" height="32" src="./cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
 # Scope of Work
 
@@ -70,38 +70,48 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
       - trustees
       - partners
     - visitors
-- our approach:
+- our approach || impact:
   - case studies
 - support us:
   - donate directly (stripe)
   - fundraising
   - sign-up (subscribe/telephone)
   - work with us:
+    - funding
     - volunteer
-    - as a facilitator (safeguarding)
     - vacancies
+    - as a facilitator (safeguarding)
   - social/share
 ```
 
-#### Website Content
-
-# <!-- animation: Courage, Care, logo --><img width="48" height="48" style="vertical-align: middle" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+#### Content
 
 ##### Logo animation
-- Courage Without Borders
-- Courses Without Borders
-- Care Without Borders
+
+<div style="text-align: right">Courage Without Borders</div>
+<div style="text-align: right">Courses Without Borders</div>
+<div style="text-align: right">Care Without Borders</div>
+
+- sporadically, simply: `Clowns Without Borders`
+
+##### Work with us
+
+To reach `sustainment` our existing NGO partners need to take action and commit further `innovation funding`. There is also a need to develop relationships with other NGO Partners to help them appreciate the benefits of commiting resources with us.
+
+Our `CTA` centre on existing NGO partners (see: [Work with us](#work-with-us)).
 
 ##### Misc/unsorted
 
-- CTA: How can you help? Share your favourite story on social media, donate or if you're an NGO work with us.
+- `CTA`: How can you help? Share your favourite story on social media, donate or if you're an NGO work with us.
 - From the `aid pots see our shows...` stories, perhaps we can demo:
   - `Clown in Your Pocket`
   - etc...
-- Case Studies from Partners (for input/back-links):
-  - 'performances'
-  - 'capacity building' for Staff/volunteers/community outreach workers
-  - 'train-the-trainer'
+- Case Studies should be powerfully to the point, like `case shorts`:
+    - `memes` backed up with a `data story` and a `human interest` component.
+  - Case Studies from Partners (for input/back-links):
+    - 'performances'
+    - 'capacity building' for Staff/volunteers/community outreach workers
+    - 'train-the-trainer'
 - Accountability, how do we measure:
   - local partners
   - remote partners
@@ -111,14 +121,14 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
 
 ```
 Our biggest income, over three years is NGO's funding:
-- Performances to support psycho-social first aid
+- Performances to support psychosocial first aid
 - Capacity building workshops for staff
 - and train-the-trainer programmes
 ```
 
 - by using this information we can list who, in the humanitarian setting this website is for. eg:
   - NGO "A":
-    - Performances to support psycho-social first aid
+    - Performances to support psychosocial first aid
     - Capacity building workshops for staff
     - and train-the-trainer programmes
   - NGO "B":
@@ -138,7 +148,11 @@ Our biggest income, over three years is NGO's funding:
 - What `functions` do people attend and:
   - how do we maximise fundraising opportunities offline?
   - how have they changed w. Health emergancy?
-
+- We are a "good fit" for section, such as:
+  - protection
+  - WASH, through our innovation partners: Oxfam/Unicef
+  - PFA, is as important as FA in conflict
+    - with unlimited funds, what's _our_ capacity to scale?
 
 #### Target Audience's CTA
 
@@ -146,13 +160,31 @@ Our biggest income, over three years is NGO's funding:
 
 - preparation and making contact
 - `aid pots see our shows...` so we invite them online to **experience our approach to**:
-  - `Performances to support psycho-social first aid`
+  - `Performances to support psychosocial first aid`
   - `Capacity Building workshops for staff`
   - `Train-the-Trainer Programmes`
   - then: what funding action do we want them to take, ideally?
-    - work with us (see: content).
+    - work with us (see: [Content](#content)).
 
-### Memes
+##### Donate Directly & Fundraising
+
+<!-- ##### Contact -->
+
+<!-- ##### Social & Sharing -->
+
+### Memes to define `key insight`
+
+Key insights:
+- `the correct application of play`
+
+We can speak directly and understand their pain-points:
+
+> We improve programme outcomes that are already running. Why not amplify what your NGO can teach, with the correct application of play?
+
+- Where's the `data story` to prove our claims for this method?
+- Does each one require `human interest` development for `case shorts`?
+
+capacity building
 
 We aim to create storys from `key-insight` to help evangelists:
 - Can we distill noteworthy examples of `aid pots see our shows...`?
@@ -162,6 +194,7 @@ We aim to create storys from `key-insight` to help evangelists:
 - Develop: `...unlikely they have access to the depth and range of our approach`
 - Develop: `...how our approach will reinvigorate their practice`
 - Develop `key-insight` from the following:
+
 ```
 CWB is changing the landscape of how we treat children.
 
@@ -172,7 +205,18 @@ See the paradigm shift we are creating with
 UNICEF, OXFAM Case Studies
 ```
 - Develop:
-  - MAKE WASH FUN: `When children learn through play, we create a win-win scenario... with WASH, we trained 100's of adult facilitators that then reached 10,000's children, that reach more children!`
+  - A _"win-win scenario"_ implies "it's good for us, and good for you", but this is more of a catalyst:
+  - MAKE WASH FUN: `We help children learn through play, where there's a mushroom effect... we trained 100's of adult facilitators to reach 10,000's children - but, they reached even more children!` CTA: `Make WASH fund us!`
+  - compound
+  - cumalative
+  - feedforward
+  - p2p learning
+  - ripple effect
+  - snowball effect
+  - takes on a life of it's own
+  - spreading WASH far and wide!
+  - it acts as a force multiplier
+  - bloom, mushroom
 
 ### The business problem we are solving
 
