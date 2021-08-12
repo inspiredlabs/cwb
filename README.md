@@ -206,7 +206,11 @@ UNICEF, OXFAM Case Studies
 - Develop:
   - A _"win-win scenario"_ implies "it's good for us, and good for you", but MAKE WASH FUN acts more of a catalyst:
 ```
-We help children learn through play, where there's a mushroom effect... we trained 100's of adult facilitators to reach 10,000's children - but, they reached even more children!
+We help children learn through play,
+where there's a mushroom effect...
+we trained 100's of adult facilitators
+to reach 10,000's children
+- but, they reached even more children!
 ```
   - CTA: `Make WASH fund us!`
     - compound
