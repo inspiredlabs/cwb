@@ -88,10 +88,9 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
 
 ##### Logo animation
 
-<div style="text-align: right">Courage Without Borders</div>
-<div style="text-align: right">Courses Without Borders</div>
-<div style="text-align: right">Care Without Borders</div>
-
+- Courage Without Borders
+- Courses Without Borders
+- Care Without Borders
 - sporadically, simply: `Clowns Without Borders`
 
 ##### Work with us
@@ -205,18 +204,21 @@ See the paradigm shift we are creating with
 UNICEF, OXFAM Case Studies
 ```
 - Develop:
-  - A _"win-win scenario"_ implies "it's good for us, and good for you", but this is more of a catalyst:
-  - MAKE WASH FUN: `We help children learn through play, where there's a mushroom effect... we trained 100's of adult facilitators to reach 10,000's children - but, they reached even more children!` CTA: `Make WASH fund us!`
-  - compound
-  - cumalative
-  - feedforward
-  - p2p learning
-  - ripple effect
-  - snowball effect
-  - takes on a life of it's own
-  - spreading WASH far and wide!
-  - it acts as a force multiplier
-  - bloom, mushroom
+  - A _"win-win scenario"_ implies "it's good for us, and good for you", but MAKE WASH FUN acts more of a catalyst:
+```
+We help children learn through play, where there's a mushroom effect... we trained 100's of adult facilitators to reach 10,000's children - but, they reached even more children!
+```
+  - CTA: `Make WASH fund us!`
+    - compound
+    - cumalative
+    - feedforward
+    - p2p learning
+    - ripple effect
+    - snowball effect
+    - takes on a life of it's own
+    - spreading WASH far and wide!
+    - it acts as a force multiplier
+    - bloom, mushroom, flourish
 
 ### The business problem we are solving
 
