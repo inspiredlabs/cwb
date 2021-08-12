@@ -1,25 +1,5 @@
----
-region: en
 
----
-
-<!-- images: ["./images/tai-chi.jpg"] -->
-<link rel="stylesheet" type="text/css" href="https://instantwebapp.com/css/tachyon.shower.css">
-<!-- <meta charset="iso-8859-1"> -->
-
-
-<style>
-  details * a:hover {
-    color: var(--color-text-link);
-    text-decoration: underline
-  }
-</style>
-
-
-
-
-
-# <!-- animation: Courage, Care, logo --><img width="128" height="128" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+# <!-- animation: Courage, Care, logo --><img width="48" height="48" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
 # Scope of Work
 
@@ -106,7 +86,7 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 ##### Perception
 
 
-<img width="128" height="128" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
+<img width="48" height="48" src="https://inspiredlabs.co.uk/cwb/cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
 - Animate:
   - Courses Without Borders
@@ -168,18 +148,20 @@ IA is as a tool to produce consistent language and terminology. We use it to str
 
 ### Memes
 
-We aim to create evangelists:
+We aim to create storys from `key-insight` to help evangelists:
 - Can we distill noteworthy examples of `aid pots see our shows...`?
   - `capacity building`
   - `train-the-trainer`
   - `performances`
 - Develop: `...unlikely they have access to the depth and range of our approach`
 - Develop: `...how our approach will reinvigorate their practice`
-- Develop:
+- Develop `key-insight` from the following:
 ```
 CWB is changing the landscape of how we treat children.
+
 Once someone understands play is actually more effective
 in supporting learning, they carry this practice forward forever...
+
 See the paradigm shift we are creating with
 UNICEF, OXFAM Case Studies
 ```
