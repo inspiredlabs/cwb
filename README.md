@@ -45,8 +45,6 @@ Effective accountability is a challenge. Our `target audience` may not realise t
 - This is the monitoring we ask people in our training to work with: SEE GRAPHIC
 ```
 
-x
-
 ### Information Architecture
 
 IA is as a tool to produce consistency throughout design systems. We use it to structure our information, and create ideas that move people towards the kind of action we want them to take.
