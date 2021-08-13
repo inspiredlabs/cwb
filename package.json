@@ -9,8 +9,8 @@
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.27",
 		"@sveltejs/kit": "next",
-		"svelte": "^3.34.0",
-		"mdsvex": "^0.9.8"
+		"mdsvex": "^0.9.8",
+		"svelte": "^3.34.0"
 	},
 	"type": "module",
 	"dependencies": {
