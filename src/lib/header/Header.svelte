@@ -1,8 +1,17 @@
 <script>
 	import { page } from '$app/stores';
 	//import logo from './svelte-logo.svg';
-	import logo from '$lib/cwb.svg';
+	import logo from '$lib/images/cwb.svg';
 	let alt = 'CWB.org.uk';
+
+	// Manually add: medium.com/codex/getting-started-with-sveltekit-369987d924bd
+	const routes = [
+		{ href: '/', title: 'Home' },
+		//{ href: '/about-us', title: 'About Us' },
+		//{ href: '/courses', title: 'Courses' },
+		//{ href: '/our-approach', title: 'Our Approach' },
+		//{ href: '/support-us', title: 'Support Us' }
+	];
 </script>
 
 <header>
@@ -12,22 +21,25 @@
 		class="h3 h3"
 		href="/">
 			<img
-			style="fill:#d42900"
 			src={logo} alt={alt} />
 		</a>
 	</div>
 
-	<nav>
+	<!--nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={$page.path === '/'}>
-				<a sveltekit:prefetch href="/">Home</a>
-			</li>
+			{#each routes as route}
+				<li class:active={$page.path === '{route.href}'}>
+					<a sveltekit:prefetch href="{route.href}">{route.title}</a>
+				</li>
+			{/each}
+
 			<li class:active={$page.path === '/about'}>
 				<a sveltekit:prefetch href="/about">About</a>
 			</li>
+
 			<li class:active={$page.path === '/todos'}>
 				<a sveltekit:prefetch href="/todos">Todos</a>
 			</li>
@@ -35,7 +47,7 @@
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
-	</nav>
+	</nav-->
 
 	<div class="corner">
 		<!-- TODO put something else here? github link? -->

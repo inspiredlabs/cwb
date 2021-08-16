@@ -3,14 +3,25 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<link href="https://instantwebapp.com/css/tachyon.shower.css" rel="stylesheet" />
+
+	<!-- My microdata: -->
+	<!-- https://json-ld.org/playground/ -->
+	<!-- https://search.google.com/test/rich-results/ -->
+	<!-- from: https://stackoverflow.com/questions/10520926/ -->
+</svelte:head>
+
+
 <Header />
 
 <main>
-	<slot />
+	<slot></slot>
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Visit <a href="https://clownswithoutborders.org.uk/">CWB.org.uk</a>.</p>
+	<!-- copyright	 -->
 </footer>
 
 <style>

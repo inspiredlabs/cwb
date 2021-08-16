@@ -26,7 +26,7 @@ Although there are numerous challenges presented in this document, probably the 
 
 CWB is a serious charity _"changing the landscape of how we treat children"_. By correctly understanding our `key-insight` for our `target audience`, we will implement perception change and lay the foundation of `sustainment`.
 
-Fundraising conflict of interest should be _design out_ through how different `visitors` take action.
+Some `visitors` experience conflict of interest that hinder our fundraising priorities. Consider how to _design out_ hurdles that meet mutual needs for them to take action.
 
 Currently our `memes` aren't accessible, although people do know of our impact.
 
@@ -44,6 +44,8 @@ Effective accountability is a challenge. Our `target audience` may not realise t
 - We work with our partners to implement monitoring.
 - This is the monitoring we ask people in our training to work with: SEE GRAPHIC
 ```
+
+The privacy policy, written in 2018 (with enquiries going to `info@toldbyanidiot.org`), doesn't have a GDPR compliant analytics provider. This is a reasonable time to consider switching to [Motomo](), at the risk of the task snowballing.
 
 ### Information Architecture
 
@@ -82,6 +84,7 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
     - vacancies
     - as a facilitator (safeguarding)
   - social/share
+    - CTA: `add your voice`
 ```
 
 #### Content
@@ -142,16 +145,16 @@ Our biggest income, over three years is NGO's funding:
   - What exactly would help `Unni` do more on our behalf?
   - What exactly would help `Shilpa` do more on our behalf?
 
-#### Where are our Target Audience?
+#### Where is our `target audience`?
 
 - What `functions` do people attend and:
   - how do we maximise fundraising opportunities offline?
   - how have they changed w. Health emergancy?
-- We are a "good fit" for section, such as:
-  - protection
-  - WASH, through our innovation partners: Oxfam/Unicef
-  - PFA, is as important as FA in conflict
-    - with unlimited funds, what's _our_ capacity to scale?
+- `section` _"good fit"_ include:
+  - `protection`
+  - `WASH`, through our innovation partners: Oxfam/Unicef
+  - `PFA`, is just as important as first aid in a conflict.
+
 
 #### Target Audience's CTA
 
@@ -173,26 +176,35 @@ Our biggest income, over three years is NGO's funding:
 
 ### Memes to define `key insight`
 
-Key insights:
-- `the correct application of play`
-
-We can speak directly and understand their pain-points:
-
-> We improve programme outcomes that are already running. Why not amplify what your NGO can teach, with the correct application of play?
-
-- Where's the `data story` to prove our claims for this method?
-- Does each one require `human interest` development for `case shorts`?
-
-capacity building
-
-We aim to create storys from `key-insight` to help evangelists:
+We help evangelists reach our `target audience` and influence decision makers:
 - Can we distill noteworthy examples of `aid pots see our shows...`?
   - `capacity building`
   - `train-the-trainer`
   - `performances`
-- Develop: `...unlikely they have access to the depth and range of our approach`
-- Develop: `...how our approach will reinvigorate their practice`
-- Develop `key-insight` from the following:
+
+#### Create `data story` from `memes` with evidence
+
+- We speak directly and understand NGO pain-points:
+
+> We improve programme outcomes that you are already running. We do this by training how to deliver your material using play. `DISCOVER HOW EFFECTIVE OUR TRAINING CAN BE`
+
+- We speak to the hopes of facilitators:
+
+> We achieve unparalleled transmission of ideas help your message reach  participants not even present! `AN EXAMPLE OF REACH`
+
+- We speak to doubt using verifyable resources:
+
+> Outcomes are tracked using our _Monitoring and Evaluation_ toolkit that demonstrates how much we amplify your message. `SEE THE DATA`
+
+- We appreciate their search for value and offer our help:
+
+> We make aid money work as hard as it can. When children participate directly they take ownership of ideas, remember what they have learned and start applying the lessons immediately. `SEE HOW RESILIENT COMMUNITIES BECOME THROUGH OUR INVOLVEMENT`
+
+- Stimulate interest posing questions:
+
+> Could your NGO benefit from a broader reach? We use applied psychology, that's tracked using professional monitoring and evaluation tools to deliver visibly better learning outcomes.
+
+#### Develop `key-insight` supporting `memes`
 
 ```
 CWB is changing the landscape of how we treat children.
@@ -207,12 +219,12 @@ UNICEF, OXFAM Case Studies
   - A _"win-win scenario"_ implies "it's good for us, and good for you", but MAKE WASH FUN acts more of a catalyst:
 ```
 We help children learn through play,
-where there's a mushroom effect...
-we trained 100's of adult facilitators
-to reach 10,000's children
-- but, they reached even more children!
+where there's a ripple effect.
+After training 100's of adult facilitators
+to reach 10,000's children, those children
+reach even more children!
 ```
-  - CTA: `Make WASH fund us!`
+  - CTA: `join us`
     - compound
     - cumalative
     - feedforward
@@ -222,7 +234,33 @@ to reach 10,000's children
     - takes on a life of it's own
     - spreading WASH far and wide!
     - it acts as a force multiplier
-    - bloom, mushroom, flourish
+    - explode, mushroom, bloom, flourish
+
+#### Delivery `memes`:
+
+- Develop: `...unlikely they have access to the depth and range of our approach`
+- Develop: `...how our approach will reinvigorate their practice`
+- Develop:
+
+```
+We make aid money work as hard as it can.
+
+The psychosocial first aid context is an opportunity to impart valuable life skills.
+As children and young people participate directly, they take ownership of these ideas and repeat their experiences again and again.
+
+We conduct attention using play.
+
+Our approach achieves unparalleled transmission of ideas, reaching new participants not present.
+Any existing programmes can be tailored to use our tools with minimal training.
+
+```
+
+Key insights:
+
+- Stories reveal our `key-insight`.
+- Formalise `the correct application of play`:
+  - Where's M&E's `data story` to prove our claims for this method?
+  - Does each one require `human interest` development for `case shorts`?
 
 ### The business problem we are solving
 
@@ -232,11 +270,52 @@ Telling is ineffective compared to doing! Our depth and range of activities help
 
 Once they learn our approach to learning through doing, they can do this inclusive, engaging and age appropriate activities by themselves.
 
+### Our approach
+
+Simply put our approach is `the correct application of play`.
+
+A more complete definition should include:
+- we understand age appropriate, applied psychology
+- x
+- learning through immersive experience: play.
+-
+
+The serious side of `play`, what does it mean for NGO?
+
+The serious side of `play`:
+- Play is how children naturally learn and it's fundamental to every childs development.
+- Play instructs by doing. How the world works becomes intrinsically clear through repetitiuos, immersive experiences.
+- Leverage play to inform what we want to make go viral.
+
+Aim to include:
+Children and young people
+speak with one voice and inspire confidence
+- Positive: while acknowledging difficulties and challenges, should be
+positive and forward-looking.
+- Engaging
+- Direct
+- Authoritative
+
+CWB can sign-off statement should be:
+> We are confident you won't find a better way to `10x your NGO spending`.
+
+
+### Key Insight
+
+We leverage play:
+
+- `the correct application of play`
+
 
 
 ### Fundraising Focus
 
 Aim to build a platform where `funding & delivery` scale together.
+- with unlimited funds, what's _our_ capacity to scale?
+- What is our data gathering capacity?
+<!--
+- M&E toolkit could be the next (scaling) priority.
+-->
 
 #### How to _design out_ any fundraising conflict of interest?
 
