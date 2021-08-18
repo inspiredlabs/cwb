@@ -16,7 +16,7 @@ Supporting the emotional wellbeing of children living through disaster by sharin
 
 * * *
 
-[/our-approach/](/our-approach/)
+<!--[/our-approach/](/our-approach/)-->
 
 ## Clowns Without Borders
 
@@ -26,13 +26,13 @@ In disasters, the challenges of day-to-day life can be overwhelming. Making sure
 
 That is why we share our playful performances in refugee camps and crisis zones around the world. 
 
-[/our-approach/](/our-approach/)
+<!--[/our-approach/](/our-approach/)-->
 
 ## What We Do
 
 We help children heal. Here's how.
 
-[/our-approach/](/our-approach/)
+<!--[/our-approach/](/our-approach/)-->
 
 ## Who We Are
 
