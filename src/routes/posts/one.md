@@ -1,7 +1,10 @@
 ---
-draft: true
+draft: false
 region: en
-images: ["./images/tai-chi.jpg"]
+title: My Title Goes Here
+tags:
+  - tech
+images: ["images/unni.jpg", "images/points-of-light-logo.png"]
 ---
 
 # One

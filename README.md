@@ -15,6 +15,7 @@ The project has a _"fundraising-focus"_. Contained within an actionable: _"websi
 
 ### Deliverables
 
+Strike a balance that can `satisfice` <!--(satisfy &amp; suffice to an acceptable threshold)--> content, news, strategy &amp; UX:
 - IA to influence consistent terminology for writing _"emotive case studies"_.
 - Define a niche `target audience`, and their appropriate channels of contact.
 - `memes` to communicate effectively about how people experience our work.
@@ -101,6 +102,12 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
 To reach `sustainment` our existing NGO partners need to take action and commit further `innovation funding`. There is also a need to develop relationships with other NGO Partners to help them appreciate the benefits of commiting resources with us.
 
 Our `CTA` centre on existing NGO partners (see: [Work with us](#work-with-us)).
+
+#### User Experience
+
+Defining how people take action has practical overlap with the UX of the site. It may be useful to use side-by-side comparison with [UNICEF](https://www.unicef.org.uk/), note the blocky layout, yellow `CTA`, use of a reductionist IA.
+
+Thought has been applied to what is not required, helping people find what they need.
 
 ##### Misc/unsorted
 

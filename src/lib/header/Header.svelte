@@ -7,6 +7,8 @@
 	// Manually add: medium.com/codex/getting-started-with-sveltekit-369987d924bd
 	const routes = [
 		{ href: '/', title: 'Home' },
+		{ href: '/about', title: 'About' },
+		{ href: '/todos', title: 'todos' },
 		//{ href: '/about-us', title: 'About Us' },
 		//{ href: '/courses', title: 'Courses' },
 		//{ href: '/our-approach', title: 'Our Approach' },
@@ -14,7 +16,7 @@
 	];
 </script>
 
-<header>
+<header class="bg-silver fixed z-1 w-100 flex justify-between">
 	<div class="corner">
 		<a
 
@@ -25,29 +27,19 @@
 		</a>
 	</div>
 
-	<!--nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
+	<nav class="bg-gold ">
 		<ul>
 			{#each routes as route}
-				<li class:active={$page.path === '{route.href}'}>
-					<a sveltekit:prefetch href="{route.href}">{route.title}</a>
+				<!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping-->
+				<li class:active={$page.path === `${route.href}`}>
+					<a
+						class="link glow o-80"
+						sveltekit:prefetch href="{route.href}"
+					>{route.title}</a>
 				</li>
 			{/each}
-
-			<li class:active={$page.path === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-
-			<li class:active={$page.path === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav-->
+	</nav>
 
 	<div class="corner">
 		<!-- TODO put something else here? github link? -->
@@ -55,10 +47,6 @@
 </header>
 
 <style>
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
 
 	.corner {
 		width: 3em;
@@ -82,7 +70,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		/* --background: rgba(255, 255, 255, 0.7); */
 	}
 
 	svg {
@@ -136,10 +124,9 @@
 		text-transform: uppercase;
 		letter-spacing: 10%;
 		text-decoration: none;
-		transition: color 0.2s linear;
+		/* transition: color 0.2s linear; */
 	}
-
-	a:hover {
-		color: var(--accent-color);
+	a {
+		transition: opacity 0.2s linear;
 	}
 </style>
