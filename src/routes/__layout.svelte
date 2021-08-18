@@ -16,6 +16,10 @@
 </script>
 
 <svelte:head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<!-- Debouncing the whole layout: https://greekfoods.netlify.app/ -->
 	<!--link href="https://instantwebapp.com/css/tachyon.shower.css" rel="stylesheet" /-->
 
@@ -33,7 +37,7 @@
 What width do you need? tachyons.io/docs/layout/max-widths/
 Be aware of cumalative layout shift: https://web.dev/cls/
 -->
-<main class="flex flex-column pa3 w-100 mw7 mr-auto ml-auto ">
+<main class="flex flex-column pa3 w-100 mw7 mr-auto ml-auto">
 	<div class="mt5">
 		<PageTransition refresh={key}>
 			<slot></slot>
@@ -41,7 +45,7 @@ Be aware of cumalative layout shift: https://web.dev/cls/
 	</div>
 </main>
 
-<footer class="flex flex-column justify-center items-center pa3 pv0 pv3-m pv3-l debug">
+<footer class="flex flex-column justify-center items-center pa3 pv0 pv3-m pv3-l">
 	<p>Visit <a class="link b dim" href="https://clownswithoutborders.org.uk/">CWB.org.uk</a>.</p>
 	<!-- copyright	 -->
 </footer>
