@@ -5,7 +5,7 @@ title: My Title Goes Here
 tags:
   - personal
   - tech
-images: ["unni.jpg"]
+images: ["images/sam-smiling.jpg", "images/Samantha-Holdsworth-1220.png"]
 ---
 
 # Two
