@@ -33,7 +33,7 @@
 What width do you need? tachyons.io/docs/layout/max-widths/
 Be aware of cumalative layout shift: https://web.dev/cls/
 -->
-<main class="flex flex-column pa3 w-100 mw7 mr-auto ml-auto debug">
+<main class="flex flex-column pa3 w-100 mw7 mr-auto ml-auto ">
 	<div class="mt5">
 		<PageTransition refresh={key}>
 			<slot></slot>

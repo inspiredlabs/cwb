@@ -16,7 +16,7 @@
 	];
 </script>
 
-<header class="bg-silver fixed z-1 w-100 flex justify-between">
+<header class="bg-light-gray fixed z-1 w-100 flex justify-between">
 	<div class="corner">
 		<a
 
@@ -27,19 +27,7 @@
 		</a>
 	</div>
 
-	<nav class="bg-gold ">
-		<ul>
-			{#each routes as route}
-				<!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping-->
-				<li class:active={$page.path === `${route.href}`}>
-					<a
-						class="link glow o-80"
-						sveltekit:prefetch href="{route.href}"
-					>{route.title}</a>
-				</li>
-			{/each}
-		</ul>
-	</nav>
+
 
 	<div class="corner">
 		<!-- TODO put something else here? github link? -->
