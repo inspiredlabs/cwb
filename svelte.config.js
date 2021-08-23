@@ -7,10 +7,15 @@ import adapter from '@sveltejs/adapter-static'
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	"extensions": [".svelte", ...mdsvexConfig.extensions],
-  preprocess: [preprocess(), mdsvex(mdsvexConfig)], // https://el3um4s.medium.com/sveltekit-github-pages-4fe2844773de
-
+  preprocess: [
+		mdsvex(mdsvexConfig)
+	], // preprocess(), https://el3um4s.medium.com/sveltekit-github-pages-4fe2844773de
 	kit: {
-
+		vite: {
+	    optimizeDeps: {
+	      exclude: ['support']  // !`vite.config.js`: https://github.com/sveltejs/vite-plugin-svelte	from: https://svelte-modals.mattjennings.io/
+	    }
+	  },
 		/*
 		adapter: adapter(), //import adapter from '@sveltejs/adapter-netlify';
 		*/
@@ -22,9 +27,7 @@ const config = {
 		}),
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
-	},
-
-    preprocess: [mdsvex(mdsvexConfig)]
+	}
 };
 
 export default config;

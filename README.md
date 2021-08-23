@@ -7,13 +7,11 @@
 
 # Scope of Work
 
-## Outcomes
-
 This doc is a response to _"Improving digital presence"_, and aims to bring clarity to _"agreed outcomes"_, through clear deliverables.
 
 The project has a _"fundraising-focus"_. Contained within an actionable: _"website platform/infrastructure [...] fit for purpose"_, to orient the organisation towards `sustainment`, and long-term fundraising.
 
-### Deliverables
+## Deliverables
 
 Strike a balance that can `satisfice` <!--(satisfy &amp; suffice to an acceptable threshold)--> content, news, strategy &amp; UX:
 - IA to influence consistent terminology for writing _"emotive case studies"_.
@@ -21,15 +19,27 @@ Strike a balance that can `satisfice` <!--(satisfy &amp; suffice to an acceptabl
 - `memes` to communicate effectively about how people experience our work.
 - Help `visitors` take action appropriately via the website.
 
-### Challenges
+## Challenges
 
 Although there are numerous challenges presented in this document, probably the most complex is handling the perception of clowns being counter to NGO's `Charitable Objectives`.
 
+### `key-insight` to provide orientation
+
 CWB is a serious charity _"changing the landscape of how we treat children"_. By correctly understanding our `key-insight` for our `target audience`, we will implement perception change and lay the foundation of `sustainment`.
+
+### Members lack mutual priorities
 
 Some `visitors` experience conflict of interest that hinder our fundraising priorities. Consider how to _design out_ hurdles that meet mutual needs for them to take action.
 
-Currently our `memes` aren't accessible, although people do know of our impact.
+This might be an opportunity to include them in an exciting content rewrite:
+
+> What do you want to say to our CWB visitors?
+
+### Content alone, isn't enough
+
+Currently our `memes` aren't accessible, although people do know of our impact. But, how does `CWB` [inspire action](https://www.youtube.com/results?search_query=Golden+Circle+simon+sinek)<!--Simon Sinek--> and answer the _why?_
+
+### Accountability adds overhead
 
 Effective accountability is a challenge. Our `target audience` may not realise the extent our experts helping pro-bono are implementing:
 
@@ -46,18 +56,67 @@ Effective accountability is a challenge. Our `target audience` may not realise t
 - This is the monitoring we ask people in our training to work with: SEE GRAPHIC
 ```
 
+### GDPR compliance
+
 The privacy policy, written in 2018 (with enquiries going to `info@toldbyanidiot.org`), doesn't have a GDPR compliant analytics provider. This is a reasonable time to consider switching to [Motomo](), at the risk of the task snowballing.
 
-### Information Architecture
+### SEO opportunity
+
+SEO is hard. Robot coverage for `nonprofitStatus` hasn't been adopted.
+Longterm [announcements](https://github.com/schemaorg/suggestions-questions-brainstorming/issues/19#issuecomment-641244465) aside, there may not be a better opportunity to represent the organisation for perceptablity.
+
+#### Perceptablity through structure
+
+Defining metadata with consistency and plurality should benefit us from perceptablity:
+- Review `__person.svelte` from: http://cwb.org.uk/about/unni
+- Review `site.json` and `organization.json` validate and check the [SERP count](https://www.charactercountonline.com/).
+- How do you represent a [Blog](https://schema.org/Blog) in `LD`?
+- Plurality through `Person`, `Website`, `Organization`, `blogPost` as part of a `Blog`. For example:
+```
+{
+  "@context": "http://schema.org/",
+  "type": "Person",
+  "jobTitle": "CEO",
+  "name": "Samantha Holdsworth",
+  "telephone": "442072446908",
+  /* "telephone": "447939522517", facebook */
+
+  "url": "https://cwb.org.uk"
+}
+```
+- `FAIR` (Findable, accessible, Interoperable, Reusable) [best practices](https://maastrichtu-ids.github.io/best-practices/docs/fair-data):
+- Consider our `cross platform` structure of taglines:
+  - `site.json` as described on this: [Website](https://cwb.org.uk/): `Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.`
+  - `organization.json` described with a PostalAddress as: [Organization](https://cwb.org.uk/): `Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.`
+  - [twitter](https://twitter.com/childrenlaughUK): Image caption: `#ChildRefugees` && ```Clowns Without Borders is a humanitarian arts led #charity dedicated to bringing emotional relief to #children living in #crisis across the globe.```
+  - channel/UCWDuY-wPQO3PL8HWTSPs86Q = [Youtube](https://www.youtube.com/channel/UCWDuY-wPQO3PL8HWTSPs86Q/about): `Sharing laughter with children in Humanitarian Disaster`
+  - [Instagram](https://www.instagram.com/clownswithoutbordersuk/): ```Providing emotional relief to children and their communities in crisis through the power of laughter and play. ```
+  - [facebook](https://www.facebook.com/clownswithoutborders): Image caption: `Joy Makes A Difference` && `multiple cross-posts`.
+  - GOV.UK: [Charity number: 1156987](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5043150/charity-overview):
+
+```
+Clowns Without Borders uses laughter and play as a stabilising force
+for children living in disaster zones. Working with professional artists
+and facilitators, we share performances and workshops to encourage
+children to connect with childish impulses and a sense of fun.
+
+It is our mission to alleviate suffering by sharing joy
+and wonder when they need it most.
+We work in Bangladesh, Greece, Jordan.
+```
+
+
+## Information Architecture
 
 IA is as a tool to produce consistency throughout design systems. We use it to structure our information, and create ideas that move people towards the kind of action we want them to take.
 
-#### Top level navigation (repetition):
+### Top level navigation (repetition):
 
 ```
 - our courses:
   - training for facilitators
   - programme delivery
+  - monitoring &amp; evaluation
 - about us:
   - regulator recognition
   - social impact recognition
@@ -88,45 +147,30 @@ IA is as a tool to produce consistency throughout design systems. We use it to s
     - CTA: `add your voice`
 ```
 
-#### Content
+### Content
 
-##### Logo animation
+#### Logo animation
 
 - Courage Without Borders
 - Courses Without Borders
 - Care Without Borders
 - sporadically, simply: `Clowns Without Borders`
 
-##### Work with us
+#### Work with us
 
 To reach `sustainment` our existing NGO partners need to take action and commit further `innovation funding`. There is also a need to develop relationships with other NGO Partners to help them appreciate the benefits of commiting resources with us.
 
 Our `CTA` centre on existing NGO partners (see: [Work with us](#work-with-us)).
 
-#### User Experience
+### User Experience
 
 Defining how people take action has practical overlap with the UX of the site. It may be useful to use side-by-side comparison with [UNICEF](https://www.unicef.org.uk/), note the blocky layout, yellow `CTA`, use of a reductionist IA.
 
 Thought has been applied to what is not required, helping people find what they need.
 
-##### Misc/unsorted
 
-- `CTA`: How can you help? Share your favourite story on social media, donate or if you're an NGO work with us.
-- From the `aid pots see our shows...` stories, perhaps we can demo:
-  - `Clown in Your Pocket`
-  - etc...
-- Case Studies should be powerfully to the point, like `case shorts`:
-    - `memes` backed up with a `data story` and a `human interest` component.
-  - Case Studies from Partners (for input/back-links):
-    - 'performances'
-    - 'capacity building' for Staff/volunteers/community outreach workers
-    - 'train-the-trainer'
-- Accountability, how do we measure:
-  - local partners
-  - remote partners
-  - others
 
-### Target Audience
+## Target Audience
 
 ```
 Our biggest income, over three years is NGO's funding:
@@ -152,7 +196,7 @@ Our biggest income, over three years is NGO's funding:
   - What exactly would help `Unni` do more on our behalf?
   - What exactly would help `Shilpa` do more on our behalf?
 
-#### Where is our `target audience`?
+### Where is our `target audience`?
 
 - What `functions` do people attend and:
   - how do we maximise fundraising opportunities offline?
@@ -163,9 +207,9 @@ Our biggest income, over three years is NGO's funding:
   - `PFA`, is just as important as first aid in a conflict.
 
 
-#### Target Audience's CTA
+### Target Audience's CTA
 
-##### Work with us
+#### Work with us
 
 - preparation and making contact
 - `aid pots see our shows...` so we invite them online to **experience our approach to**:
@@ -175,13 +219,13 @@ Our biggest income, over three years is NGO's funding:
   - then: what funding action do we want them to take, ideally?
     - work with us (see: [Content](#content)).
 
-##### Donate Directly & Fundraising
+#### Donate Directly & Fundraising
 
 <!-- ##### Contact -->
 
 <!-- ##### Social & Sharing -->
 
-### Memes to define `key insight`
+## Memes to define `key insight`
 
 We help evangelists reach our `target audience` and influence decision makers:
 - Can we distill noteworthy examples of `aid pots see our shows...`?
@@ -189,7 +233,7 @@ We help evangelists reach our `target audience` and influence decision makers:
   - `train-the-trainer`
   - `performances`
 
-#### Create `data story` from `memes` with evidence
+### Create `data story` from `memes` with evidence
 
 - We speak directly and understand NGO pain-points:
 
@@ -211,7 +255,7 @@ We help evangelists reach our `target audience` and influence decision makers:
 
 > Could your NGO benefit from a broader reach? We use applied psychology, that's tracked using professional monitoring and evaluation tools to deliver visibly better learning outcomes.
 
-#### Develop `key-insight` supporting `memes`
+### Develop `key-insight` supporting `memes`
 
 ```
 CWB is changing the landscape of how we treat children.
@@ -243,7 +287,7 @@ reach even more children!
     - it acts as a force multiplier
     - explode, mushroom, bloom, flourish
 
-#### Delivery `memes`:
+### Delivery `memes`:
 
 - Develop: `...unlikely they have access to the depth and range of our approach`
 - Develop: `...how our approach will reinvigorate their practice`
@@ -269,7 +313,7 @@ Key insights:
   - Where's M&E's `data story` to prove our claims for this method?
   - Does each one require `human interest` development for `case shorts`?
 
-### The business problem we are solving
+## The business problem we are solving
 
 > We create relevant, inspiring activities that teach more effectively
 
@@ -277,15 +321,13 @@ Telling is ineffective compared to doing! Our depth and range of activities help
 
 Once they learn our approach to learning through doing, they can do this inclusive, engaging and age appropriate activities by themselves.
 
-### Our approach
+## Our approach
 
 Simply put our approach is `the correct application of play`.
 
 A more complete definition should include:
 - we understand age appropriate, applied psychology
-- x
 - learning through immersive experience: play.
--
 
 The serious side of `play`, what does it mean for NGO?
 
@@ -307,15 +349,12 @@ CWB can sign-off statement should be:
 > We are confident you won't find a better way to `10x your NGO spending`.
 
 
-### Key Insight
+## Key Insight
 
 We leverage play:
-
 - `the correct application of play`
 
-
-
-### Fundraising Focus
+## Fundraising Focus
 
 Aim to build a platform where `funding & delivery` scale together.
 - with unlimited funds, what's _our_ capacity to scale?
@@ -324,7 +363,7 @@ Aim to build a platform where `funding & delivery` scale together.
 - M&E toolkit could be the next (scaling) priority.
 -->
 
-#### How to _design out_ any fundraising conflict of interest?
+### How to _design out_ any fundraising conflict of interest?
 
 The workload responsibility for delivering `sustainment` may have to be shared with `our network`, what can we do to:
 - create a more _"outward facing board"_?
@@ -332,3 +371,21 @@ The workload responsibility for delivering `sustainment` may have to be shared w
 - `visitor` actions to help:
   - `David is a fundraising leader`
   - `Ed has been a trusts and institutions fundraiser`.
+
+
+  ## Misc/unsorted
+
+  - `CTA`: How can you help? Share your favourite story on social media, donate or if you're an NGO work with us.
+  - From the `aid pots see our shows...` stories, perhaps we can demo:
+    - `Clown in Your Pocket`
+    - etc...
+  - Case Studies should be powerfully to the point, like `case shorts`:
+      - `memes` backed up with a `data story` and a `human interest` component.
+    - Case Studies from Partners (for input/back-links):
+      - 'performances'
+      - 'capacity building' for Staff/volunteers/community outreach workers
+      - 'train-the-trainer'
+  - Accountability, how do we measure:
+    - local partners
+    - remote partners
+    - others

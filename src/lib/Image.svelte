@@ -1,6 +1,6 @@
 <script>
   export let imageJPG;
-  export let imageWEBP;
+  // export let imageWEBP;
   export let alt;
   export let caption = "";
 
@@ -8,11 +8,11 @@
 
 <figure class="pa0 ma0">
   <picture>
-    <source
+    <!-- <source
       srcset="{imageWEBP}"
       type="image/webp"
       loading="lazy"
-    >
+    > -->
     <img
       class="br3 w4"
       src="{imageJPG}"

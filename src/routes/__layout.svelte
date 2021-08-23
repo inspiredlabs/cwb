@@ -1,7 +1,9 @@
 <script>
-	import PageTransition from "$lib/PageTransition.svelte"
-  export let key
-	import Header from '$lib/header/Header.svelte';
+	import Footer from "$lib/Footer.svelte";
+	import RightMenu from '$lib/RightMenu.svelte';//req. routes.js
+	import PageTransition from "$lib/PageTransition.svelte";
+  export let key;
+	// import Header from '$lib/header/Header.svelte';
 	import "../tachyon.shower.css"; /* layout components need import statement: //github.com/svelte-add/svelte-add/issues/129 && reset: //toolset.pkstate.com/removeComments/index.html */
 	import '../app.css';
 </script>
@@ -16,6 +18,7 @@
 </script>
 
 <svelte:head>
+	<!-- from: https://favicon.io/favicon-converter/ -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -28,25 +31,20 @@
 	<!-- https://search.google.com/test/rich-results/ -->
 	<!-- from: https://stackoverflow.com/questions/10520926/ -->
 </svelte:head>
-
-
-<Header />
+<!-- <Header /> -->
 
 <!--
 ` bg-gold vh-100`
 What width do you need? tachyons.io/docs/layout/max-widths/
 Be aware of cumalative layout shift: https://web.dev/cls/
 -->
-<main class="flex flex-column pa3 w-100 mw7 mr-auto ml-auto">
-	<div class="mt5">
-		<PageTransition refresh={key}>
-			<slot></slot>
-		</PageTransition>
-	</div>
+<main class="flex flex-column w-100 mt5">
+	<PageTransition refresh={key}>
+		<slot></slot>
+	</PageTransition>
 </main>
 
-<footer class="flex flex-column justify-center items-center pa3 pv0 pv3-m pv3-l">
-	<p>Visit <a class="link b dim" href="https://clownswithoutborders.org.uk/">CWB.org.uk</a>.</p>
-	<!-- copyright	 -->
-</footer>
+<RightMenu />
+<Footer />
+
 
