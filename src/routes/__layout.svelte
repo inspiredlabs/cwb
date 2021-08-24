@@ -25,6 +25,13 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<!-- Debouncing the whole layout: https://greekfoods.netlify.app/ -->
 	<!--link href="https://instantwebapp.com/css/tachyon.shower.css" rel="stylesheet" /-->
+	<meta name="title" content="Play: humanitarian aid for children in disaster | Clowns Without...">
+	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.">
+	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
+  <meta name="author" content="Scott Phillips">
+	<!-- <link rel=“canonical” href=“https://cwb.org.uk/” /> --><!-- todo: https://ahrefs.com/blog/canonical-tags/ -->
+	<link rel=“canonical” href=“https://cwb.org.uk/” />
+
 
 	<!-- My microdata: -->
 	<!-- https://json-ld.org/playground/ -->
