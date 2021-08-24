@@ -2,6 +2,8 @@
 	import Footer from "$lib/Footer.svelte";
 	import RightMenu from '$lib/RightMenu.svelte';//req. routes.js
 	import PageTransition from "$lib/PageTransition.svelte";
+	import LDTag from '$lib/LDTag.svelte';
+	import { websiteSchema, orgSchema } from '$lib/json-ld';
   export let key;
 	// import Header from '$lib/header/Header.svelte';
 	/* import "../tachyon.shower.css"; *//* layout components need import statement: //github.com/svelte-add/svelte-add/issues/129 && reset: //toolset.pkstate.com/removeComments/index.html */
@@ -17,7 +19,20 @@
   })
 </script>
 
+
+	<!-- <title>CWB.ORG.UK |
+		Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.
+	</title> -->
+	<!--  style="overscroll-behavior-y: none;/*contain*/" fixed -->
+	<!--style>
+		html {
+			background: linear-gradient(0deg, rgba(159,0,255,1) 0%, rgba(255,215,0,1) 10%, rgba(255,215,0,1) 90%, rgba(159,0,255,1) 100%);
+		}
+	</style-->
+
+
 <svelte:head>
+
 	<!-- from: https://favicon.io/favicon-converter/ -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -31,6 +46,8 @@
   <meta name="author" content="Scott Phillips">
 	<!-- <link rel=“canonical” href=“https://cwb.org.uk/” /> --><!-- todo: https://ahrefs.com/blog/canonical-tags/ -->
 	<link rel=“canonical” href=“https://cwb.org.uk/” />
+	<LDTag schema={websiteSchema} />
+	<LDTag schema={orgSchema} />
 
 
 	<!-- My microdata: -->

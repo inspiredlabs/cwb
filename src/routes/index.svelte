@@ -33,9 +33,6 @@
 import Hero from '$lib/Hero.svelte';
 import Intro from '$lib/Intro.svelte';
 
-import LDTag from '$lib/LDTag.svelte';
-import { websiteSchema, orgSchema } from '$lib/json-ld';
-
 import Image from "$lib/Image.svelte"
 export let posts
 
@@ -57,20 +54,6 @@ let microdata = {
 
 </script>
 
-
-<svelte:head>
-	<title>CWB.ORG.UK |
-		Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.
-	</title>
-	<!--  style="overscroll-behavior-y: none;/*contain*/" fixed -->
-	<!--style>
-		html {
-			background: linear-gradient(0deg, rgba(159,0,255,1) 0%, rgba(255,215,0,1) 10%, rgba(255,215,0,1) 90%, rgba(159,0,255,1) 100%);
-		}
-	</style-->
-	<LDTag schema={websiteSchema} />
-	<LDTag schema={orgSchema} />
-</svelte:head>
 
 <Hero />
 
