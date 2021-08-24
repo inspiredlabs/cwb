@@ -40,15 +40,6 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
-
-	<!-- Debug: this doesn't appear -->
-	<meta name="title" content="Play: humanitarian aid for children in disaster | Clowns Without...">
-	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.">
-	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
-  <meta name="author" content="Scott Phillips">
-	<link rel=“canonical” href=“https://cwb.org.uk/” />
-	<!-- Debug: this doesn't appear -->
-
 	<LDTag schema={websiteSchema} />
 	<LDTag schema={orgSchema} />
 </svelte:head>
