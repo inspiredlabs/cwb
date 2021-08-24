@@ -33,8 +33,7 @@
 </svelte:head>
 <!-- <Header /> -->
 
-<!--
-` bg-gold vh-100`
+<!-- debug ` bg-gold vh-100`
 What width do you need? tachyons.io/docs/layout/max-widths/
 Be aware of cumalative layout shift: https://web.dev/cls/
 -->

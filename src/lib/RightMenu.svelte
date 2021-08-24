@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/stores';
   import logo from '$lib/images/cwb.svg';
-  import HomeLink from '$lib/header/HomeLink.svelte';
+  //import HomeLink from '$lib/header/HomeLink.svelte';
   import {routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
 
 	let user = { showMenu: false };
@@ -73,13 +73,13 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     transition"
   on:click={toggle}>
   <!-- bg-light-gray -->
-  <!-- <svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="menu">
-    <use xlink:href="#icon-menu-user"></use>
-  </svg> -->
-  <img
+  <svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="menu">
+    <use xlink:href="#icon-menu"></use>
+  </svg>
+  <!-- <img
     class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select"
     src={logo} alt="menu"
-  />
+  /> -->
 	<span class="dib dib-ns dn-m dib-l f8 tracked ttu mb2 b ">Menu</span><!-- bb  -->
 </button>
 
@@ -100,13 +100,17 @@ transition"
   transition backface-hidden
   w-two-thirds w-third-ns w-25-m w-25-l
   h-100 vh-100 top-0 right-0 fixed z-2
-  bl bw1 b--black bg-dark-gray
+  bl b--black bg-dark-gray
   touch-scrolling
   white antialias
   pa3 pb6 f5 f6-ns f6-m f4-l"
 >
 <div class="f6 f7-ns f8-m f5-l">
-  <HomeLink/>
+  <!-- <HomeLink/> -->
+  <a href="/" class="db pointer"><img
+    class="db h2 w2 mt1 mb1 no-select"
+    src={logo} alt="menu"
+  /></a><!-- mr-auto ml-auto  -->
 </div>
 <!---- ABOUT  ---->
 <ul class="list pl0">

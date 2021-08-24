@@ -8,19 +8,15 @@
 <div class="pv4 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 
   <header>
-
     <h2 class="f3">Changing the landscape of how we treat&nbsp;children</h2>
     <p>
-      We are reaching more&nbsp;children and young&nbsp;people, using the single most effective way to support&nbsp;learning.</p>
+      By using the single most effective way to support&nbsp;learning, we are helping reach more&nbsp;children and young&nbsp;people than any other&nbsp;orgnisation.</p>
     <p>
       We train teams to do the same &mdash;&nbsp;because we believe<!-- for children and young&nbsp;people --> <b>play</b> offers the best protection from&nbsp;disaster.
     </p>
     <p class=""><!-- tr -->
-      By participating in <a class="inherit" href="/">Our Courses</a>, you can carry this practice forward,&nbsp;forever&hellip;
+      Invest in <a class="b link underline o-80 glow inherit transition" href="/">Our Courses</a>, and carry this practice forward,&nbsp;forever&hellip;
     </p>
-
-
-
   </header>
 
   <section class="pv4 f5 mb6">
