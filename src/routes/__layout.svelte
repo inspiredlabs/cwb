@@ -19,10 +19,6 @@
   })
 </script>
 
-
-	<!-- <title>CWB.ORG.UK |
-		Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.
-	</title> -->
 	<!--  style="overscroll-behavior-y: none;/*contain*/" fixed -->
 	<!--style>
 		html {
@@ -71,5 +67,3 @@ Be aware of cumalative layout shift: https://web.dev/cls/
 
 <RightMenu />
 <Footer />
-
-

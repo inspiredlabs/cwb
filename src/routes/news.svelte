@@ -38,14 +38,10 @@ export let news
 </script>
 
 
-<svelte:head>
-	<title>CWB.ORG.UK |
-		Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.
-	</title>
-
+<!--svelte:head>
 	<LDTag schema={websiteSchema} />
 	<LDTag schema={orgSchema} />
-</svelte:head>
+</svelte:head-->
 
 <section class="flex flex-column justify-center items-center charcoal">
 
