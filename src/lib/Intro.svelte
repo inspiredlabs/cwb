@@ -2,13 +2,7 @@
 
 </script>
 
-<svelte:head>
-	<meta name="title" content="Play: humanitarian aid for children in disaster | Clowns Without...">
-	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.">
-	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
-  <meta name="author" content="Scott Phillips">
-	<link rel=“canonical” href=“https://cwb.org.uk/” />
-</svelte:head>
+
 
 <aside class="pt5 bg-egyptian white-90 antialias">
 <section class="cf w-100 pv3 f4 f5-l highlight">
