@@ -38,7 +38,8 @@
 What width do you need? tachyons.io/docs/layout/max-widths/
 Be aware of cumalative layout shift: https://web.dev/cls/
 -->
-<main class="flex flex-column w-100 mt5">
+<main class="flex flex-column w-100">
+	<!-- Only top banner: `mt5` -->
 	<PageTransition refresh={key}>
 		<slot></slot>
 	</PageTransition>

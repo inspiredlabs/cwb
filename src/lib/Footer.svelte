@@ -1,4 +1,7 @@
 <script>
+import { children } from "svelte/internal";
+
+
   import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
 	import { page } from '$app/stores';
   import HomeLink from '$lib/header/HomeLink.svelte';
@@ -9,11 +12,17 @@
 <section class="cf w-100 pv3 f4 f5-l highlight">
 <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
   <div class="pv4 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
-
-      <section>
-        one two three four five six seven eight nine ten eleven.<br>
-        Black bean chili dip arugula salad edamame hummus asian pear couscous hearts of palm kung pao pepper second course picnic peppermint udon noodles balsamic vinaigrette red curry tofu noodles.
-      </section>
+      <header>
+        <h1 style="font-size:2.8vw">
+          <HomeLink/>
+        </h1>
+        <h2 class="f3">Changing the landscape of how we treat&nbsp;children</h2>
+        <p>
+          Clowns Without Borders&nbsp;understands to support learning using play. This has become the most effective way to reach children and amplify NGO programme&nbsp;messaging.
+        </p><p>
+          Once you learning this we will help you carry this practice forward, <i>forever&hellip;</i>
+        </p>
+      </header>
 
       <section class="pv4 f5 mb6">
         <div class="fn fl-l w-50-l pr4-l"><!-- Col1 -->
@@ -29,7 +38,8 @@
         </div><!-- /Column2 -->
       </section>
 
-<HomeLink />
+
+
 
       <nav class="cf pv4 f5 f6-l no-clutter">
         <div class="fn fl-l w-third-l pr2-l">

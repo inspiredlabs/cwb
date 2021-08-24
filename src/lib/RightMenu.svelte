@@ -57,7 +57,11 @@
   </defs>
 </svg>
 
+<!--
+Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_reactivity_lifecycle_accessibility
+-->
 <button
+  on:keydown={e => e.key === 'Escape' && toggle()}
   class="
     input-reset
     z-3 fixed pointer mb5
@@ -80,6 +84,7 @@
 </button>
 
 <div
+style="cursor: context-menu/* w3schools.com/csSref/pr_class_cursor.asp */"
 class="dn-ns dn-m dn-l
 fixed bg-black-30
 left-0 right-0 btm-0
@@ -87,6 +92,7 @@ vh-100 vw-100 h-100 w-100
 transition"
   on:click={toggle}
   class:open={!user.showMenu}
+  on:keydown={e => e.key === 'Escape' && toggle()}
 ></div>
 <nav
   class:toggle={user.showMenu}
@@ -99,7 +105,9 @@ transition"
   white antialias
   pa3 pb6 f5 f6-ns f6-m f4-l"
 >
-<HomeLink />
+<div class="f6 f7-ns f8-m f5-l">
+  <HomeLink/>
+</div>
 <!---- ABOUT  ---->
 <ul class="list pl0">
   {#each routesAbout as about}
@@ -168,20 +176,18 @@ a.active{
   opacity: 1;
   text-decoration: underline;
 }
-.lh-nav {
-  line-height: 2rem;
-}
+.lh-nav { line-height: 2rem }
 
 
 
 nav {
   transform: translateX(100%);
-  transition: transform .28s cubic-bezier(.3, 0, .02, 1)
+  transition: transform .28s cubic-bezier(.3, 0, .02, 1);
 }
 .toggle {
   transform: translateX(0);
 }
-.bg-mid-gray {background-color:#ddd}
+.bg-mid-gray { background-color:#ddd }
 
 .open {
   visibility: hidden;
