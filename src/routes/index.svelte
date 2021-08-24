@@ -31,6 +31,8 @@
 </script>
 <script>
 import Hero from '$lib/Hero.svelte';
+import Intro from '$lib/Intro.svelte';
+
 import LDTag from '$lib/LDTag.svelte';
 import { websiteSchema, orgSchema } from '$lib/json-ld';
 
@@ -71,6 +73,10 @@ let microdata = {
 </svelte:head>
 
 <Hero />
+
+<Intro />
+
+
 
 <!-- BANNER
 Upload your study docs or become a

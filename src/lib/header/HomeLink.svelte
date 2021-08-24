@@ -34,9 +34,8 @@
 	</div>
 </div>
 -->
-<div class="flex items-center fw9 red no-clutter h2"
-><!-- debug -->
-  <div class="w-third tr">
+<div class="flex items-center fw9 red no-clutter"><!-- debug -->
+  <div class="w-third tr h2">
 	<!-- interval={[33, 55, 88]} -->
 	<!-- on:done={() => myFun()} -->
 	<!-- prime numbers 1-100 -->
@@ -48,7 +47,7 @@
 			<span class="ttu tracked o-100">Clowns</span>
 	</Typewriter>
   </div>
-	<div class="w-two-thirds">
+	<div class="w-two-thirds h2">
     <span class="ttu tracked o-100">&nbsp;Without&nbsp;Borders</span>
   </div>
 </div>

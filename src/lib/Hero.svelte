@@ -2,7 +2,15 @@
 import HomeLink from '$lib/header/HomeLink.svelte';
 </script>
 
-
+<!--
+ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
+.aspect-ratio--16-9 {
+  overflow: hidden;
+  padding-top: 56.25%;
+  background: url('city-skyline.jpg') no-repeat center;
+  background-size: cover;
+}
+-->
 
 <header class="pt5 bg-egyptian white-90 antialias">
 
