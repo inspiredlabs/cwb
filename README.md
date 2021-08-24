@@ -5,6 +5,8 @@
 
 # <!-- animation: Courage, Care, logo --><img width="32" height="32" src="./cwb.svg" alt="Clowns Without Borders" /> Without Borders
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4247084e-b3a3-4819-aa2c-30cd835598e9/deploy-status)](https://app.netlify.com/sites/happy-shaw-91e31c/deploys)
+
 # Scope of Work
 
 This doc is a response to _"Improving digital presence"_, and aims to bring clarity to _"agreed outcomes"_, through clear deliverables.
