@@ -18,27 +18,35 @@ import { children } from "svelte/internal";
         </h1>
         <h2 class="f3">Changing the landscape of how we treat&nbsp;children</h2>
         <p>
-          Clowns Without Borders&nbsp;understands to support learning using play. This has become the most effective way to reach children and amplify NGO programme&nbsp;messaging.
-        </p><p>
-          Once you learning this we will help you carry this practice forward, <i>forever&hellip;</i>
+          We amplify NGO&nbsp;messaging, reaching more&nbsp;children and young&nbsp;people using the single most effective way to support&nbsp;learning.</p>
+        <p>
+          We train teams to do the same &mdash;&nbsp;because we believe<!-- for children and young&nbsp;people --> <b>play</b> offers the best protection from&nbsp;disaster.
         </p>
+        <p class=""><!-- tr -->
+          <a class="inherit" href="/">Our Courses</a> can help you to carry this practice forward,&nbsp;forever&hellip;
+        </p>
+
       </header>
 
       <section class="pv4 f5 mb6">
         <div class="fn fl-l w-50-l pr4-l"><!-- Col1 -->
+          <!-- --TODO: Courage, Care, Capacity Building, Courses -->
+          <h3 class="f4">Valuable training</h3>
           <p class="lh-copy measure mt4 mt0-ns">
-          Ultra creamy avocado pesto grains creamiest chickpea crust pizza strawberry spinach salad avocado dressing drizzle cilantro lime vinaigrette.</p><!-- /contents -->
-
+            <b>We make aid money work as hard as it&nbsp;can.</b> When children participate directly they take ownership of ideas, remember what they have learned and start applying the lessons immediately.
+          </p><!-- /contents -->
         </div><!-- /column1 -->
 
         <div class="fn fl-l w-50-l pl4-l"><!-- Col2 -->
+          <h3 class="f4">Track your NGO's progress</h3>
           <p class="lh-copy measure mt4 mt0-ns">
-            Smoked tofu blueberries creamiest veggie burgers ghost pepper cherry bomb miso dressing ultra creamy avocado pesto lychee orange sleepy morning&nbsp;tea.
-          </p>
+            <b>We improve programme outcomes that you are already running.</b>
+            The effectivness of which is measured using our <i>Monitoring and Evaluation toolkit</i>.
+          </p><!-- /contents -->
         </div><!-- /Column2 -->
       </section>
 
-
+<hr class="fl cf ba w-100 o-50 mv4 ba"/><!-- style="border:2px solid white" -->
 
 
       <nav class="cf pv4 f5 f6-l no-clutter">

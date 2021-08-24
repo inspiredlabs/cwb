@@ -34,7 +34,7 @@
 	</div>
 </div>
 -->
-<div class="flex items-center fw9 red no-clutter"
+<div class="flex items-center fw9 red no-clutter h2"
 ><!-- debug -->
   <div class="w-third tr">
 	<!-- interval={[33, 55, 88]} -->
@@ -44,21 +44,7 @@
 			<span class="ttu tracked o-70">Capacity</span>
 			<span class="ttu tracked o-70">Courage</span>
 			<span class="ttu tracked o-70">Courses</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
 			<span class="ttu tracked o-70">Care</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
-
-			<span class="ttu tracked o-70">Capacity</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
-			<span class="ttu tracked o-70">Care</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
-
 			<span class="ttu tracked o-100">Clowns</span>
 	</Typewriter>
   </div>

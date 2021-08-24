@@ -333,7 +333,7 @@ The serious side of `play`, what does it mean for NGO?
 
 The serious side of `play`:
 - Play is how children naturally learn and it's fundamental to every childs development.
-- Play instructs by doing. How the world works becomes intrinsically clear through repetitiuos, immersive experiences.
+- Play instructs by doing. How the world works becomes intrinsically clear through repetitious, immersive experiences.
 - Leverage play to inform what we want to make go viral.
 
 Aim to include:

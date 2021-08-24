@@ -4,7 +4,7 @@
 	import PageTransition from "$lib/PageTransition.svelte";
   export let key;
 	// import Header from '$lib/header/Header.svelte';
-	import "../tachyon.shower.css"; /* layout components need import statement: //github.com/svelte-add/svelte-add/issues/129 && reset: //toolset.pkstate.com/removeComments/index.html */
+	/* import "../tachyon.shower.css"; *//* layout components need import statement: //github.com/svelte-add/svelte-add/issues/129 && reset: //toolset.pkstate.com/removeComments/index.html */
 	import '../app.css';
 </script>
 
