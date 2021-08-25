@@ -5,9 +5,9 @@ import Details from '$lib/Details.svelte'
 
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>About, Who We Are, Trustees</title>
-</svelte:head>
+</svelte:head> -->
 
 <Details open={false}>
 	<div slot="summary">

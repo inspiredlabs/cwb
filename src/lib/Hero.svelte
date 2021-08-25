@@ -17,7 +17,7 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
   <section class="cf w-100 pv3 f4 f5-l highlight">
   <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
     <div
-      class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf bg-near-white vh-50 br4"><!-- `bg-cobalt-egyptian-gradient`, `bg-light-gray` too dirty for banner -->
+      class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf bg-near-white vh-50 ph3 br4"><!-- `bg-cobalt-egyptian-gradient`, `bg-light-gray` too dirty for banner -->
 
     <div
     style="padding-top:23vh;font-size:2.5vw">

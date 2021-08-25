@@ -72,7 +72,7 @@ Longterm [announcements](https://github.com/schemaorg/suggestions-questions-brai
 Defining metadata with consistency and plurality should benefit us from perceptablity:
 - Review `__person.svelte` from: http://cwb.org.uk/about/unni
 - Review `site.json` and `organization.json` validate and check the [SERP count](https://www.charactercountonline.com/).
-- How do you represent a [Blog](https://schema.org/Blog) in `LD`?
+- What will `satisfice` going beyond just representing the [Blog](https://schema.org/Blog) in `LD`?
 - Plurality through `Person`, `Website`, `Organization`, `blogPost` as part of a `Blog`. For example:
 ```
 {
@@ -170,7 +170,29 @@ Defining how people take action has practical overlap with the UX of the site. I
 
 Thought has been applied to what is not required, helping people find what they need.
 
+## to capture our `Target Audience`
 
+### Writing `__articles.svelte` content
+
+300 words of [good readibility](https://hemingwayapp.com/) using less than 15 unique keywords, each with ~2% saturation: [yoast for jamstack sites](https://jamseotools.com/?ref=producthunt), 
+Keyword verification (don't invent, check what people actually search for): [here](https://www.wordtracker.com/).
+
+#### Tools
+
+- article report: https://jamseotools.com/?ref=producthunt
+- `<15` unique keywords: https://www.wordtracker.com/
+- improve readability: https://hemingwayapp.com/
+- Check SERP: https://www.highervisibility.com/seo/tools/serp-snippet-optimizer/
+
+<!--
+Default `index.html` BACKUP:
+- Title: `Play: humanitarian aid for children in disaster | Clowns Without...` || `Learning Support: humanitarian aid for children in disaster | CWB`
+- Description: `Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.`
+- Keywords:
+```
+humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH
+```
+-->
 
 ## Target Audience
 

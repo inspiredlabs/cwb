@@ -2,9 +2,10 @@
 import { children } from "svelte/internal";
 
 
-  import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
-	import { page } from '$app/stores';
-  import HomeLink from '$lib/header/HomeLink.svelte';
+import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
+import { page } from '$app/stores';
+import HomeLink from '$lib/header/HomeLink.svelte';
+import Outro from '$lib/Outro.svelte';
 </script>
 
 
@@ -17,6 +18,9 @@ import { children } from "svelte/internal";
 <h1 style="font-size:2.8vw">
   <HomeLink/>
 </h1>
+
+
+<Outro />
 
 <hr class="fl cf ba w-100 o-50 mv4 ba"/><!-- style="border:2px solid white" -->
 

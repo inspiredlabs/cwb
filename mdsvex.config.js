@@ -5,7 +5,8 @@ import addClasses from "rehype-add-classes" //https://github.com/martypdx/rehype
 const config = {
   "layout": {
     "blog": "./src/lib/__blog.svelte",
-    "person": "./src/lib/__person.svelte"
+    "person": "./src/lib/__person.svelte",
+    "article": "./src/lib/__article.svelte"
   },
 
   "extensions": [".svelte.md", ".md"],
@@ -20,10 +21,10 @@ const config = {
     //toc,
     rehypeSlug,
     [addClasses, {
-      "h1, h2, h3": "tc lh-title",
+      "h1, h2, h3": "lh-title",//tc
       "ul, ol": "pl0",
       //"ul, ol": "pl4", // under paragraph
-      "a": "underline b link o-80 glow inherit hover-black underline-hover transition",
+      "a": "underline b link o-80 glow inherit hover-o-100 underline-hover transition",
       "hr": "ba bw1 mb0 inherit o-10",
       "blockquote": "georgia db ml3 mr0 i tr",
       "blockquote p": "fw5",
