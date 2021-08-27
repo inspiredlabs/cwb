@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores';
-  import logo from '$lib/images/cwb.svg';
+  import Sting from '$lib/header/Sting.svelte';
   //import HomeLink from '$lib/header/HomeLink.svelte';
   import {routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
 
@@ -83,8 +83,9 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
 	<span class="dib dib-ns dn-m dib-l f8 tracked ttu mb2 b ">Menu</span><!-- bb  -->
 </button>
 
+<!-- debug: `head meta` w3schools.com/csSref/pr_class_cursor.asp  -->
 <div
-style="cursor: context-menu/* w3schools.com/csSref/pr_class_cursor.asp */"
+style="cursor: context-menu"
 class="dn-ns dn-m dn-l
 fixed bg-black-30
 left-0 right-0 btm-0
@@ -106,11 +107,9 @@ transition"
   pa3 pb6 f5 f6-ns f6-m f4-l"
 >
 <div class="f6 f7-ns f8-m f5-l">
-  <!-- <HomeLink/> -->
-  <a href="/" class="db pointer"><img
-    class="db h2 w2 mt1 mb1 no-select"
-    src={logo} alt="menu"
-  /></a><!-- mr-auto ml-auto  -->
+  <div class="w-third mw3">
+    <Sting/>
+  </div>
 </div>
 <!---- ABOUT  ---->
 <ul class="list pl0">

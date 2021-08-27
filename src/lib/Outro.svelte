@@ -6,13 +6,14 @@
     <!-- --TODO: Courage, Care, Capacity Building, Courses -->
     <h3 class="f4">About&nbsp;Us<!-- Clowns Without&nbsp;Bordersf&hellip; --></h3>
     <p class="lh-copy measure mt4 mt0-ns">
-      <b>We are a Humanitarian Aid organisation working on behalf of children in&nbsp;disaster.</b> We&nbsp;have developed a range of tools assisting the recovery of children and young people in crisis&nbsp;situations.
+      <b>We work in Humanitarian Aid delivery on behalf of children in&nbsp;disaster.</b> We&nbsp;have developed a range of tools assisting the recovery of children and young people in crisis&nbsp;situations.
+
     </p><!-- /contents -->
   </div><!-- /column1 -->
 
   <div class="fn fl-l w-50-l pl4-l"><!-- Col2 -->
     <h3 class="f4">Improving Programme Delivery</h3>
-    <p class="lh-copy measure mt4 mt0-ns">
-      <a href="/courses" class="underline b link o-80 glow inherit hover-o-100 underline-hover transition">Our Courses</a> <b>can train your team</b> to improve programme delivery outcomes you already run, and&nbsp;assess children and young people's learning with our Monitoring and Evaluation&nbsp;Toolkit.</p><!-- /contents -->
+    <p class="lh-copy measure mt4 mt0-ns"><b>
+      <a href="/courses" class="underline b link o-80 glow inherit hover-o-100 underline-hover transition">Our Courses</a> train teams to improve programme delivery outcomes already running</b> and&nbsp;assess children and young people's learning using our Monitoring and Evaluation&nbsp;Toolkit.</p><!-- /contents -->
   </div><!-- /Column2 -->
 </section>

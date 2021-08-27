@@ -1,6 +1,6 @@
 <script>
 import { children } from "svelte/internal";
-
+import Sting from '$lib/header/Sting.svelte';
 
 import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
 import { page } from '$app/stores';
@@ -15,7 +15,7 @@ import Outro from '$lib/Outro.svelte';
 <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
 <div class="pv4 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 
-<h1 style="font-size:2.8vw">
+<h1 style="font-size:2.7vw">
   <HomeLink/>
 </h1>
 
@@ -24,6 +24,11 @@ import Outro from '$lib/Outro.svelte';
 
 <hr class="fl cf ba w-100 o-50 mv4 ba"/><!-- style="border:2px solid white" -->
 
+  <div class="w-100 cf fl">
+    <div class="w2 h2">
+      <Sting />
+    </div>
+  </div>
 
   <nav class="cf pv4 f5 f6-l no-clutter">
     <div class="fn fl-l w-third-l pr2-l">

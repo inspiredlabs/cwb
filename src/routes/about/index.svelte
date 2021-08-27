@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
 import Shilpa from './shilpa.md'
 import Unni from './unni.md'
@@ -5,9 +9,13 @@ import Details from '$lib/Details.svelte'
 
 </script>
 
-<!-- <svelte:head>
-	<title>About, Who We Are, Trustees</title>
-</svelte:head> -->
+<svelte:head>
+	<title>About, Who We Are, Trustees | Clowns Without Borders</title>
+	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
+	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.">
+	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
+	<meta name="author" content="Scott Phillips">
+</svelte:head>
 
 <Details open={false}>
 	<div slot="summary">

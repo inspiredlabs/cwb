@@ -33,6 +33,7 @@
 import Hero from '$lib/Hero.svelte';
 //import Intro from '$lib/Intro.svelte';
 import Intro from './intro.md'
+import Improve from './improve-programme-delivery-outcomes-you-already-run.md'
 
 
 import Image from "$lib/Image.svelte"
@@ -57,16 +58,20 @@ let microdata = {
 </script>
 
 <!-- Default `index.html` BACKUP -->
-<!-- <svelte:head>
-	<meta name="title" content="Play: humanitarian aid for children in disaster | Clowns Without…">
+
+<svelte:head>
+	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
 	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how to use play to deliver better NGO results on programmes you already run.">
 	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
   <meta name="author" content="Scott Phillips">
-</svelte:head> -->
+</svelte:head>
 
 <Hero />
 
 <Intro />
+
+<Improve />
+
 
 
 <!-- BANNER

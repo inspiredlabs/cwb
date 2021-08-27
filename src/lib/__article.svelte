@@ -1,16 +1,9 @@
 <script>
 export let title, description, tags; // from markdown
 
-/*
-How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
-*/
+/* on-the-fly classes: github.com/martypdx/rehype-add-classes */
 
 </script>
-
-
-
-
-
 
 <!-- | CWB.ORG.UK -->
 <svelte:head>
@@ -20,16 +13,6 @@ How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
 	<meta name="keywords" content="{`${tags.join(', ')}` }">
   <meta name="author" content="Scott Phillips">
 </svelte:head>
-
-
-
-
-<!-- delimit javascript array items with a comma -->
-
-<!-- !SEO -->
-<!-- article report: https://jamseotools.com/?ref=producthunt -->
-<!-- <15 unique keywords: https://www.wordtracker.com/ -->
-<!-- improve readability: https://hemingwayapp.com/ -->
 
 <section class="cf w-100 pv3 f4 f5-l highlight">
 	<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
