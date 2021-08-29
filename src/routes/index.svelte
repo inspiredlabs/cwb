@@ -34,10 +34,7 @@ import Hero from '$lib/Hero.svelte';
 //import Intro from '$lib/Intro.svelte';
 import Intro from './intro.md'
 import Improve from './improve-programme-delivery-outcomes-you-already-run.md'
-
-
 import Image from "$lib/Image.svelte"
-export let posts
 
 /*
 let microdata = {

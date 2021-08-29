@@ -1,7 +1,8 @@
 <script>
 import LDTag from '$lib/LDTag.svelte';
-export let images, jobTitle, title, telephone, url; // from markdown
+export let images, jobTitle, title; // `, telephone, url` from markdown
 
+/*
 const personSchema = {
   "@context": "http://schema.org/",
   "type": "Person",
@@ -10,17 +11,20 @@ const personSchema = {
   "telephone": telephone||undefined,
   "url": url||undefined
 }
+*/
 
 /*
 How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
 */
-
 </script>
 
-<svelte:head>
+
+<!-- <svelte:head>
 	<title>{title}, {jobTitle} for CWB.ORG.UK</title>
   <LDTag schema={personSchema} />
-</svelte:head>
+</svelte:head> -->
+
+
 
 <div class="flex justify-center">
 <!-- Blog Layout -->

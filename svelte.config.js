@@ -1,11 +1,12 @@
 import { mdsvex } from "mdsvex"
 import mdsvexConfig from "./mdsvex.config.js"
 import preprocess from 'svelte-preprocess'
-import adapter from '@sveltejs/adapter-static'
+//import adapter from '@sveltejs/adapter-static'
+import adapter from '@sveltejs/adapter-netlify';
 
 
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
 	"extensions": [".svelte", ...mdsvexConfig.extensions],
   preprocess: [
 		mdsvex(mdsvexConfig)
@@ -19,15 +20,17 @@ const config = {
 		/*
 		adapter: adapter(), //import adapter from '@sveltejs/adapter-netlify';
 		*/
-		adapter: adapter({
-			// defaults: github.com/sveltejs/kit/tree/master/packages/adapter-static
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		}),
+		adapter: adapter(),
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	}
 };
 
-export default config;
+/*
+adapter: adapter({
+	// defaults: github.com/sveltejs/kit/tree/master/packages/adapter-static
+	pages: 'build',
+	assets: 'build',
+	fallback: null
+}),
+*/

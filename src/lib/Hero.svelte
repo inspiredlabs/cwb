@@ -99,7 +99,7 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
   </section>
 
 </div-->
-<style>
+<!--style>
   .bg-cobalt-egyptian-gradient {
     background: hsla(231, 60%, 38%, 1);
 
@@ -110,4 +110,4 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
     background: -webkit-linear-gradient(108deg, hsla(231, 60%, 38%, 1) 0%, hsla(201, 75%, 36%, 1) 100%);
 
   }
-  </style>
+  </style-->
