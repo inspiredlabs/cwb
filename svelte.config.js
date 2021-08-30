@@ -22,7 +22,8 @@ export default {
 		*/
 		adapter: adapter(),
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		ssr: true // https://crinkle.dev/writing/journey-from-gatsby-to-sveltekit-deployment#hosting-on-netlify
 	}
 };
 

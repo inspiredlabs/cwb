@@ -19,10 +19,10 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
     <div
       class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf bg-near-white vh-50 ph3 br4"><!-- `bg-cobalt-egyptian-gradient`, `bg-light-gray` too dirty for banner -->
 
-    <div
+    <h1
     style="padding-top:23vh;font-size:2.5vw">
       <HomeLink/>
-    </div>
+    </h1>
 
       </div><!-- /fr measure-custom-l -->
     </div><!-- /x-->

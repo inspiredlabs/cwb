@@ -114,7 +114,6 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
 <ul class="list pl0">
   {#each routesAbout as about}
     <!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping -->
-    <!-- debug: on:keydown={e => e.key === 'Tab' && selectOnFocus()} -->
     <li class={about.header}>
       <a
         class="lh-nav no-underline link o-80 glow inherit transition"
@@ -184,6 +183,7 @@ a.active{
 
 
 nav {
+  will-change: transform;
   transform: translateX(100%);
   transition: transform .28s cubic-bezier(.3, 0, .02, 1);
 }
