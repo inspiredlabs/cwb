@@ -16,13 +16,13 @@ description: Learn how to improve programme delivery outcomes you already run, i
 
 # Improve programme delivery outcomes you already run
 
-## Our Programme Delivery Strategy 
+## Our Programme Delivery Strategy
 
 Programme Delivery to engage children and young people is hard. Especially when the material should assist the recovery of children in disaster. Programme work happens where people are vulnerable to discrimination, overcrowding and health issues.
 
 When NGO encounter hurdles, tight budgets, or changes of plan, training standards slip. This is why we make updating Programme contents as easy as possible.
 
-To improve Programme Delivery already running, we integrate our material as discreet activities. These activities have a monitoring and evaluation component, to help measure impact. Because NGO need help building capacity and, life is complicated enough.
+To improve Programme Delivery already running, we integrate our material as discreet activities. To build capacity and measure impact these have a monitoring and evaluation component. Because life is complicated enough.
 
 
 ## How can NGO Improve Programme Delivery?
@@ -40,9 +40,9 @@ To improve programme delivery NGO should be:
 To improve outcomes, it's important to get specific. Our depth and range of age appropriate activities can reinvigorate your approach. With facilitator training, it's possible to deliver material reaching the widest audience. Theses programmes gather feedback and measure impact using our Monitoring and Evaluation toolkit.
 
 
-### Working together to reach a wider audience 
+### Working together to reach a wider audience
 
-Our material uses experiences children and young people can repeat again and again. 
+Our material uses experiences children and young people can repeat again and again.
 
 ### Working together to empower children and young people
 
@@ -63,7 +63,7 @@ tailored to encourage facilitator participation.
 
 ### Working together to measure impact
 
-<!-- How do you measure impact? 
+<!-- How do you measure impact?
 
 ### Partner Monitoring Programme
 
@@ -93,4 +93,4 @@ CTA: Read more about:
 	- 1
 	- 2
 	- 3
---> 
+-->

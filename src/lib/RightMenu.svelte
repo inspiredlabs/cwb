@@ -95,7 +95,10 @@ transition"
   class:open={!user.showMenu}
   on:keydown={e => e.key === 'Escape' && toggle()}
 ></div>
+<!-- Note: tab screen-reader accessability: developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_reactivity_lifecycle_accessibility -->
+<!-- Todo: consider `modal-focus-trap`: https://dev.to/vibhanshu909/how-to-create-a-full-featured-modal-component-in-svelte-and-trap-focus-within-474i -->
 <nav
+    on:keydown={e => e.key === 'Tab' || toggle()}
   class:toggle={user.showMenu}
   class="
   transition backface-hidden
