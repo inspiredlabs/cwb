@@ -35,7 +35,3 @@ export let open = !open;
   <svelte:fragment let:details></svelte:fragment>
 </Details>
 -->
-
-<style global>
-.measure-custom-l { max-width: 40rem; }
-</style>

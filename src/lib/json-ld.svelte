@@ -27,10 +27,10 @@ export let posts
 // https://svelte.dev/repl/3382db29fc864d60b0a4ca47b3707a95?version=3.38.2
 
 export function serializeSchema(thing) {
-return `<script type="application/ld+json">${JSON.stringify(thing, null, 2)}</script>`
-}
+return `<script type="application/ld+json">${JSON.stringify(thing, null, 2)}${'<'}/script>`};
 
-//let title, jobTitle, telephone, url; // from markdown
+// note: `${'<'}`: https://rodneylab.com/adding-schema-org-markup-to-sveltekit-site/#addingSchemaOrgMarkup
+// let title, jobTitle, telephone, url; // from markdown
 
 export const personSchema = {
   "@context": "http://schema.org/",

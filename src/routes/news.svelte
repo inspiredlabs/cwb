@@ -1,4 +1,7 @@
 <script context="module">
+	/**
+	 * @type {import('@sveltejs/kit').Load}
+	 */
 	export const prerender = true;
 
 	/* "Importing all `*.md` news as modules is possible in vite, fetching them as a glob", -from: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=98

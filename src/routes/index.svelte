@@ -1,4 +1,8 @@
 <script context="module">
+	// 🔥 Static vs Serve Side Rendered: https://rodneylab.com/sveltekit-blog-starter/#staticVsSSR
+	/**
+	 * @type {import('@sveltejs/kit').Load}
+	 */
 	export const prerender = true;
 
 	/* "Importing all `*.md` posts as modules is possible in vite, fetching them as a glob", -from: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=98
