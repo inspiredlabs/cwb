@@ -3,12 +3,17 @@
   import Sting from '$lib/header/Sting.svelte';
   //import HomeLink from '$lib/header/HomeLink.svelte';
   import {routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
+import { xlink_attr } from 'svelte/internal';
 
 	let user = { showMenu: false };
 
 	function toggle() {
-		user.showMenu = !user.showMenu;
+    user.showMenu = !user.showMenu;
 	}
+
+  function open() {
+    user.showMenu = true
+  }
 </script>
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="dn">
@@ -83,7 +88,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
 	<span class="dib dib-ns dn-m dib-l f8 tracked ttu mb2 b ">Menu</span><!-- bb  -->
 </button>
 
-<!-- debug: `head meta` w3schools.com/csSref/pr_class_cursor.asp  -->
+<!-- note: `cursor: context-menu` w3schools.com/csSref/pr_class_cursor.asp  -->
 <div
 style="cursor: context-menu"
 class="dn-ns dn-m dn-l
@@ -96,9 +101,11 @@ transition"
   on:keydown={e => e.key === 'Escape' && toggle()}
 ></div>
 <!-- Note: tab screen-reader accessability: developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_reactivity_lifecycle_accessibility -->
-<!-- Todo: consider `modal-focus-trap`: https://dev.to/vibhanshu909/how-to-create-a-full-featured-modal-component-in-svelte-and-trap-focus-within-474i -->
+<!-- Todo: consider `modal-focus-trap`: https://dev.to/vibhanshu909/how-to-create-a-full-featured-modal-component-in-svelte-and-trap-focus-within-474i && https://dbushell.com/2021/06/17/css-off-canvas-responsive-navigation/ && https://navillus.dev/blog/accessibility-skip-to-content -->
+
 <nav
-    on:keydown={e => e.key === 'Tab' || toggle()}
+  on:keydown={e => e.key === 'Escape' && toggle()}
+  on:keydown={e => e.key === 'Tab' && open()}
   class:toggle={user.showMenu}
   class="
   transition backface-hidden
@@ -118,6 +125,7 @@ transition"
 <ul class="list pl0">
   {#each routesAbout as about}
     <!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping -->
+    <!-- debug: on:keydown={e => e.key === 'Tab' && selectOnFocus()} -->
     <li class={about.header}>
       <a
         class="lh-nav no-underline link o-80 glow inherit transition"
