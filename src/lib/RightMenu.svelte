@@ -90,12 +90,8 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
 
 <!-- note: `cursor: context-menu` w3schools.com/csSref/pr_class_cursor.asp  -->
 <div
-style="cursor: context-menu"
-class="dn-ns dn-m dn-l
-fixed bg-black-30
-left-0 right-0 btm-0
-vh-100 vw-100 h-100 w-100
-transition"
+  style="cursor: context-menu"
+  class="dn-ns dn-m dn-l fixed bg-black-30 left-0 right-0 btm-0 vh-100 vw-100 h-100 w-100 transition"
   on:click={toggle}
   class:open={!user.showMenu}
   on:keydown={e => e.key === 'Escape' && toggle()}
@@ -107,14 +103,7 @@ transition"
   on:keydown={e => e.key === 'Escape' && toggle()}
   on:keydown={e => e.key === 'Tab' && open()}
   class:toggle={user.showMenu}
-  class="
-  transition backface-hidden
-  w-two-thirds w-third-ns w-25-m w-25-l
-  h-100 vh-100 top-0 right-0 fixed z-2
-  bl b--black bg-dark-gray
-  touch-scrolling
-  white antialias
-  pa3 pb6 f5 f6-ns f6-m f4-l"
+  class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-2 bl b--black bg-dark-gray touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
 >
 <div class="f6 f7-ns f8-m f5-l">
   <div class="w-third mw3">
