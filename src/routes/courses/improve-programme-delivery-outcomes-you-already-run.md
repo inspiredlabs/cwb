@@ -16,6 +16,14 @@ description: Learn how to improve programme delivery outcomes you already run, i
 
 # Improve programme delivery outcomes you already run
 
+## Programme Delivery
+
+We understand how to improve programme delivery outcomes. We have 20 years of delivery and development experience. More recently our Programmes have been formalised into:
+
+- [Wellbeing Protection](#wellbeing-protection-programme)
+- [Girl's Rights](#girls-rights-programme)
+- [WASH](#wash-programme)
+
 ## Our Programme Delivery Strategy
 
 Programme Delivery to engage children and young people is hard. Especially when the material should assist the recovery of children in disaster. Programme work happens where people are vulnerable to discrimination, overcrowding and health issues.
@@ -48,7 +56,9 @@ Our material uses experiences children and young people can repeat again and aga
 
 During Programme Delivery, it's important people see someone who looks like them. This helps comfort and engage the audience, which is empowering. Being facilitator lead helps team up with local communities and make material relevant.
 
-### Working together to tailor activities to support behaviour change
+### Working together to support behaviour change
+
+<!--to tailor activities -->
 
 Our training focuses on facilitators leading activities. This supports behaviour change by encouraging participants to overcome challenges in real time. And we use frameworks that adapt to types of learning.
 
@@ -73,7 +83,7 @@ We work with NGO to measure impact of Programme material using quantitative feed
 
 Our [Theory of Change](/about) experts understand monitoring and evaluation to assist accountability. These inform our Partner relationships, overcoming challenges normally associated with measuring impact. Getting specific helps answer the age old question:
 
-> How do you measure impact?
+> How do you<br>measure impact?
 
 ## About our training structure
 

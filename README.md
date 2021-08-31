@@ -194,6 +194,37 @@ humanitarian aid, help refugees, refugee charity, capacity funding, corporate ch
 ```
 -->
 
+
+<!--
+TIPS:
+Primary Keyword - Secondary Keyword | Brand Name
+<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/posts"/>
+<link rel="designer" href="https://plus.google.com/u/0/109859280204979591787/posts"/>
+<link rel="web_author" href="https://plus.google.com/u/0/109859280204979591787/posts"/>
+	- from: https://gist.github.com/denzildoyle/31fe294065f606b4f612
+
+> Schema.org is compatible w. Microdata, RDFa & LD. Google in particular still favours Microdata & RDFa, from: builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/
+```<div itemscope itemtype="http://data-vocabulary.org/Person">
+  Name: <span itemprop="name">Daniel Butler</span>
+  Website: <a href="https://builtvisible.com" itemprop="url">builtvisible.com</a>
+  Title: <span itemprop="title">Head of SEO</span>
+</div>
+```
+video:
+```
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "VideoObject",
+  "name" : "[name of video]",
+  "duration" : "[duration in ISO format e.g. T1M33S]",
+  "thumbnail" : "[thumbnail url]",
+  "description" : "[description of video]"
+}
+</script>
+```
+-->
+
 ## Target Audience
 
 ```

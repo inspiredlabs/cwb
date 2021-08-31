@@ -15,6 +15,19 @@
 </svelte:head>
 -->
 
+<!-- <script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Article",
+		"headline": "[article title]",
+		"alternativeHeadline": "[article sub heading]",
+		"image": "[main article image url]",
+		"author": "[author name]",
+		"datePublished": "[date in ISO format e.g. 2014-03-16]",
+		"description": "[article summary]"
+	}
+	</script> -->
+
 <section class="cf w-100 pv3 f4 f5-l highlight">
 	<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
 	<div class="pv4 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">

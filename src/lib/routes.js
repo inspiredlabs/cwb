@@ -14,7 +14,7 @@ export const routesAbout = [
 	{ href: '/about', header: 'b', title: 'About' },
 		{ href: '/about#our-impact', header: 'b', title: 'Our Impact' },
 		{ href: '/about#recognition', header: 'pl0', title: 'Awards \& Recognition' },
-		{ href: '/news', header: 'pl0', title: 'News' },
+		//{ href: '/news', header: 'pl0', title: 'News' },
 		{ href: '/about#who-we-are', header: 'b', title: 'Who We Are' },
 		{ href: '/about#core-team', header: 'pl0', title: 'Core Team' },
 		{ href: '/about#facilitators', header: 'pl0', title: 'Facilitators' },
@@ -23,21 +23,22 @@ export const routesAbout = [
 
 export const routesSupport = [
   { href: '/support-us', header: 'b', title: 'Support Us' },
-  	{ href: '/support-us#fundraising', header: 'b', title: 'Fundraising' },
+		{ href: '/support-us#work-with-us', header: 'b', title: 'Work with Us' },
+		{ href: '/support-us#partners', header: 'pl0', title: 'Partners' },
+		{ href: '/support-us#volunteers', header: 'pl0', title: 'Volunteers' },
+		{ href: '/support-us#facilitators', header: 'pl0', title: 'Facilitators' },
+
+		{ href: '/support-us#fundraising', header: 'b', title: 'Fundraising' },
   	{ href: '/support-us#where-your-money-goes', header: 'pl0', title: 'Where Your Money Goes' },
   	{ href: '/support-us#donate', header: 'pl0', title: 'Donate' },
-  	{ href: '/support-us#on-social-media', header: 'b', title: 'On Social Media' },
-  	{ href: '/support-us#subscribe', header: 'pl0', title: 'Subscribe to our Blog' },
-  	{ href: '/support-us#work-with-us', header: 'b', title: 'Work with Us' },
-  	{ href: '/support-us#partners', header: 'pl0', title: 'Partners' },
-  	{ href: '/support-us#volunteers', header: 'pl0', title: 'Volunteers' },
-  	{ href: '/support-us#facilitators', header: 'pl0', title: 'Facilitators' },
+  	{ href: '/support-us#social-media', header: 'b', title: 'Social Media' },
+  	{ href: '/support-us#subscribe', header: 'pl0', title: 'Subscribe to our newsfeed' }, // Blog, microblog, news
 ];
 
 export const routesCourses = [
   { href: '/courses', header: 'b', title: 'Courses' },
-    { href: '/courses#training-for-facilitators', header: 'pl0', title: 'Training for Facilitators' },
     { href: '/courses#programme-delivery', header: 'pl0', title: 'Programme Delivery' },
+		{ href: '/courses#training-for-facilitators', header: 'pl0', title: 'Training for Facilitators' },
     { href: '/courses#monitoring-and-evaluation', header: 'pl0', title: 'Monitoring \& Evaluation' },
     // { href: '/courses#login', header: 'b', title: 'Login' },
 ];

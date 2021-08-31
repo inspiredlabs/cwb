@@ -26,9 +26,9 @@ const config = {
       //"ul, ol": "pl4", // under paragraph
       "a": "underline b link o-80 glow inherit hover-o-100 underline-hover transition",
       "hr": "ba bw1 mb0 inherit o-10",
-      "blockquote": "georgia db ml3 mr0 i tr",
-      "blockquote p": "fw5",
-      "blockquote a": "pt2 b sans-serif f7 tracked ttu fs-normal no-underline db lh-title",
+      "blockquote": "db georgia ml3 mr0 i tr",
+      "blockquote p": "fw5 f3 o-80",
+      "blockquote a": "pt2 b system f7 tracked ttu fs-normal no-underline db lh-title", //sans-serif
       "table": "w-100 f5",
       "p": "lh-copy",
       /*"button": "input-reset pointer mv2 br0 f6 f5-ns b ph4 ph5-ns ph5-m ph6-m pv3 ba bw2-ns b--black white bg-dark-gray ttu tracked-mega hover-bg-near-black w-100 db transition",

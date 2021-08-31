@@ -35,10 +35,39 @@
 </script>
 <script>
 import Hero from '$lib/Hero.svelte';
-//import Intro from '$lib/Intro.svelte';
-import Intro from './intro.md'
-import Improve from './improve-programme-delivery-outcomes-you-already-run.md'
+// News (that is the homepage!)
 import Image from "$lib/Image.svelte"
+
+// About
+import Intro from './intro.md'
+// Our Impact
+
+// Awards and Recognition
+// Who we are
+	// Core Team
+	// Facilitators
+	// Trustees
+		// Senior Trustees
+		// Trustees
+// Support Us
+/*
+We are looking for your valuable support. We are seeking Innovation Funding and Partners to Deliver Programmes. You can Fundraise for us, Subscribe to our newsfeed or Share our stories over Social media.
+*/
+
+// Fundraising
+// Where your money goes
+// Donate
+
+// Social Media
+// Subscribe to our blog and get the news
+
+// Courses
+import Improve from './courses/improve-programme-delivery-outcomes-you-already-run.md'
+// Programme Delivery
+import WellbeingProtection from './courses/wellbeing-protection.md'
+import GirlsRights from './courses/girls-rights.md'
+import Wash from './courses/wash.md'
+// Programmes
 
 /*
 let microdata = {
@@ -71,8 +100,12 @@ let microdata = {
 
 <Intro />
 
-<Improve />
 
+<!-- Courses -->
+<Improve />
+<WellbeingProtection />
+<GirlsRights />
+<Wash />
 
 
 <!-- BANNER

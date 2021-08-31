@@ -34,16 +34,17 @@
 	</div>
 </div>
 -->
-<div class="flex items-center fw9 red no-clutter"><!-- debug -->
+<div class="flex items-center fw9 red no-clutter">
   <div class="w-two-thirds tr h2 ">
 	<!-- interval={[33, 55, 88]} -->
 	<!-- on:done={() => myFun()} -->
 	<!-- prime numbers 1-100 -->
+	<!-- developers.google.com/search/docs/advanced/robots/robots_meta_tag -->
 	<Typewriter loopRandom cursor={false} interval={[11, 23, 97]}>
-			<span class="ttu tracked o-70">Capacity</span>
-			<span class="ttu tracked o-70">Courage</span>
-			<span class="ttu tracked o-70">Courses</span>
-			<span class="ttu tracked o-70">Care</span>
+			<span class="ttu tracked o-70" data-nosnippet>Capacity</span>
+			<span class="ttu tracked o-70" data-nosnippet>Courage</span>
+			<span class="ttu tracked o-70" data-nosnippet>Courses</span>
+			<span class="ttu tracked o-70" data-nosnippet>Care</span>
 			<span class="ttu tracked o-100">Clowns</span>
 	</Typewriter>
   </div>
