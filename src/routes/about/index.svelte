@@ -6,9 +6,25 @@
 </script>
 
 <script>
+import Details from '$lib/Details.svelte'
+
+import Sam from './sam.md'
+import Halima from './halima.md'
+import Edward from './edward.md'
+
 import Shilpa from './shilpa.md'
 import Unni from './unni.md'
-import Details from '$lib/Details.svelte'
+
+import David from './david.md'
+
+import Tanya from './tanya.md'
+import Niki from './niki.md'
+import Wendy from './wendy.md'
+import Anna from './anna.md'
+import Ed from './ed.md'
+
+
+
 
 </script>
 
@@ -23,14 +39,50 @@ import Details from '$lib/Details.svelte'
 <Details open={false}>
 	<div slot="summary">
 		<header class="lh-title">
-			<h1 class="db f3 f2-ns fw9 mb3">About</h1>
-			<h2 class="db f4 f3-ns mb3">Who We Are</h2>
-			<h3 class="db f6 f5-ns mt0-ns">Trustees</h3>
+			<h1 class="db f3 f2-ns fw9 mb3">Core Team</h1>
+			<!-- <h2 class="db f4 f3-ns mb3"></h2> -->
+			<!-- <h3 class="db f6 f5-ns mt0-ns"></h3> -->
+			<!-- <p class="f4-ns mt0-ns semibold">Semibold description</p> -->
+		</header>
+	</div>
+	<div slot="details">
+		<Sam />
+		<Halima />
+		<Edward />
+
+	</div>
+</Details>
+
+<Details open={false}>
+	<div slot="summary">
+		<header class="lh-title">
+			<h1 class="db f3 f2-ns fw9 mb3">Senior Trustees</h1>
+			<!-- <h2 class="db f4 f3-ns mb3"></h2> -->
+			<!-- <h3 class="db f6 f5-ns mt0-ns"></h3> -->
 			<!-- <p class="f4-ns mt0-ns semibold">Semibold description</p> -->
 		</header>
 	</div>
 	<div slot="details">
 		<Unni />
 		<Shilpa />
+	</div>
+</Details>
+
+<Details open={false}>
+	<div slot="summary">
+		<header class="lh-title">
+			<h1 class="db f3 f2-ns fw9 mb3">Trustees</h1>
+			<!-- <h2 class="db f4 f3-ns mb3"></h2> -->
+			<!-- <h3 class="db f6 f5-ns mt0-ns"></h3> -->
+			<!-- <p class="f4-ns mt0-ns semibold">Semibold description</p> -->
+		</header>
+	</div>
+	<div slot="details">
+		<David />
+		<Tanya />
+		<Niki />
+		<Wendy />
+		<Anna />
+		<Ed />
 	</div>
 </Details>

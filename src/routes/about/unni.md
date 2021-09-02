@@ -3,7 +3,7 @@ draft: false
 region: en
 title: Dr. Unni Krishnan
 tags:
-  - trustee
+  - senior trustee
 images: ["https://cwb.org.uk/images/unni.jpg"]
 layout: person
 

@@ -3,7 +3,7 @@ draft: false
 region: en
 title: Shilpa Thanki-Green
 tags:
-  - trustee
+  - senior trustee
   - treasurer
 images: ["https://cwb.org.uk/images/shilpa-thanki.jpg"]
 layout: person

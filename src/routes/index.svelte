@@ -34,6 +34,7 @@
 	}
 </script>
 <script>
+//import CloseTrigger from '$lib/CloseTrigger.svelte'; // <CloseTrigger />
 import Hero from '$lib/Hero.svelte';
 // News (that is the homepage!)
 import Image from "$lib/Image.svelte"
@@ -95,6 +96,8 @@ let microdata = {
 	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
   <meta name="author" content="Scott Phillips">
 </svelte:head>
+
+
 
 <Hero />
 

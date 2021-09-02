@@ -196,6 +196,15 @@ humanitarian aid, help refugees, refugee charity, capacity funding, corporate ch
 
 
 <!--
+
+TIPS:
+- edit Wikipedia: https://en.wikipedia.org/wiki/Payasos_Sin_Fronteras
+- !Bang: https://duckduckgo.com/newbang
+- `submit a website to yahoo` XML sitemap: https://smallbusiness.yahoo.com/advisor/resource-center/how-to-submit-a-new-website-to-search-engines/
+	- from: xxxx
+
+
+
 TIPS:
 Primary Keyword - Secondary Keyword | Brand Name
 <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/posts"/>

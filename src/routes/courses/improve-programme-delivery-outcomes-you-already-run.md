@@ -18,7 +18,7 @@ description: Learn how to improve programme delivery outcomes you already run, i
 
 ## Programme Delivery
 
-We understand how to improve programme delivery outcomes. We have 20 years of delivery and development experience. More recently our Programmes have been formalised into:
+With 20 years of experience, we understand how to improve programme delivery outcomes. Our programmes are informed by Protection, PFA and WASH and formalised as:
 
 - [Wellbeing Protection](#wellbeing-protection-programme)
 - [Girl's Rights](#girls-rights-programme)
@@ -38,10 +38,10 @@ To improve Programme Delivery already running, we integrate our material as disc
 To improve programme delivery NGO should be:
 
 - reaching a wider audience with current funds.
-- encourage direct participation to empower children and young people.
-- tailor activities to support behaviour change through facilitator training.
-- use age appropriate activities that measure impact.
-- use Monitoring and Evaluation to help track effective use of aid money.
+- encouraging direct participation to empower children and young people.
+- tailoring activities to support behaviour change through facilitator training.
+- using age appropriate activities that measure impact.
+- using Monitoring and Evaluation to track effective use of aid money.
 
 ## How can we Improve Programme Delivery together?
 
