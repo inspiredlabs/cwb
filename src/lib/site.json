@@ -1,18 +1,13 @@
 {
-  "title": "Clowns Without Borders, UK | Charity number: 1156987",
-  "description": "Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.",
-  "url": "https://cwb.org.uk",
-  "author": "Samantha Holdsworth",
-  "social": {
-      "twitter": "childrenlaughuk",
-      "twitter_card": "summary_large_image",
-      "youtube": "channel/UCWDuY-wPQO3PL8HWTSPs86Q",
-      "instagram": "clownswithoutbordersuk",
-      "facebook": "clownswithoutborders",
-      "linkedin": "company/clowns-without-borders-uk",
-      "website": "https://clownswithoutborders.org.uk"
-  },
-  "company": {
-      "name": "Clowns Without Borders, UK"
-  }
+    "title": "Clowns Without Borders, UK | Charity Reg. number 1156987",
+    "description": "Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.",
+    "url": "https://cwb.org.uk",
+    "author": "Samantha Holdsworth",
+    "social": {
+        "twitter": "childrenlaughuk",
+        "twitter_card": "summary_large_image"
+    },
+    "company": {
+        "name": "Clowns Without Borders, UK"
+    }
 }

@@ -9,13 +9,10 @@ layout: person
 
 jobTitle: Producer
 name: Halima Habil
-telephone: 
+telephone:
 url: https://cwb.org.uk/about/halima
 
 ---
-
-# {title}
-## {jobTitle}
 
 ||||
 | -----------: | ----------- | -----------: | ----------- |
@@ -26,9 +23,10 @@ url: https://cwb.org.uk/about/halima
 <!--Not sure this is the same Producer: https://www.calvertjournal.com/articles/show/6024/nu-martisor-contemporary-romanian-design-in-london
 -->
 
-Halima is a Romanian-Israeli-Moroccan Producer and Facilitator <!-- and clown -->. She developed theatre projects for social change in the UK, France, Morocco and Romania. 
+Halima is a Romanian-Israeli-Moroccan Producer and Facilitator <!-- and clown -->.
+She developed theatre projects for social change in the UK, France, Morocco and Romania.
 
-Halima is a broadly experienced creative with leadership qualities.
+Halima is a broadly experienced creative, with leadership qualities.
 
 <!--She is also a co-founder of the organisation [In-Play](#), which uses play to string-figure connections between people.
 -->

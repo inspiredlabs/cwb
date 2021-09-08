@@ -23,7 +23,7 @@ import Wendy from './wendy.md'
 import Anna from './anna.md'
 import Ed from './ed.md'
 
-
+import Facilitators from './facilitators.md'
 
 
 </script>
@@ -36,7 +36,7 @@ import Ed from './ed.md'
 	<meta name="author" content="Scott Phillips">
 </svelte:head>
 
-<Details open={false}>
+<Details open={true}>
 	<div slot="summary">
 		<header class="lh-title">
 			<h1 class="db f3 f2-ns fw9 mb3">Core Team</h1>
@@ -53,7 +53,7 @@ import Ed from './ed.md'
 	</div>
 </Details>
 
-<Details open={false}>
+<Details open={true}>
 	<div slot="summary">
 		<header class="lh-title">
 			<h1 class="db f3 f2-ns fw9 mb3">Senior Trustees</h1>
@@ -68,7 +68,23 @@ import Ed from './ed.md'
 	</div>
 </Details>
 
-<Details open={false}>
+<!--
+# Our Trustees
+
+[Clowns Without Borders, UK]() is run by a small administrative team,
+donating much of their time and expertise for free. We are governed by a Board of Trustees.
+-->
+
+<!--
+GOAL:
+- rewrite section as: "their story": https://www.savethechildren.org.au/our-stories/man-on-a-mission
+- Who needs some coaching or materials to perfrom?
+- are they uncoachable?
+- are they turstworthy? Our cause is bigger than any one person.
+- Evidence of Trustees participation of particular interest.
+-->
+
+<Details open={true}>
 	<div slot="summary">
 		<header class="lh-title">
 			<h1 class="db f3 f2-ns fw9 mb3">Trustees</h1>
@@ -84,5 +100,21 @@ import Ed from './ed.md'
 		<Wendy />
 		<Anna />
 		<Ed />
+	</div>
+</Details>
+
+
+
+<Details open={true}>
+	<div slot="summary">
+		<header class="lh-title">
+			<h1 class="db f3 f2-ns fw9 mb3">Facilitators</h1>
+			<!-- <h2 class="db f4 f3-ns mb3"></h2> -->
+			<!-- <h3 class="db f6 f5-ns mt0-ns"></h3> -->
+			<!-- <p class="f4-ns mt0-ns semibold">Semibold description</p> -->
+		</header>
+	</div>
+	<div slot="details">
+		<Facilitators />
 	</div>
 </Details>

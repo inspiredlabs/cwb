@@ -63,12 +63,13 @@ We are looking for your valuable support. We are seeking Innovation Funding and 
 // Subscribe to our blog and get the news
 
 // Courses
-import Improve from './courses/improve-programme-delivery-outcomes-you-already-run.md'
+
 // Programme Delivery
+import Improve from './courses/improve-programme-delivery-outcomes-you-already-run.md'
+// Programmes
 import WellbeingProtection from './courses/wellbeing-protection.md'
 import GirlsRights from './courses/girls-rights.md'
 import Wash from './courses/wash.md'
-// Programmes
 
 /*
 let microdata = {
@@ -97,12 +98,11 @@ let microdata = {
   <meta name="author" content="Scott Phillips">
 </svelte:head>
 
-
-
 <Hero />
 
 <Intro />
 
+<!-- <OurImpact /> -->
 
 <!-- Courses -->
 <Improve />

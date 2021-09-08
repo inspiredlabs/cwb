@@ -14,20 +14,12 @@ url: https://cwb.org.uk/about/tanya
 
 ---
 
-# {title}
-## {jobTitle}
-
 ||||
 | -----------: | ----------- | -----------: | ----------- |
 | Instagram | [@tgwallis](https://www.instagram.com/tgwallis) | LinkedIn | [Tanya Glanville-Wallis](https://www.linkedin.com/in/tanya-glanville-wallis-4378441b/) |
 | Website | [Ibex Ideas](https://twitter.com/ibex_ideas) | Twitter | [tanya_gw](https://twitter.com/tanya_gw) |
 
-
-## Tanya Glanville-Wallis
-
-Tanya is a former lawyer, turned humanitarian.
-
-She lends her communication expertise to International NGOs, such as [Oxfam](https://www.ibex-ideas.com/stories/), and communities affected by&nbsp;disaster.
+Tanya is a former lawyer, turned humanitarian. She lends her communication expertise to International NGOs, such as [Oxfam](https://www.ibex-ideas.com/stories/), and communities affected by&nbsp;disaster.
 
 When not in Oxford, Tanya can be found gathering stories in an emergency context or writing for the [Huffington&nbsp;Post](https://www.huffpost.com/author/tanya-glanvillewallis)<!-- these thoughts and photos are from 2017, 2018 -->.
 

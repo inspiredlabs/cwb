@@ -14,9 +14,6 @@ url: https://cwb.org.uk/about/wendy
 
 ---
 
-# {title}
-## {jobTitle}
-
 ||||
 | -----------: | ----------- | -----------: | ----------- |
 | LinkedIn | [Wendy Lanchin](https://www.linkedin.com/in/wendy-lanchin-a1326a5/)| Twitter | [WLanchin](https://twitter.com/wlanchin) |

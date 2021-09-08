@@ -14,9 +14,6 @@ url: https://cwb.org.uk/about/sam
 
 ---
 
-# {title}
-## {jobTitle}
-
 ||||
 | -----------: | ----------- | -----------: | ----------- |
 | Website | [Nimble Fish](https://nimble-fish.co.uk/about-the-fish/) | LinkedIn | [Samantha Holdsworth](https://uk.linkedin.com/in/samantha-holdsworth) |
@@ -27,13 +24,16 @@ Sam set up Clowns Without Borders in 2014, with the goal of reinventing Humanita
 
 <!--### Today-->
 
-That goal is becoming a reality for many children and young people. Today, Clowns Without Borders operates in over 14 countries, with 20 professional Facilitators, delivering more than 30 projects. These focus on Humanitarian Disaster relief, offering respite to over 55,000 participants. But, our impact goes beyond that...
+Today, that goal has become a reality for many children and young people. Clowns Without Borders operates in over 14 countries, with 20 professional Facilitators, delivering over 30 projects. These focus on Humanitarian Disaster relief, offering respite to over 55,000 participants.
 
-We understand children are incredibly good communicators, with large networks of their own. This means, we empower each participant with tools to repeat what they have learned. <!--Magic.-->
+But, our impact goes beyond that&hellip; We understand children are incredibly good communicators, with large networks of their own. This means, we empower each participant with tools to repeat what they have learned.
 
-Whilst we share joy and laughter, our work is making an enourmous difference. Our simple and effective approach is acknowledged as an important step in _supporting behaviour change_, a key Humanitarian Objective for [Our Partners](#).
+<!--Magic.-->
 
-<!--Our key thematics: 
+
+Whilst we share joy and laughter, our work is making a serious <!-- an enoumous --> difference. Our simple and effective approach is acknowledged as an important step in _supporting behaviour change_, a key Humanitarian Objective for [Our Partners](/support-us#partners).
+
+<!--Our key thematics:
 WASH
 PSS
 GBV
@@ -43,9 +43,9 @@ Our focus on sustainability via capacity building workshops, working with local 
 
 ### The Early Years
 
-Sam began her career as a Facilitator <!-- and clown --> creating social change in diverse community settings. In 2007, she co-founded [Nimble Fish](https://nimble-fish.co.uk/about-the-fish/) to develop National and International cultural events. 
+Sam began her career as a Facilitator <!-- and clown --> creating social change in diverse community settings. In 2007, she co-founded [Nimble Fish](https://nimble-fish.co.uk/about-the-fish/) to develop National and International cultural events.
 
-Over 12 inspiring years, Sam managed £1m budget, co-ordinated with up-to 60 artists per. project, and created an Award-Winning production company in it's own right. 
+Over 12 inspiring years, Sam managed £1m budget, co-ordinated with up-to 60 artists per. project, and created an Award-Winning production company in it's own right.
 
 <!--### The Future-->
 

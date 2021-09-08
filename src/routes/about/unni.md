@@ -14,15 +14,13 @@ url: https://cwb.org.uk/about/unni
 
 ---
 
-# {title}
-## {jobTitle}
 
 ||||
 | -----------: | ----------- | -----------: | ----------- |
 | Director | [War Child, Holland](https://www.warchildholland.org/) | Twitter | [@unnikru](https://twitter.com/unnikru) |
 | Blog | [UnniVerse.in](http://unniverse.in/) | LinkedIn | [Unni Krishnan](https://www.linkedin.com/in/unni-krishnan-93783473/) |
 
-Unni provides valuable insight into effective interventions with children and young people. He works on frontline humanitarian issues as an advocate for [CWB](https://cwb.org.uk/) where people encounter hostile forces, disasters and terror.
+Unni provides valuable insight of the invisible impact of disaster on children and young people. He works on frontline humanitarian issues as an advocate where people encounter hostile forces, disasters and terror.
 
 > The hatred that triggers bitter conflict is the number one most difficult and frightening&nbsp;issue…
  [&mdash;&nbsp;Dr. Unni Krishnan, Man on a mission](https://www.savethechildren.org.au/our-stories/man-on-a-mission)

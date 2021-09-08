@@ -9,23 +9,18 @@ layout: person
 
 jobTitle: Project Manager
 name: Edward Morgan
-telephone: 
+telephone:
 url: https://cwb.org.uk/about/edward
 
 ---
 
+Edward grew up in Malawi and Swaziland, although is originally from the UK.
+He works on international projects with a focus on operations, monitoring and safety.
+
+In 2014 Edward founded a musical, visual arts festival: [No Tengo Mama](https://www.facebook.com/notengomamafest/), in Vigo, Spain.
+
 <!--SWAP:https://cwb.org.uk/images/close-up-of-edward.jpg-->
-
-# {title}
-## {jobTitle}
-
-Edward works on international projects with a focus on operations, monitoring and safety.
-
-He founded a musical, visual arts festival: [No Tengo Mama](https://www.facebook.com/notengomamafest/), in Vigo, Spain<!-- DOUBLE CHECK -->.
-
-
-<!--Edward, finally found himself-->
-<!--Originally from the UK, Edward grew up in Malawi and Swaziland.-->
+<!--Edward, finally found himself--><!-- DOUBLE CHECK -->
 
 <!--What else does our audience want to know?:
 - examples of his work our fundraising purposes?

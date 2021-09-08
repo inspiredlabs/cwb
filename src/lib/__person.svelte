@@ -26,9 +26,9 @@ How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
 
 
 
-<div class="flex justify-center">
+<!-- <div class="flex justify-center"> -->
 <!-- Blog Layout -->
-<article class="measure-wide pa4 ">
+<article class="pb4"><!-- measure-wide pa4 -->
   <div class="tc">
   {#each images as image, index }
     {#if index === 0 }
@@ -42,13 +42,19 @@ How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
       {/if}
     {/if}
   {/each}
+
+  <heading>
+    <h2>{title}</h2>
+    <h3 class="b tracked ttu fw4 o-70">{jobTitle}</h3>
+  </heading>
+
   </div>
-  <div class="f4 mw6 mr-auto ml-auto highlight">
-    <!-- measure-wide trustee -->
+  <div class="f4 highlight">
+    <!-- measure-wide mw6 mr-auto ml-auto  -->
     <slot></slot>
   </div>
 </article>
-</div>
+<!-- </div> -->
 
 <!--style global>
   .trustee a {}

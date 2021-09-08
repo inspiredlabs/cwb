@@ -15,13 +15,9 @@ url: https://cwb.org.uk/about/shilpa
 
 ---
 
-# {title}
-## {jobTitle}
-
 ||||
 | -----------: | ----------- | -----------: | ----------- |
 | Investor Relations | [dabbl](https://www.dabblinvest.com/) | LinkedIn | [Shilpa Thanki-Green](https://uk.linkedin.com/in/shilpa-thanki-green-9294377) |
-
 
 <!--
 > Shilpa&nbsp;issue…

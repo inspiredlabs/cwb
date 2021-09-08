@@ -9,15 +9,10 @@ layout: person
 
 jobTitle: Trustee
 name: Ed King
-telephone: 
+telephone:
 url: https://cwb.org.uk/about/ed
 
 ---
-
-<!--SWAP:https://cwb.org.uk/images/close-up-of-edward.jpg-->
-
-# {title}
-## {jobTitle}
 
 Ed has been a Trusts and Institutions Fundraiser for child rights and protection programmes for 9&nbsp;years.
 
@@ -25,6 +20,7 @@ Originally working at _UNICEF_ as a Foundations Manager, he is now Head of Insti
 
 Ed likes to share our stories of "happiness and laughter", with his wonderful [linkedIn](https://www.linkedin.com/in/ed-king-271a2140/detail/recent-activity/shares/) network.
 
+<!--SWAP:https://cwb.org.uk/images/close-up-of-edward.jpg-->
 <!--
 • Ed King (rated out of 3):
 - performance: posing tough questions like: "how do we know it's working?"
