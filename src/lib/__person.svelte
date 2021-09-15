@@ -45,7 +45,7 @@ How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
 
   <heading>
     <h2>{title}</h2>
-    <h3 class="b tracked ttu fw4 o-70">{jobTitle}</h3>
+    <h3 class="b f5 tracked ttu fw4 o-70">{jobTitle}</h3>
   </heading>
 
   </div>

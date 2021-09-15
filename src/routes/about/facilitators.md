@@ -2,23 +2,20 @@
 region: en
 draft: true
 images: ["./images/tai-chi.jpg"]
-layout:
-
+layout: article
 
 ---
 
-Our Facilitators are highly skilled professional artists.
+# Facilitators
 
-They work across physical theatre, drama,
-dance, music, circus and comedy. They are anything but clowns.
-The common thread that ties us all together is a powerful belief that laughter, joy and play can make the world a more hopeful and peaceful place.
+Our Facilitators are anything but clowns. They work in crisis zones, areas of natural disaster,
+prisons and hospitals. They are broadly skilled across education, physical theatre, drama, dance, music, circus and comedy. Our Facilitators are highly skilled professional artists.
 
-​Many of the artists who volunteer with **Clowns Without Borders** also work in crisis zones, areas of natural disaster,
-prisons and hospitals.
+The common thread that ties them together, is a powerful belief that laughter, joy and play can make the world a more hopeful and peaceful place.
 
-High levels of sensitivity and awareness are necessary to work effectively in these settings. And that's why our Facilitators are experts in creating safe, joyful spaces where children and young people feel welcome.
+Working in crisis, demands people with high levels of sensitivity and awareness to work effectively. That's why our Facilitators are experts in creating safe, joyful spaces where children and young people feel welcome.
 
-We have a team of 21 Facilitators, and counting.
+We have a team of 21 Facilitators&hellip; and counting.
 
 Find out more about how to become a Facilitator and [work with us](https://clownswithoutborders.org.uk/work-with-us/).
 

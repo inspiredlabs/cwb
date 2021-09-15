@@ -86,7 +86,7 @@ Defining metadata with consistency and plurality should benefit us from percepta
   "url": "https://cwb.org.uk"
 }
 ```
-- `FAIR` (Findable, accessible, Interoperable, Reusable) [best practices](https://maastrichtu-ids.github.io/best-practices/docs/fair-data):
+- `FAIR` (Findable, accessible, Interoperable, Reusable) [best practices](https://maastrichtu-ids.github.io/best-practices/docs/fair-data).
 - Consider our `cross platform` structure of taglines:
   - `site.json` as described on this: [Website](https://cwb.org.uk/): `Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.`
   - `organization.json` described with a PostalAddress as: [Organization](https://cwb.org.uk/): `Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.`
@@ -94,6 +94,7 @@ Defining metadata with consistency and plurality should benefit us from percepta
   - channel/UCWDuY-wPQO3PL8HWTSPs86Q = [Youtube](https://www.youtube.com/channel/UCWDuY-wPQO3PL8HWTSPs86Q/about): `Sharing laughter with children in Humanitarian Disaster`
   - [Instagram](https://www.instagram.com/clownswithoutbordersuk/): ```Providing emotional relief to children and their communities in crisis through the power of laughter and play. ```
   - [facebook](https://www.facebook.com/clownswithoutborders): Image caption: `Joy Makes A Difference` && `multiple cross-posts`.
+  - Social Proof page on [Just Giving](https://justgiving.com/cwb-uk): `We use joy, play and laughter to support & empower children in Disasters` && `Our mission is to alleviate the suffering of children in humanitarian disasters by sharing laughter and play when they need it the most. Working with professional artists we specifically create time for children to reconnect with the very things that make them human like laughter, hope and wonder.`
   - GOV.UK: [Charity number: 1156987](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5043150/charity-overview):
 
 ```

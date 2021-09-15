@@ -36,6 +36,7 @@
 import LDTag from '$lib/LDTag.svelte';
 import { websiteSchema, orgSchema } from '$lib/json-ld';
 
+import ZahraText from './news/ZahraText.svelte'
 import Image from "$lib/Image.svelte"
 export let news
 </script>
@@ -46,6 +47,7 @@ export let news
 	<LDTag schema={orgSchema} />
 </svelte:head-->
 
+<ZahraText/>
 <section class="flex flex-column justify-center items-center charcoal">
 
 

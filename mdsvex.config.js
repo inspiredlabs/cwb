@@ -1,4 +1,5 @@
 //import toc from 'rehype-toc'
+import relativeImages from 'mdsvex-relative-images';
 import rehypeSlug from "rehype-slug"
 import addClasses from "rehype-add-classes" //https://github.com/martypdx/rehype-add-classes
 
@@ -16,7 +17,7 @@ const config = {
     "dashes": "oldschool"
   },
 
-  "remarkPlugins": [],
+  "remarkPlugins": [relativeImages],
   "rehypePlugins": [
     //toc,
     rehypeSlug,
@@ -25,7 +26,7 @@ const config = {
       "ul, ol": "pl0",
       //"ul, ol": "pl4", // under paragraph
       "a": "underline b link o-80 glow inherit hover-o-100 underline-hover transition",
-      "hr": "ba bw1 mb0 inherit o-10",
+      "hr": "ba bw2 bt mb0 inherit o-10",
       "blockquote": "db georgia ml3 mr0 i tr",
       "blockquote p": "fw5 f3 o-80",
       "blockquote a": "pt2 b system f7 tracked ttu fs-normal no-underline db", //sans-serif

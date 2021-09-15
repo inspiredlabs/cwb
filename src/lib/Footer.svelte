@@ -22,8 +22,7 @@ import Outro from '$lib/Outro.svelte';
 
 <Outro />
 
-<hr class="fl cf ba w-100 o-50 mv4 ba"/><!-- style="border:2px solid white" -->
-
+<hr class="fl cf w-100 bt mb0 inherit o-50 mv4"/><!-- style="border:2px solid white" -->
   <div class="w-100 cf fl">
     <div class="w2 h2">
       <Sting />
@@ -80,7 +79,7 @@ import Outro from '$lib/Outro.svelte';
         {/each}
       </ul>
       <!-- Courses -->
-      <hr class="o-50 mv4 ba"/><!-- style="border:2px solid white" -->
+      <hr class="bt mb0 inherit o-50 mv4"/><!-- style="border:2px solid white" -->
       <!-- Regulation -->
       <ul class="list pl0">
         {#each routesRegulation as regulation}

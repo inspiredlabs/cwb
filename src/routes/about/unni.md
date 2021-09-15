@@ -7,7 +7,7 @@ tags:
 images: ["https://cwb.org.uk/images/unni.jpg"]
 layout: person
 
-jobTitle: Trustee
+jobTitle: Senior Trustee
 name: Dr. Unni Krishnan
 telephone: 310204227777
 url: https://cwb.org.uk/about/unni

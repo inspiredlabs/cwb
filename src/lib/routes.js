@@ -12,8 +12,8 @@ export const routes = [
 export const routesAbout = [
 	//{ href: '/', header: 'pl0', title: 'Home' },
 	{ href: '/about', header: 'b', title: 'About' },
-		{ href: '/about#our-impact', header: 'b', title: 'Our Impact' },
-		{ href: '/about#recognition', header: 'pl0', title: 'Awards \& Recognition' },
+		// { href: '/about#our-impact', header: 'b', title: 'Our Impact' },
+		{ href: '/about#awards', header: 'pl0', title: 'Awards' },// \& Recognition
 		//{ href: '/news', header: 'pl0', title: 'News' },
 		{ href: '/about#who-we-are', header: 'b', title: 'Who We Are' },
 		{ href: '/about#core-team', header: 'pl0', title: 'Core Team' },
@@ -22,16 +22,15 @@ export const routesAbout = [
 ];
 
 export const routesSupport = [
-  { href: '/support-us', header: 'b', title: 'Support Us' },
-		{ href: '/support-us#work-with-us', header: 'b', title: 'Work with Us' },
+	{ href: '/support-us', header: 'b', title: 'Support Us' },
 		{ href: '/support-us#partners', header: 'pl0', title: 'Partners' },
+	{ href: '/support-us#work-with-us', header: 'b', title: 'Work with Us' },
 		{ href: '/support-us#volunteers', header: 'pl0', title: 'Volunteers' },
 		{ href: '/support-us#facilitators', header: 'pl0', title: 'Facilitators' },
-
-		{ href: '/support-us#fundraising', header: 'b', title: 'Fundraising' },
-  	{ href: '/support-us#where-your-money-goes', header: 'pl0', title: 'Where Your Money Goes' },
+	{ href: '/support-us#fundraising', header: 'b', title: 'Fundraising' },
+		{ href: '/support-us#where-your-money-goes', header: 'pl0', title: 'Where Your Money Goes' },
   	{ href: '/support-us#donate', header: 'pl0', title: 'Donate' },
-  	{ href: '/support-us#social-media', header: 'b', title: 'Social Media' },
+	{ href: '/support-us#social-media', header: 'b', title: 'Social Media' },
   	{ href: '/support-us#subscribe', header: 'pl0', title: 'Subscribe to our newsfeed' }, // Blog, microblog, news
 ];
 
@@ -44,8 +43,8 @@ export const routesCourses = [
 ];
 
 export const routesRegulation = [
-  { href: '/about#regulation', header: 'b', title: 'Regulation' },
-    { href: '/about#charity-regulation', header: 'pl0', title: 'Charity Regulation' },
-    { href: '/about#code-of-ethics', header: 'pl0', title: 'Code of Ethics' },
-    { href: '/about#privacy-policy', header: 'pl0', title: 'Privacy Policy' },
+  { href: '/regulation', header: 'b', title: 'Regulation' },
+    { href: '/regulation#charity-regulation', header: 'pl0', title: 'Charity Regulation' },
+    { href: '/regulation#code-of-ethics', header: 'pl0', title: 'Code of Ethics' },
+    { href: '/regulation#privacy-policy', header: 'pl0', title: 'Privacy Policy' },
 ];

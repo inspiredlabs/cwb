@@ -102,8 +102,6 @@ let microdata = {
 
 <Intro />
 
-<!-- <OurImpact /> -->
-
 <!-- Courses -->
 <Improve />
 <WellbeingProtection />
@@ -113,8 +111,8 @@ let microdata = {
 
 <!-- BANNER
 Upload your study docs or become a
-																									[ CTA ]
 Course Hero member to access this document
+																				[ CTA ]
 -->
 
 
