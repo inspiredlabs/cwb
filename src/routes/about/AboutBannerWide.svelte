@@ -25,10 +25,8 @@
 <!--div class="avenir vh-100 vh-75-ns vh-75-m cover bg-center b-lazy b-loaded" style="background-image: url({bg});">
 	<div class="vh-100 vh-75-ns vh-75-m dt w-100">
 	<div class="dtc tc white ph3 ph4-l v-btm text-shadow measure-narrow mb3">
-
 		<h1 class="en f2 f3-ns f1-l mb0 lh-title" lang="en" style="display: block;">Organic&nbsp;treats from the&nbsp;heart of&nbsp;Italy</h1>
 		<h2 class="en f3 f4-ns mt3" lang="en" style="display: block;">Marzò&nbsp;– a fresco of friends, family and chance&nbsp;encounters.</h2>
-
 	</div>
 	</div>
 </div-->
@@ -81,8 +79,7 @@
 			center 38% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
-
-	@media (min-resolution: 192dpi) {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 		.stroke-text {
 			/*
 			from: https://css-tricks.com/masking-vs-clipping-use/
@@ -90,42 +87,39 @@
 			background: url(https://img-fotki.yandex.ru/get/5607/5091629.6b/0_612e6_b9039c0d_M.jpg) center center/cover no-repeat;
 			-webkit-text-fill-color: transparent;
 			-webkit-background-clip: text;*/
-
 			-webkit-text-fill-color: transparent;
 			-webkit-background-clip: text;
 			-webkit-text-stroke: 1px white;
 			/*https://caniuse.com/?search=-webkit-background-clip*/
-
 			/*
 			color: white;
 			mix-blend-mode: overlay;
 			opacity: 1;
 			*//*https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode*/
-
 			/*
 			text-shadow:
 				-0.01em -0.01em 0 white,
 				0.01em -0.01em 0 white,
 					-0.01em 0.01em 0 white,
 					0.01em 0.01em 0 white; */
-
 					/* from: https://css-tricks.com/adding-stroke-to-web-text/*/
 		}
 	}
-
 	/* from: https://css-tricks.com/animating-number-counters/#the-new-school-css-solution*/
 	.number {
 		transform: scale(80%);
 		transform-origin: bottom left;
 		will-change: opacity, transform;
-
 	}
-	.number::before{
+
+	.number::before {
 		content: counter(num);
 	}
 
 
-	/*state switching: https://css-tricks.com/dry-state-switching-with-css-variables-fallbacks-and-invalid-values/ */
+
+
+	/* FALLBACK state switching: https://css-tricks.com/dry-state-switching-with-css-variables-fallbacks-and-invalid-values/ */
 	/*
 	.sibling-only {
 	counter-increment: delay-count;
@@ -193,4 +187,36 @@
 	}
 	/***************************************/
 
+/** Chrominum */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+	.number::before {
+		content: counter(num);
+	}
+}
+
+/** Mozilla Firefox */
+@supports (-moz-appearance:meterbar) and (background-blend-mode:difference,normal) {
+	.one.number::before {
+		content: counter(num, '2014')
+	}
+	.two.number::before {
+		content: counter(num, '55,000')
+	}
+	.three.number::before {
+		content: counter(num, '14')
+	}
+}
+
+/** Safari */
+@media not all and (min-resolution: 0.001dpcm) {
+	.one.number::before {
+		content: '2014';
+	}
+	.two.number::before {
+		content: '55,000';
+	}
+	.three.number::before {
+		content: '14';
+	}
+}
 </style>
