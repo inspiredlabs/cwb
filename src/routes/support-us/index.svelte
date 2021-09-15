@@ -5,7 +5,7 @@
 	export const prerender = true;
 </script>
 <script>
-	import ExperienceBannerWide from './ExperienceBannerWide.svelte';
+	import OurApproachBannerWide from './OurApproachBannerWide.svelte';
 
 	import Partners from './partners.md'
 	import Partnerships from './Partnerships.svelte'
@@ -34,7 +34,7 @@
 
 <!-- https://ifesworld.org/en/give/ -->
 
-<ExperienceBannerWide />
+<OurApproachBannerWide />
 
 <Partners/>
 	<Partnerships/>

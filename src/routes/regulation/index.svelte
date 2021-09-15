@@ -5,7 +5,7 @@
 	export const prerender = true;
 </script>
 <script>
-	import ApproachBannerWide from './ApproachBannerWide.svelte';
+	import ExperienceBannerWide from './ExperienceBannerWide.svelte';
 	import CharityRegulation from './reg.md'
 	import CodeOfEthics from './ethics.md'
 	import PrivacyPolicy from './privacy.md'
@@ -21,7 +21,7 @@
 
 <!-- https://ifesworld.org/en/give/ -->
 
-<ApproachBannerWide />
+<ExperienceBannerWide />
 
 <CharityRegulation/>
 <CodeOfEthics/>

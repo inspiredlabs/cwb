@@ -52,6 +52,7 @@
 <style>
 	/* 'https://cwb.org.uk/images'; */
 .hero {
+	/* Animated BG: https://codepen.io/kachibito/pen/LMaGBg/*/
 	background: linear-gradient(
 				180deg,
 				rgba(0, 0, 0, 0.3),
@@ -64,23 +65,61 @@
 			center 92% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
-
-	@media (min-resolution: 192dpi) {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 		.stroke-text {
+			/*
+			from: https://css-tricks.com/masking-vs-clipping-use/
+				- and: https://www.webfx.com/blog/web-design/background-css-shorthand/
+			background: url(https://img-fotki.yandex.ru/get/5607/5091629.6b/0_612e6_b9039c0d_M.jpg) center center/cover no-repeat;
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;*/
 			-webkit-text-fill-color: transparent;
 			-webkit-background-clip: text;
 			-webkit-text-stroke: 1px white;
+			/*https://caniuse.com/?search=-webkit-background-clip*/
+			/*
+			color: white;
+			mix-blend-mode: overlay;
+			opacity: 1;
+			*//*https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode*/
+			/*
+			text-shadow:
+				-0.01em -0.01em 0 white,
+				0.01em -0.01em 0 white,
+					-0.01em 0.01em 0 white,
+					0.01em 0.01em 0 white; */
+					/* from: https://css-tricks.com/adding-stroke-to-web-text/*/
 		}
 	}
+	/* FALLBACK state switching: https://css-tricks.com/dry-state-switching-with-css-variables-fallbacks-and-invalid-values/ */
+	/*
+	.sibling-only {
+	counter-increment: delay-count;
+	}
+	.sibling-only::after {
+		content: counter(delay-count);
+		color: red!important;
+	}
+	*/
+
 	.number {
 		transform: scale(80%);
 		transform-origin: bottom left;
 		will-change: opacity, transform;
+	}
 
+	/* FALLBACK
+	.one.number::before {
+		content: counter(num, '21')
 	}
-	.number::before{
-		content: counter(num);
+	.two.number::before {
+		content: counter(num, '3')
 	}
+	.three.number::before {
+		content: counter(num, '30')
+	}
+	*/
+
 	/***************************************/
 	@property --num-one {
 		syntax: "<integer>";
@@ -108,14 +147,14 @@
 	/* .two::after { content: ',000' } */
 	.two {
 		transition:
-			--num-two 2s 2s ease,
-			transform 2s 2s ease,
-			opacity 2s 2s ease;
+			--num-two 2s ease,
+			transform 2s ease,
+			opacity 2s ease;
 		counter-set: num var(--num-two);
 		--num-two: 3; /* <div class="number two"></div> */
 		transform: scale(100%);
 		opacity:1;
-
+		transition-delay: 1s;
 			/* transform-style: preserve-3d; */
 	}
 	/***************************************/
@@ -126,15 +165,38 @@
 	}
 	.three {
 		transition:
-			--num-three 2s 4s ease,
-			transform 2s 4s ease,
-			opacity 2s 4s ease;
+			--num-three 2s ease,
+			transform 2s ease,
+			opacity 2s ease;
 		counter-set: num var(--num-three);
 		--num-three: 30; /* <div class="number three"></div> */
 		transform: scale(100%);
 		opacity:1;
+		transition-delay: 3s;
 			/* transform-style: preserve-3d; */
 	}
 	/***************************************/
+
+/* from: https://css-tricks.com/animating-number-counters/#the-new-school-css-solution*/
+
+/** Chrominum */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+	.number::before {
+		content: counter(num);
+	}
+}
+
+/** Safari */
+@media not all and (min-resolution: 0.001dpcm) {
+	.one.number::before {
+		content: '21'
+	}
+	.two.number::before {
+		content:'3'
+	}
+	.three.number::before {
+		content: '30'
+	}
+}
 
 </style>
