@@ -77,7 +77,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('./images/playing-row-outside.jpg')
+			url('https://cwb.org.uk/images/playing-row-outside.jpg')
 			center 38% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/

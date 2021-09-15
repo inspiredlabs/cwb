@@ -55,7 +55,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('./images/make-wash-fun-rohingya.jpg')
+			url('https://cwb.org.uk/images/make-wash-fun-rohingya.jpg')
 			center 50% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/

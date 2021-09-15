@@ -60,7 +60,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('./images/children-crowded-watching-a-play-942x1024.jpg')
+			url('https://cwb.org.uk/images/children-crowded-watching-a-play-942x1024.jpg')
 			center 92% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
