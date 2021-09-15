@@ -61,7 +61,7 @@
 		out:blur="{{ duration: 1333, delay: 1111 }}"
 	>
     <img style="height: 230px!important;"
-				 src="https://images.unsplash.com/photo-1621508654686-809f23efdabc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTcwMjcyOQ&ixlib=rb-1.2.1&q=85&w=800" alt="Picture of a beach" />
+				 src="https://cwb.org.uk/images/boy-climbing-on-the-back-of-a-clown-1024x683.jpg" alt="Picture of a beach" />
 	</div>
 {/if}
 </div><!-- /pink -->
@@ -184,7 +184,7 @@ style="height: 250px; background: green;"
 		out:blur="{{ duration: 1333, delay: 1111 }}"
 	>
     <img style="min-height: 230px!important;max-height: 230px!important;"
-				 src="https://images.unsplash.com/photo-1621338878752-1d2e42f0d0e4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTcwMzY3MA&ixlib=rb-1.2.1&q=85&w=800" alt="Moutain covered with snow" />
+				 src="https://cwb.org.uk/images/man-with-his-arms-open-to-a-crowd-1024x768.jpg" alt="Moutain covered with snow" />
   </div>
 {/if}
 </div>
