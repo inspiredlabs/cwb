@@ -61,7 +61,7 @@
 		out:blur="{{ duration: 1333, delay: 1111 }}"
 	>
     <img style="height: 230px!important;"
-				 src="https://cwb.org.uk/images/boy-climbing-on-the-back-of-a-clown-1024x683.jpg" alt="Picture of a beach" />
+				 src="https://cwb.org.uk/images/boy-climbing-on-the-back-of-a-clown-1024x683.jpg" alt="Playing with a clown" />
 	</div>
 {/if}
 </div><!-- /pink -->
@@ -184,7 +184,7 @@ style="height: 250px; background: green;"
 		out:blur="{{ duration: 1333, delay: 1111 }}"
 	>
     <img style="min-height: 230px!important;max-height: 230px!important;"
-				 src="https://cwb.org.uk/images/man-with-his-arms-open-to-a-crowd-1024x768.jpg" alt="Moutain covered with snow" />
+				 src="https://cwb.org.uk/images/man-with-his-arms-open-to-a-crowd-1024x768.jpg" alt="Playing with a clown" />
   </div>
 {/if}
 </div>

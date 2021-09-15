@@ -13,26 +13,26 @@
 		<div class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 			<div class="dt-ns dt--fixed-ns">
 				<div class="dtc-ns tc pa3"><!--bg-black-10-->
-					<img src="./images/partner-unicef-logo.png" alt="unicef">
+					<img src="https://cwb.org.uk/images/partner-unicef-logo.png" alt="unicef">
 				</div>
 				<div class="dtc-ns tc pa3"><!--bg-black-05-->
-					<img src="./images/partner-unhcr-logo.png" alt="unhcr">
+					<img src="https://cwb.org.uk/images/partner-unhcr-logo.png" alt="unhcr">
 				</div>
 				<div class="dtc-ns tc pa3"><!--bg-black-10-->
-					<img src="./images/oxfam.svg" alt="oxfam">
+					<img src="https://cwb.org.uk/images/oxfam.svg" alt="oxfam">
 				</div>
 			</div>
 		</div>
 		<div class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 			<div class="dt-ns dt--fixed-ns">
 				<div class="dtc-ns tc pa3"><!--bg-black-10-->
-					<img src="./images/plan-international.svg" alt="plan international">
+					<img src="https://cwb.org.uk/images/plan-international.svg" alt="plan international">
 				</div>
 				<div class="dtc-ns tc pa3"><!--bg-black-05-->
-					<img src="./images/save-the-children.svg" alt="save the children">
+					<img src="https://cwb.org.uk/images/save-the-children.svg" alt="save the children">
 				</div>
 				<div class="dtc-ns tc pa3"><!--bg-black-10-->
-					<img src="./images/care.svg" alt="care"><!-- https://www.care.org/get-involved/ -->
+					<img src="https://cwb.org.uk/images/care.svg" alt="care"><!-- https://www.care.org/get-involved/ -->
 				</div>
 			</div>
 		</div>
