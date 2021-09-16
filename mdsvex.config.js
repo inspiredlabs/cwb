@@ -26,6 +26,7 @@ const config = {
       "ul, ol": "pl0",
       //"ul, ol": "pl4", // under paragraph
       "a": "underline b link o-80 glow inherit hover-o-100 underline-hover transition",
+      "b, strong": "fw6",
       "hr": "bt inherit o-50 mv4",
       "blockquote": "db georgia ml3 mr0 i tr",
       "blockquote p": "fw5 f3 o-80",
