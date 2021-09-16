@@ -20,7 +20,7 @@
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2"><strong>21&nbsp;Trained Facilitators</strong> make money go further by working together, remotely.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2"><strong>21&nbsp;Trained Facilitators</strong> make money go further by&nbsp;collaborating remotely.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -28,7 +28,8 @@
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">On only <strong>3 areas of focus:</strong> Wellbeing Protection, Girl's&nbsp;Rights &amp;&nbsp;WASH.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Focusing<!--Concentrating--> on <strong>3&nbsp;key&nbsp;areas:</strong> Wellbeing Protection,
+					Girl's&nbsp;Rights &amp;&nbsp;WASH.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div

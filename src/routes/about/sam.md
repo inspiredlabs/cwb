@@ -24,12 +24,11 @@ Sam set up Clowns Without Borders in 2014, with the goal of reinventing Humanita
 
 <!--### Today-->
 
-Today, that goal has become a reality for many children and young people. Clowns Without Borders operates in over 14 countries, with 20 professional Facilitators, delivering over 30 projects. These focus on Humanitarian Disaster relief, offering respite to over 55,000 participants.
+Today, that goal has become a reality for many children and young people. Clowns Without Borders operates in over 14 countries, with 21 professional Facilitators, delivering over 30 projects. These focus on Humanitarian Disaster relief, offering respite to over 55,000 participants.
 
 But, our impact goes beyond that&hellip; We understand children are incredibly good communicators, with large networks of their own. This means, we empower each participant with tools to repeat what they have learned.
 
 <!--Magic.-->
-
 
 Whilst we share joy and laughter, our work is making a serious <!-- an enoumous --> difference. Our simple and effective approach is acknowledged as an important step in _supporting behaviour change_, a key Humanitarian Objective for [Our Partners](/support-us#partners).
 

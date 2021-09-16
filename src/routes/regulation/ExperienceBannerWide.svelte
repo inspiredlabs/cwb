@@ -41,7 +41,7 @@
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2"><strong>Founded in 2014</strong> by&nbsp;Sam Holdsworth as a&nbsp;UK reg&shy;istered&nbsp;chairty.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has over <strong>20 years of experience</strong> leading social&nbsp;change.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -49,7 +49,7 @@
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sharing laughter and play with over <strong>55,000 children &amp; young&nbsp;people</strong></p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l"></p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -57,7 +57,7 @@
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
 				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">&hellip;across <strong>14 countries</strong> in some of the world's most hostile conditions.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l"></p>
 			</div>
   </div>
 </div>
@@ -75,8 +75,8 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('https://cwb.org.uk/images/playing-row-outside.jpg')
-			center 38% / cover no-repeat;
+			url('https://cwb.org.uk/images/IMG_1914-1024x683.jpg')
+			center 60% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -137,7 +137,7 @@
 	/***************************************/
 	@property --num-one {
 		syntax: "<integer>";
-		initial-value: 2021; /* INITIAL */
+		initial-value: 1; /* INITIAL */
 		inherits: false;
 	}
 	.one {
@@ -146,7 +146,7 @@
 			transform 1s ease,
 			opacity 1s ease;
 		counter-set: num var(--num-one);
-		--num-one: 2014; /* <div class="number one"></div> */
+		--num-one: 20; /* <div class="number one"></div> */
 		transform: scale(100%);
 		opacity:1;
 		transition-delay: 0s;
@@ -165,7 +165,7 @@
 			transform 2s ease,
 			opacity 2s ease;
 		counter-set: num var(--num-two);
-		--num-two: 55000; /* <div class="number two"></div> */
+		--num-two: 999; /* <div class="number two"></div> */
 		transform: scale(100%);
 		opacity:1;
 		transition-delay: 1s;
@@ -183,7 +183,7 @@
 			transform 2s ease,
 			opacity 2s ease;
 		counter-set: num var(--num-three);
-		--num-three: 14; /* <div class="number three"></div> */
+		--num-three: 999; /* <div class="number three"></div> */
 		transform: scale(100%);
 		opacity:1;
 		transition-delay: 3s;
@@ -203,13 +203,13 @@
 /** Safari */
 @media not all and (min-resolution: 0.001dpcm) {
 	.one.number::before {
-		content: '2014'
+		content: '20'
 	}
 	.two.number::before {
-		content:'55,000'
+		content:'999'
 	}
 	.three.number::before {
-		content: '14'
+		content: '999'
 	}
 }
 
