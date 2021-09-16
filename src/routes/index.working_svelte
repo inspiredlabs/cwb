@@ -27,7 +27,7 @@
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+		try editing <strong class="fw6">src/routes/index.svelte</strong>
 	</h2>
 
 

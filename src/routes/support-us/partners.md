@@ -27,7 +27,7 @@ This helps amplify messaging and
 We are looking for Partners to provide substantial funds to assist Children&nbsp;in&nbsp;Crisis. Your investment can help amplify our hard&nbsp;work.
 </strong-->
 
-<strong>
+<strong class="fw6">
   We need Partners to provide substantial funds for us to&nbsp;continue.
 </strong>
 

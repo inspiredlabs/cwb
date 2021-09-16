@@ -41,7 +41,7 @@
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has<br><strong>20 years of experience </strong> leading social&nbsp;change.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has<br><strong class="fw6">20 years of experience </strong> leading social&nbsp;change.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -50,7 +50,7 @@
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
 				<!-- <p class="mt0 f2 fw2 f2-ns f3-m f2-l">A UNESCO consultant and CWBi, Board Member influential across 40 countries.</p> -->
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Board Member for CWBi, influential in <strong>40+ countries</strong> and a UNESCO consultant.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Board Member for CWBi, influential in <strong class="fw6">40+ countries</strong> and a UNESCO consultant.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -58,7 +58,7 @@
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
 				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">&hellip; and recently <strong>Won 2 vital contribution awards</strong> for Humanitarian Aid Delivery.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">&hellip; and recently <strong class="fw6">Won 2 vital contribution awards</strong> for Humanitarian Aid Delivery.</p>
 			</div>
   </div>
 </div>

@@ -30,7 +30,7 @@
 
 	let zahraMsg1 = 'Please can you help with the lesson plan?';
 	let annaMsg1 = 'Ok, thank you Zahra!<br> 😚🤜🏽💥🤛😋 We will send you something later today!';
-	let annaMsg2 = '<strong>Rain On The Mountain – Body Parts</strong><br>🔴 Play Rain On The Mountain<br>🔴 Try saying it in different ways e.g. fast,slow<br>🔴 Ask them to touch different colours e.g. touch something pink, touch something orange<br>🔴 Change instructions depending on what you want to teach<br>';
+	let annaMsg2 = '<strong class="fw6">Rain On The Mountain – Body Parts</strong><br>🔴 Play Rain On The Mountain<br>🔴 Try saying it in different ways e.g. fast,slow<br>🔴 Ask them to touch different colours e.g. touch something pink, touch something orange<br>🔴 Change instructions depending on what you want to teach<br>';
 	let annaMsg3 = '🔴 For example, if you want to practice numbers ask them to jump ten times or touch three green things<br>🔴 If you want to practice body parts, you can ask them to touch their nose or touch their ears for example<br>🔴 That way you will see who knows the names of their body parts!';
 	let annaMsg4 = '🔴 We like to celebrate mistakes! So when somebody touches the wrong body part, have a funny way to celebrate them!<br>🔴 See the following video/s';
 	let zahraMsg2 = 'Hello<br>We did this activity today<br>And the kids loved it<br>And they want us to do it again. We did not have colored items, but they touched their own clothes<br>It was amazing 😍 😍<br>Thank you';

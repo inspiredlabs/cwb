@@ -21,7 +21,7 @@
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">
-					<strong>40,000 refugees</strong>
+					<strong class="fw6">40,000 refugees</strong>
 					live in<br>1&thinsp;sq.&nbsp;Km. heightening risk of&nbsp;disease outbreak.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
@@ -30,7 +30,7 @@
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">We trained <strong>1,603 children</strong> as leaders in handwashing awareness across camps.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">We trained <strong class="fw6">1,603 children</strong> as leaders in handwashing awareness across camps.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -38,7 +38,7 @@
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
 				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">&times;</div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">They shared key ideas with <strong>10 other people</strong> multiplying hygiene promotion for all.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">They shared key ideas with <strong class="fw6">10 other people</strong> multiplying hygiene promotion for all.</p>
 			</div>
   </div>
 </div>

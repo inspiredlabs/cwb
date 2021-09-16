@@ -41,13 +41,13 @@
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"><sup class="tracked">st</sup></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">We are reinventing<br> Humanitarian Aid Delivery in a <strong>21st Century</strong>&nbsp;context.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">We are reinventing<br> Humanitarian Aid Delivery in a <strong class="fw6">21st Century</strong>&nbsp;context.</p>
 
 				<!--
 					<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2 s-Ui1KreRYT4Qz"><strong class="s-Ui1KreRYT4Qz">Founded in 2014</strong> as a&nbsp;UK reg­istered&nbsp;chairty to work in a decentralised manner.</p>
 
-					<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has over <strong>20 years of experience</strong> leading social&nbsp;change.</p>
-					<p class="mt0 f2 fw2 f2-ns f3-m f2-l"><strong>5 major Partnerships</strong> that support behavior change across XXXX communities.</p>
+					<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has over <strong class="fw6">20 years of experience</strong> leading social&nbsp;change.</p>
+					<p class="mt0 f2 fw2 f2-ns f3-m f2-l"><strong class="fw6">5 major Partnerships</strong> that support behavior change across XXXX communities.</p>
 				-->
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
@@ -56,7 +56,7 @@
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">s</div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Empowering <strong>1000s of children</strong> with valuable lifeskills, that truly&nbsp;scale&hellip;</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Empowering <strong class="fw6">1000s of children</strong> with valuable lifeskills, that truly&nbsp;scale&hellip;</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -64,7 +64,7 @@
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
 				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Using decentralised work practices on behalf of the <strong>5&nbsp;largest global&nbsp;NGO.</strong></p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Using decentralised work practices on behalf of the <strong class="fw6">5&nbsp;largest global&nbsp;NGO.</strong></p>
 			</div>
   </div>
 </div>
