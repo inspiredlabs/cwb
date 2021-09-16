@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="pv4 f5 mb6">
+<section class="cf pv4 f5 mb4">
   <div class="fn fl-l w-50-l pr4-l"><!-- Col1 -->
     <!-- --TODO: Courage, Care, Capacity Building, Courses -->
     <h3 class="f4">About&nbsp;Us<!-- Clowns Without&nbsp;Bordersf&hellip; --></h3>

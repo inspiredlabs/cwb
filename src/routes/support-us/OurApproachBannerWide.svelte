@@ -36,8 +36,8 @@
 				use:viewport
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
-				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Delivering <strong>30&nbsp;projects</strong> more effectively than our partners alone.</p>
+				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Delivering <strong>30+&nbsp;projects</strong> more effectively than our partners alone.</p>
 				<!-- Because our <b>21&nbsp;Facilitators</b> -->
 			</div>
   </div>

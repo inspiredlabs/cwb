@@ -57,7 +57,7 @@
 			)
 			0 0 / 100% no-repeat,
 			url('https://cwb.org.uk/images/make-wash-fun-rohingya.jpg')
-			center 38% / cover no-repeat;
+			center 50% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {

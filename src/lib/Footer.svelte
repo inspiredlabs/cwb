@@ -22,7 +22,7 @@ import Outro from '$lib/Outro.svelte';
 
 <Outro />
 
-<hr class="fl cf w-100 bt mb0 inherit o-50 mv4"/><!-- style="border:2px solid white" -->
+<hr class="bt inherit o-50 mv4"/><!-- fl cf w-100 bt mb0 inherit o-50 mv4 -->
   <div class="w-100 cf fl">
     <div class="w2 h2">
       <Sting />

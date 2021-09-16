@@ -41,15 +41,16 @@
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
 				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has over <strong>20 years of experience</strong> leading social&nbsp;change.</p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has<br><strong>20 years of experience </strong> leading social&nbsp;change.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
 				use:viewport
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
-				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l"></p>
+				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
+				<!-- <p class="mt0 f2 fw2 f2-ns f3-m f2-l">A UNESCO consultant and CWBi, Board Member influential across 40 countries.</p> -->
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Board Member for CWBi, influential in <strong>40+ countries</strong> and a UNESCO consultant.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div
@@ -57,7 +58,7 @@
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
 				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l"></p>
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">&hellip; and recently <strong>Won 2 vital contribution awards</strong> for Humanitarian Aid Delivery.</p>
 			</div>
   </div>
 </div>
@@ -165,7 +166,7 @@
 			transform 2s ease,
 			opacity 2s ease;
 		counter-set: num var(--num-two);
-		--num-two: 999; /* <div class="number two"></div> */
+		--num-two: 40; /* <div class="number two"></div> */
 		transform: scale(100%);
 		opacity:1;
 		transition-delay: 1s;
@@ -174,7 +175,7 @@
 	/***************************************/
 	@property --num-three {
 		syntax: "<integer>";
-		initial-value: 1; /* INITIAL */
+		initial-value: 0; /* INITIAL */
 		inherits: false;
 	}
 	.three {
@@ -183,7 +184,7 @@
 			transform 2s ease,
 			opacity 2s ease;
 		counter-set: num var(--num-three);
-		--num-three: 999; /* <div class="number three"></div> */
+		--num-three: 2; /* <div class="number three"></div> */
 		transform: scale(100%);
 		opacity:1;
 		transition-delay: 3s;
@@ -206,10 +207,10 @@
 		content: '20'
 	}
 	.two.number::before {
-		content:'999'
+		content:'40'
 	}
 	.three.number::before {
-		content: '999'
+		content: '2'
 	}
 }
 
