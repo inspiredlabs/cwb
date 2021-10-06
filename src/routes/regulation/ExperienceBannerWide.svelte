@@ -5,10 +5,6 @@
 	export const prerender = true;
 </script>
 
-<script>
-	import viewport from '$lib/useViewportAction';
-	let one, two, three;
-</script>
 
 <!-- <aside class="cf w-100 pv3 f4 f5-l highlight bg-gold">
 	<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l bg-green">
@@ -31,9 +27,29 @@
 	</div>
 </div-->
 
+<script>
+	import Sting from '$lib/header/Sting.svelte';
+	import viewport from '$lib/useViewportAction';
+	let one, two, three;
+</script>
+
 <aside class="dt w-100 vh-100 vh-75-ns vh-75-m bg-center hero">
-  <div class="dtc v-mid mw8 center ph3-ns white pt0 pt2-ns pt5-m pt6-l">
-  <div class="cf ph2-ns">
+
+  <div class="dtc v-mid mw8 center ph3-ns white pt0 ">
+
+		<section class="cf w-100 f4 f5-l highlight"><!-- pv3  -->
+			<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
+				<div class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
+
+					<div class="w3 h3">
+						<Sting />
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+  <div class="cf ph2-ns pt2-ns pt5-m pt6-l">
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 ">
 			<!-- hover-bg-charcoal transition -->
 			<div
@@ -50,7 +66,8 @@
 				on:exitViewport={() => two = false }
 				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
 				<!-- <p class="mt0 f2 fw2 f2-ns f3-m f2-l">A UNESCO consultant and CWBi, Board Member influential across 40 countries.</p> -->
-				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Board Member for CWBi, influential in <strong class="fw6">40+ countries</strong> and a UNESCO consultant.</p>
+
+				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Board Member for CWBi, influential in <strong class="fw6">40&thinsp;countries</strong> as a UNESCO consultant.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
 			<div

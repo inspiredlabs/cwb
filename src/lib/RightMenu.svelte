@@ -3,7 +3,8 @@
   import Sting from '$lib/header/Sting.svelte';
   //import HomeLink from '$lib/header/HomeLink.svelte';
   import {routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
-import { xlink_attr } from 'svelte/internal';
+
+  import { xlink_attr } from 'svelte/internal';
 
 	let user = { showMenu: false };
 
@@ -105,13 +106,17 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
   class:toggle={user.showMenu}
   class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-2 bl b--black bg-dark-gray touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
 >
+
+<!--
 <div class="f6 f7-ns f8-m f5-l">
   <div class="w-third mw3">
     <Sting/>
   </div>
-</div>
+</div> -->
+
 <!---- ABOUT  ---->
 <ul class="list pl0">
+
   {#each routesAbout as about}
     <!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping -->
     <li class={about.header}>
