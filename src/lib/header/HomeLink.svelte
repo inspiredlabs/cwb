@@ -1,11 +1,13 @@
 <script>
 
 	import Typewriter from "svelte-typewriter" //https://github.com/henriquehbr/svelte-typewriter
-	import logo from '$lib/images/cwb.svg';
+	// import logo from '$lib/images/cwb.svg';
 	let alt = 'CWB.ORG.UK Logo';
-	function myFun() {
-		alert('Ciao Man')
-	}
+
+	// function myFun() {
+	// 	alert('Ciao Man')
+	// }
+
 	/*export let f1, f2, f3, f4, f5, f6, f7 = false;
 		class:f1={f1}
 	class:f2={f2}
@@ -16,8 +18,6 @@
 	class:f7={f7}
 	*/
 </script>
-
-
 
 
 <a href="/" class="link no-underline">

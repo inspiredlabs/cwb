@@ -188,7 +188,7 @@ Keyword verification (don't invent, check what people actually search for): [her
 <!--
 Default `index.html` BACKUP:
 - Title: `Play: humanitarian aid for children in disaster | Clowns Without...` || `Learning Support: humanitarian aid for children in disaster | CWB`
-- Description: `Play offers children and young people the best protection from disaster. Discover how play can deliver better NGO results on programmes you already run.`
+- Description: `Play offers children and young people the best protection from disaster. Discover how we can help deliver better NGO results on programmes you already run.`
 - Keywords:
 ```
 humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH

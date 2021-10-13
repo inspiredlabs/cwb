@@ -73,12 +73,12 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     z-3 fixed pointer mb5
     bottom-0 right-0 fr
     ba bw2 b--black
-    bg-mid-gray;
+    bg-light-gray
     hover-bg-white dark-red
     mr0 ml0 pa2 pt1 pb1 tc
     transition"
   on:click={toggle}>
-  <!-- bg-light-gray -->
+  <!-- bg-mid-gray -->
   <svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="menu">
     <use xlink:href="#icon-menu"></use>
   </svg>
