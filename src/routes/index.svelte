@@ -37,7 +37,7 @@
 //import CloseTrigger from '$lib/CloseTrigger.svelte'; // <CloseTrigger />
 
 
-import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
+//import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
 import Hero from '$lib/Hero.svelte';
 // News (that is the homepage!)
 import Image from "$lib/Image.svelte"
@@ -94,7 +94,7 @@ let microdata = {
   <meta name="author" content="Scott Phillips">
 </svelte:head>
 
-<DecentralisedBannerWide />
+<!-- <DecentralisedBannerWide /> -->
 
 <Intro />
 
