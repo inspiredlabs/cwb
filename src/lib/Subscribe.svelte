@@ -119,8 +119,4 @@ class="{ submitted ? 'ping' : '' }">
   white-space: nowrap;
   width: 1px;
 }
-
-.min-w-100 {
-  min-width: 100%
-}
 </style>
