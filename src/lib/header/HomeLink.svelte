@@ -54,11 +54,11 @@
 </div>
 </a>
 
-<style>
+<!-- <style>
 	.gradient {
 		color: rgba(255,65,54,1);/* #ff4136 from: cssgradient.io */
 		background: linear-gradient(270deg, rgba(255,65,54,1) 50%, rgba(255,255,255,1) 100%);
   -webkit-background-clip: text; /* https://css-tricks.com/snippets/css/gradient-text/ */
   -webkit-text-fill-color: transparent;
 	}
-</style>
+</style> -->
