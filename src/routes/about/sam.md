@@ -20,7 +20,17 @@ url: https://cwb.org.uk/about/sam
 
 <!--### The Vision-->
 
-Sam set up **Clowns Without Borders ** in 2014, with the goal of reinventing Humanitarian Aid delivery to children and young people. Today, that goal has become a reality for thousands of participants and continues to deliver more effective Humanitarian&nbsp;Aid, than our Partners&nbsp;alone.
+Sam set up Clowns Without Borders in 2014, with the goal of reinventing Humanitarian Aid delivery to children and young people.
+
+<!--### Today-->
+
+Today, that goal has become a reality for many children and young people. Clowns Without Borders operates in over 14 countries, with 21 professional Facilitators, delivering over 30 projects. These focus on Humanitarian Disaster relief, offering respite to over 55,000 participants.
+
+But, our impact goes beyond that&hellip; We understand children are incredibly good communicators, with large networks of their own. This means, we empower each participant with tools to repeat what they have learned.
+
+<!--Magic.-->
+
+Whilst we share joy and laughter, our work is making a serious <!-- an enoumous --> difference. Our simple and effective approach is acknowledged as an important step in _supporting behaviour change_, a key Humanitarian Objective for [Our Partners](/support-us#partners).
 
 <!--Our key thematics:
 WASH
@@ -28,7 +38,7 @@ PSS
 GBV
 Gender & Equality
 
-Our focus on sustainability via capacity building workshops, working with local Partners and artists. Supporting NGO partners to deliver playful, child-centred activities on our key thematics. -->
+Our focus on sustainability via capacity building workshops, working with local Partners and artists. Supporting NGO partners to deliver playful, child-centred activities on our key thematics.-->
 
 ### The Early Years
 

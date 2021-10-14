@@ -8,7 +8,7 @@ layout: article
 
 # Support Us
 
-> &hellip;in reinventing Humanitarian&nbsp;Aid delivery
+> We are reinventing Humanitarian&nbsp;Aid delivery.
 
 <!--
 > With your support, we are reinventing Humanitarian&nbsp;Aid delivery&nbsp;&amp; empowering children with valuable&nbsp;life-skills.
@@ -27,9 +27,11 @@ This helps amplify messaging and
 We are looking for Partners to provide substantial funds to assist Children&nbsp;in&nbsp;Crisis. Your investment can help amplify our hard&nbsp;work.
 </strong-->
 
-<strong class="fw6">We need Partners to provide substantial funds for us to&nbsp;continue.</strong>
+<strong class="fw6">
+  We need Partners to provide substantial funds for us to&nbsp;continue.
+</strong>
 
-We work in areas where we can have the biggest impact. We do this by working in partnership with charities and NGOs who share our values. <!--This means we can assess where there is the most unmet need and bring more joy to the most number of children.-->
+We work in areas where we can have the biggest impact. We do this by working in partnership with other charities who share our values. <!--This means we can assess where there is the most unmet need and bring more joy to the most number of children.-->
 
 Each partnership is different and depends on the needs of the communities we serve. <!--What remains the same is that children’s wellbeing is at the heart of every decision we make.--> If you are interested in working with us, please [Get&nbsp;In&nbsp;Touch](mailto:sam@clownswithoutborders.org.uk).
 
@@ -37,7 +39,7 @@ Each partnership is different and depends on the needs of the communities we ser
 <!-- How are these partners distinguished? -->
 <!-- Should we write a page about the relationship with each one? -->
 
-Our partnerships include UNICEF, UNHCR, Oxfam, Plan International, Save the Children and Care.
+Our partnerships include UNICEF, UNHCR, Oxfam, Plan International and Save the Children.
 
 <!-- ![seeds icon](https://clownswithoutborders.org.uk/wp-content/uploads/2021/04/seeds-icon-1024x1024.png) -->
 

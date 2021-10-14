@@ -9,7 +9,7 @@ layout: article
 
 ---
 
-## Trustees
+# Trustees
 
 **Clowns Without Borders,&nbsp;UK** is run by a small administrative team,
 donating much of their time and expertise for&nbsp;free.

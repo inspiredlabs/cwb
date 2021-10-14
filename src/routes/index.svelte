@@ -65,7 +65,14 @@ We are looking for your valuable support. We are seeking Innovation Funding and 
 // Social Media
 // Subscribe to our blog and get the news
 
+// Courses
 
+// Programme Delivery
+import Improve from './courses/improve-programme-delivery-outcomes-you-already-run.md'
+// Programmes
+import WellbeingProtection from './courses/wellbeing-protection.md'
+import GirlsRights from './courses/girls-rights.md'
+import Wash from './courses/wash.md'
 
 /*
 let microdata = {
@@ -89,7 +96,7 @@ let microdata = {
 
 <svelte:head>
 	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
-	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how we can help deliver better NGO results on programmes you already run.">
+	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how play can deliver better NGO results on programmes you already run.">
 	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
   <meta name="author" content="Scott Phillips">
 </svelte:head>
@@ -97,6 +104,20 @@ let microdata = {
 <DecentralisedBannerWide />
 
 <Intro />
+
+<!-- Courses -->
+<Improve />
+<WellbeingProtection />
+<GirlsRights />
+<Wash />
+
+
+<!-- BANNER
+Upload your study docs or become a
+Course Hero member to access this document
+																				[ CTA ]
+-->
+
 
 <style>/*
 <section class="w-100 flex flex-row-ns flex-column bg-purple white" >

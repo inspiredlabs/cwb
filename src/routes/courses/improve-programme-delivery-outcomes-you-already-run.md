@@ -16,6 +16,14 @@ description: Learn how to improve programme delivery outcomes you already run, i
 
 # Improve programme delivery outcomes you already run
 
+## Programme Delivery
+
+With 20 years of experience, we understand how to improve programme delivery outcomes. Our programmes are informed by Protection, PFA and WASH and formalised as:
+
+- [Wellbeing Protection](#wellbeing-protection-programme)
+- [Girl's Rights](#girls-rights-programme)
+- [WASH](#wash-programme)
+
 ## Our Programme Delivery Strategy
 
 Programme Delivery to engage children and young people is hard. Especially when the material should assist the recovery of children in disaster. Programme work happens where people are vulnerable to discrimination, overcrowding and health issues.

@@ -6,7 +6,7 @@ layout: article
 
 ---
 
-## Facilitators
+# Facilitators
 
 Our Facilitators are anything but clowns. They work in crisis zones, areas of natural disaster,
 prisons and hospitals. They are broadly skilled across education, physical theatre, drama, dance, music, circus and comedy. Our Facilitators are highly skilled professional artists.
@@ -17,7 +17,7 @@ Working in crisis, demands people with high levels of sensitivity and awareness 
 
 We have a team of 21 Facilitators&hellip; and counting.
 
-Find out more about how to become a Facilitator and [work with us](/support-us#work-with-us).
+Find out more about how to become a Facilitator and [work with us](https://clownswithoutborders.org.uk/work-with-us/).
 
 <!--
 Mauw:
