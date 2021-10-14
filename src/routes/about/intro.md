@@ -28,7 +28,6 @@ But, our impact goes beyond that&hellip; We understand children are incredibly g
 
 <!-- Magic. -->
 
-> Whilst we share joy and laughter,<br>our work is making a serious <!-- an enoumous --> difference…
- [&mdash;&nbsp;Samantha Holdsworth, CEO.](https://cwb.org.uk/about#who-we-are)
+> Whilst we share joy and laughter,<br>our work is making a serious <!-- an enoumous --> difference. 
 
 Our simple and effective approach is acknowledged as an important step in _supporting behaviour change_, a key Humanitarian Objective for [Our&nbsp;Partners](/support-us#partners).

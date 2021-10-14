@@ -12,7 +12,9 @@
 	import Corporate from './corporate.md'
 
 	import WorkWithUs from './work-with-us.md'
-	import WaysToHelp from './ways-to-help.md'
+	import Volunteers from './volunteers.md'
+	import Facilitators from './facilitators.md'
+
 	import Fundraising from './fundraising.md'
 	import Philanthropy from './philanthropy.md'
 	import Campaign from './campaign.md'
@@ -25,16 +27,14 @@
 </script>
 
 <svelte:head>
-	<title>Support Us | Clowns Without Borders</title>
+	<title>Support Us, Partnerships &amp; Fundraising | Clowns Without Borders</title>
 	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
-	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how play can deliver better NGO results on programmes you already run.">
+	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how we can help deliver better NGO results on programmes you already run.">
 	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
 	<meta name="author" content="Scott Phillips">
 </svelte:head>
 
 <!-- https://ifesworld.org/en/give/ -->
-
-
 
 <OurApproachBannerWide />
 
@@ -42,7 +42,10 @@
 	<Partnerships/>
 	<Corporate/>
 <WorkWithUs/>
-	<WaysToHelp/>
+	<Volunteers/>
+	<Facilitators/>
+
+
 <Fundraising/>
 	<Gifts/>
 	<Trusts/>

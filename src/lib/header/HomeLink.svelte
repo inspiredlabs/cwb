@@ -1,11 +1,13 @@
 <script>
 
 	import Typewriter from "svelte-typewriter" //https://github.com/henriquehbr/svelte-typewriter
-	import logo from '$lib/images/cwb.svg';
+	// import logo from '$lib/images/cwb.svg';
 	let alt = 'CWB.ORG.UK Logo';
-	function myFun() {
-		alert('Ciao Man')
-	}
+
+	// function myFun() {
+	// 	alert('Ciao Man')
+	// }
+
 	/*export let f1, f2, f3, f4, f5, f6, f7 = false;
 		class:f1={f1}
 	class:f2={f2}
@@ -16,8 +18,6 @@
 	class:f7={f7}
 	*/
 </script>
-
-
 
 
 <a href="/" class="link no-underline">
@@ -53,12 +53,3 @@
   </div>
 </div>
 </a>
-
-<!-- <style>
-	.gradient {
-		color: rgba(255,65,54,1);/* #ff4136 from: cssgradient.io */
-		background: linear-gradient(270deg, rgba(255,65,54,1) 50%, rgba(255,255,255,1) 100%);
-  -webkit-background-clip: text; /* https://css-tricks.com/snippets/css/gradient-text/ */
-  -webkit-text-fill-color: transparent;
-	}
-</style> -->

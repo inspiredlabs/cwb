@@ -14,15 +14,16 @@ description: Play offers children and young people the best protection from disa
 
 ---
 
-# Courses
+## Courses
 
-## Changing the landscape of how we treat&nbsp;children
+<!--
+
+## Changing the landscape of how we treat children&hellip;
 
 By using the single most effective way to support learning, **Clowns Without Borders** can reach more children and young people than any other organisation. We train teams to do the same — because we believe play offers children and young people the best protection from disaster.
 
-By investing in **Clowns Without Borders**, we will be able to carry this practice forward,&nbsp;forever…
+By investing in **Clowns Without Borders**, we'll be able to carry this practice forward,&nbsp;forever…
 
-<!--
 -->
 
 ### Amplify your NGO's message

@@ -1,14 +1,11 @@
 <script>
-import { children } from "svelte/internal";
+// import { children } from "svelte/internal";
 import Sting from '$lib/header/Sting.svelte';
 
 import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
 import { page } from '$app/stores';
 import HomeLink from '$lib/header/HomeLink.svelte';
 import Outro from '$lib/Outro.svelte';
-
-import Social from './Social.svelte';
-import Subscribe from './Subscribe.svelte';
 </script>
 
 
@@ -18,9 +15,9 @@ import Subscribe from './Subscribe.svelte';
 <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
 <div class="pv4 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 
-<h1 style="font-size:2.5vw">
+<header style="font-size:2.5vw">
   <HomeLink/>
-</h1>
+</header>
 
 
 <Outro />
@@ -48,20 +45,6 @@ import Subscribe from './Subscribe.svelte';
         {/each}
       </ul>
       <!---- ABOUT ---->
-      <hr class="dn bt mb0 inherit o-50 mv4 mr5 dn-m db-l"/><!-- style="border:2px solid white" -->
-      <!-- Regulation -->
-      <ul class="list pl0">
-        {#each routesRegulation as regulation}
-          <li class="{regulation.header}">
-            <a
-              class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${regulation.href}`}
-              sveltekit:prefetch href="{regulation.href}"
-            >{regulation.title}</a>
-          </li>
-        {/each}
-      </ul>
-      <!-- Regulation -->
     </div><!-- /Column1 -->
 
 
@@ -96,13 +79,23 @@ import Subscribe from './Subscribe.svelte';
         {/each}
       </ul>
       <!-- Courses -->
-
+      <hr class="bt mb0 inherit o-50 mv4"/><!-- style="border:2px solid white" -->
+      <!-- Regulation -->
+      <ul class="list pl0">
+        {#each routesRegulation as regulation}
+          <li class="{regulation.header}">
+            <a
+              class="lh-nav no-underline link o-80 glow inherit transition"
+              class:active={$page.path === `${regulation.href}`}
+              sveltekit:prefetch href="{regulation.href}"
+            >{regulation.title}</a>
+          </li>
+        {/each}
+      </ul>
+      <!-- Regulation -->
     </div><!-- /Column3 -->
 
   </nav><!-- /Three columns -->
-
-  <Social />
-  <Subscribe />
 
   <nav class="cf pv4 f5 f6-l no-clutter">
     <div class="fn fl-l w-third-l pr2-l">Charity Reg. Number: <a class="b link underline o-80 glow inherit" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156987">1156987</a></div><!-- /Column1 -->

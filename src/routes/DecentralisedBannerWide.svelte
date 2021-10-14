@@ -67,6 +67,7 @@
 
 				<!--
 					<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2 s-Ui1KreRYT4Qz"><strong class="s-Ui1KreRYT4Qz">Founded in 2014</strong> as a&nbsp;UK reg­istered&nbsp;chairty to work in a decentralised manner.</p>
+
 					<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sam&nbsp;Holdsworth has over <strong class="fw6">20 years of experience</strong> leading social&nbsp;change.</p>
 					<p class="mt0 f2 fw2 f2-ns f3-m f2-l"><strong class="fw6">5 major Partnerships</strong> that support behavior change across XXXX communities.</p>
 				-->
@@ -143,11 +144,13 @@
 		color: red!important;
 	}
 	*/
+
 	.number {
 		transform: scale(80%);
 		transform-origin: bottom left;
 		will-change: opacity, transform;
 	}
+
 	/* FALLBACK
 	.one.number::before {
 		content: counter(num, '2014')
@@ -159,6 +162,7 @@
 		content: counter(num, '14')
 	}
 	*/
+
 	/***************************************/
 	@property --num-one {
 		syntax: "<integer>";
@@ -215,13 +219,16 @@
 			/* transform-style: preserve-3d; */
 	}
 	/***************************************/
+
 /* from: https://css-tricks.com/animating-number-counters/#the-new-school-css-solution*/
+
 /** Chrominum */
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
 	.number::before {
 		content: counter(num);
 	}
 }
+
 /** Safari */
 @media not all and (min-resolution: 0.001dpcm) {
 	.one.number::before {
@@ -234,4 +241,5 @@
 		content: '5'
 	}
 }
+
 </style>

@@ -13,3 +13,11 @@ layout: article
 description: Play offers children and young people the best protection from disaster. Discover how Clowns Without Borders can deliver better NGO results on programmes you already run.
 
 ---
+
+## Programme Delivery
+
+With 20 years of experience, we understand how to improve programme delivery outcomes. Our programmes are informed by Protection, PFA and WASH and formalised as:
+
+- [Wellbeing Protection](#wellbeing-protection-programme)
+- [Girl's Rights](#girls-rights-programme)
+- [WASH](#wash-programme)
