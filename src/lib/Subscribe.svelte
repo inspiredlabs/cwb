@@ -1,0 +1,126 @@
+<script context="module">
+	/**
+	 * @type {import('@sveltejs/kit').Load}
+	 */
+  export const prerender = true;
+</script>
+
+<script>
+import Sting from '$lib/header/Sting.svelte';
+let form;
+let name = 'Newsfeed Subscription';
+let submitted = false;
+let isSubmitting = false;
+
+const handleSubmit = (event) => {
+
+  let formData = new FormData(form);
+
+  isSubmitting = true;
+
+  return fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => {
+      // note: do something:
+      console.log("Form submitted!");
+      submitted = true;
+      isSubmitting = false;
+
+    })
+    .finally(() => {
+      // note: do something:
+      console.log("It works!");
+      // xxx
+      form.reset();
+    })
+    .catch((error) => {
+      console.log(error);
+      isSubmitting = false;
+    });
+  };
+</script>
+
+<form
+on:submit|preventDefault={handleSubmit}
+bind:this={form}
+name={name}
+netlify
+netlify-honeypot="gotcha"
+class="{ submitted ? 'ping' : '' }">
+
+
+  <div class="cf f5 f6-l no-clutter ">
+    <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
+    <div class="fn fl-l w-two-thirds-l pl2-l b white-80"><!-- pl2-l tr -->
+      <label for="email" class="{ submitted ? 'o-0' : '' } transition"><!-- pl2-l tr -->
+        Join our Newsfeed
+      </label>
+    </div>
+  </div>
+
+  <div class="cf pv4 f5 f6-l no-clutter ">
+    <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
+    <div class="fn fl-l w-two-thirds-l pl2-l flex justify-between "><!-- pl2-l tr -->
+      {#if !submitted}
+      <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
+      <input type="hidden" name="form-name" value={name} />
+      <input type="text" name="gotcha" class="visually-hidden" />
+      <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
+      <input name="subject" type="hidden" value="{name} inquiry" />
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        class="transition input-reset br0 ba bw2 w-60 bg-white-80 b--transparent f6 f5-ns pv3 db active pa3">
+
+      <input
+        class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--black white ttu tracked-mega bg-black-30 hover-bg-near-black w-40 db b system tc"
+        type="submit"
+        value="Subscribe">
+      {:else}
+      <div class="w-100 cf fl">
+        <div class="w3 h3">
+          <Sting /><pre>Thank you for joining our Newsfeed!</pre>
+        </div>
+      </div>
+      {/if}
+
+    </div>
+  </div><!-- /Three columns -->
+
+
+</form>
+
+<style>
+.active:focus {
+  background-color: white;
+  /* border-color: var(--egyptian); */
+}
+
+.ping {
+  transform: scale(1.1);
+  transition: transform 3s ease-out, opacity 13s 3s ease-out; /* , opacity 3s ease-out */
+  transform-origin: top center;
+  opacity: 0;
+}
+
+/* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.min-w-100 {
+  min-width: 100%
+}
+</style>

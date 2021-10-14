@@ -28,13 +28,13 @@ How to on-the-fly preprocess? https://github.com/martypdx/rehype-add-classes
 
 <!-- <div class="flex justify-center"> -->
 <!-- Blog Layout -->
-<article class="pb4"><!-- measure-wide pa4 -->
+<article class="pb4" ><!-- FIX: sveltekit markdown blog: `id={title}` --><!-- measure-wide pa4  -->
   <div class="tc">
   {#each images as image, index }
     {#if index === 0 }
       {#if jobTitle ? jobTitle : undefined }
 
-      <img class="br-100 w4 h4" src={`${image}`} alt="{title} is {jobTitle} {index}" >
+      <img class="br-100 w4 h4" src={`${image}`} alt="{title} is {jobTitle}" >
       {:else}
       <img class="br-100 w4 h4" src={`${image}`} alt="{title} {index}" >
       <!-- {`${image.replace(/(\w+\/)/gi, '')}`} -->

@@ -16,7 +16,7 @@ url: https://cwb.org.uk/about/sam
 
 ||||
 | -----------: | ----------- | -----------: | ----------- |
-| Website | [Nimble Fish](https://nimble-fish.co.uk/about-the-fish/) | LinkedIn | [Samantha Holdsworth](https://uk.linkedin.com/in/samantha-holdsworth) |
+| Website | [CWB.ORG.UK](https://cwb.org.uk/) | LinkedIn | [Samantha Holdsworth](https://uk.linkedin.com/in/samantha-holdsworth) |
 
 <!--### The Vision-->
 
