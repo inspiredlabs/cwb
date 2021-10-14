@@ -39,10 +39,10 @@
 	</div>
 </section>
 
-<style>
+<!-- <style>
 @media (min-resolution: 2ddpx) {
   svg {
     shape-rendering: optimizeSpeed;
   }
 }
-</style>
+</style> -->
