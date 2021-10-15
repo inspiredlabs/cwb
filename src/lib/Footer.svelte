@@ -6,6 +6,9 @@ import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib
 import { page } from '$app/stores';
 import HomeLink from '$lib/header/HomeLink.svelte';
 import Outro from '$lib/Outro.svelte';
+
+import Social from './Social.svelte';
+import Subscribe from './Subscribe.svelte';
 </script>
 
 
@@ -45,6 +48,20 @@ import Outro from '$lib/Outro.svelte';
         {/each}
       </ul>
       <!---- ABOUT ---->
+      <hr class="dn bt mb0 inherit o-50 mv4 mr5 dn-m db-l"/><!-- style="border:2px solid white" -->
+      <!-- Regulation -->
+      <ul class="list pl0">
+        {#each routesRegulation as regulation}
+          <li class="{regulation.header}">
+            <a
+              class="lh-nav no-underline link o-80 glow inherit transition"
+              class:active={$page.path === `${regulation.href}`}
+              sveltekit:prefetch href="{regulation.href}"
+            >{regulation.title}</a>
+          </li>
+        {/each}
+      </ul>
+      <!-- Regulation -->
     </div><!-- /Column1 -->
 
 
@@ -79,23 +96,13 @@ import Outro from '$lib/Outro.svelte';
         {/each}
       </ul>
       <!-- Courses -->
-      <hr class="bt mb0 inherit o-50 mv4"/><!-- style="border:2px solid white" -->
-      <!-- Regulation -->
-      <ul class="list pl0">
-        {#each routesRegulation as regulation}
-          <li class="{regulation.header}">
-            <a
-              class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${regulation.href}`}
-              sveltekit:prefetch href="{regulation.href}"
-            >{regulation.title}</a>
-          </li>
-        {/each}
-      </ul>
-      <!-- Regulation -->
+
     </div><!-- /Column3 -->
 
   </nav><!-- /Three columns -->
+
+  <Social />
+  <Subscribe />
 
   <nav class="cf pv4 f5 f6-l no-clutter">
     <div class="fn fl-l w-third-l pr2-l">Charity Reg. Number: <a class="b link underline o-80 glow inherit" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156987">1156987</a></div><!-- /Column1 -->
