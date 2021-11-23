@@ -11,10 +11,10 @@ let hotspots = [ // hotspots[0]
   "Programmes with UNICEF, UNHCR &amp; Oxfam started with them seeing our shows in&nbsp;person",
   "We would have to reduce our scope without individual&nbsp;donors",
   "Hundreds of individuals celebrate our work through <a target='_blank' class='white ' href='https://www.justgiving.com/cwb-uk'>Just&nbsp;Giving</a>",
-  "Individuals donate an average of £90&nbsp;each using <a target='_blank' class='white ' href='https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801'>Virgin Money&nbsp;Giving</a>",
-  "NGOs fund our work because we use frameworks such as Kolb's&nbsp;Learning&nbsp;Cycle",
+  "Individuals each donate an average of £100&nbsp;through <a target='_blank' class='white ' href='https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801'>Virgin Money&nbsp;Giving</a>",
+  "NGOs fund our work because of how we use Kolb's&nbsp;Learning&nbsp;Cycle &amp;&nbsp;other key&nbsp;frameworks",
   "NGOs fund our development, they help us have the biggest&nbsp;impact",
-  "NGOs fund Partnerships that meet their Humanitarian&nbsp;Objectives and share our&nbsp;values",
+  "NGOs fund us because we help track their Humanitarian&nbsp;Objectives",
 ]; // People like us help children heal. JOIN THEM
 
 /* Consider passing a default prop: svelte.dev/tutorial/default-values */
@@ -41,9 +41,7 @@ function getRandomNumber(min, max) {
         Did you&nbsp;know?
         <!-- "People like us, do things like this", from: https://youtu.be/Qsnap5Oh8S8?t=71 */ -->
       </question><!-- /Column1 -->
-      <answer class="w-100 w-two-thirds-l pa0 white tl tc-m tl-l">
-        {@html hotspots[index]}
-        </answer>
+      <answer class="w-100 w-two-thirds-l pa0 white tl tc-m tl-l">{@html hotspots[index]}</answer>
     </blockquote><!-- /Three columns -->
     <!-- <div class="pt5 tl tc-m tc-l">
       <a href="#" class="link pointer transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--primary-back primary-back ttu tracked-mega hover-bg-white b system tc ph4">Join them</a>

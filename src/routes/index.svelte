@@ -38,7 +38,7 @@
 
 
 import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
-
+import Locations from '$lib/accordion/Locations.svelte';
 
 import Hero from '$lib/Hero.svelte';
 // News (that is the homepage!)
@@ -99,10 +99,14 @@ let microdata = {
 
 <DecentralisedBannerWide />
 
+
+<Locations />
+
 <Intro />
 
 
-<style>/*
+<style>
+/*
 <section class="w-100 flex flex-row-ns flex-column bg-purple white" >
 	Next level colour-schemes: https://codepen.io/inspiredlabs/pen/yLMppJL <br><br>
 
