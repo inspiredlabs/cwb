@@ -1,45 +1,3 @@
-CURRENT TODO LIST:
-
-Add h1 tag(1 pages)
-Write the h1 tag so that it closely describes the content of the article, while also including the most relevant keywords associated with the corresponding content.
-
-Add title tag(1 pages)
-Missing title negatively impact user experience. Since meta titles are used to name tabs in a browser, they help users to keep track of multiple tabs or windows and navigate efficiently through them.
-
-Add unique description(5 pages)
-Try to set up unique description tag for every page. To achieve that rewrite duplicate description tags or close from indexing duplicate pages, or add the same canonical tag to all pages, or redirect duplicate pages to one preferred page.
-
-Add canonical tag(5 pages)
-These pages have no canonical tags. So there is a risk of rankings drop due to appearing duplicate content in Google. Choose preferred version of URL and add canonical tag with this value.
-
-Add Open Graph tags(5 pages)
-Open Graph formatting allows to display your social media content in an attractive manner. This allows for generating more traffic from social media, as well as making your posts look more professional.
-
-Add Twitter card(5 pages)
-By generating attractive tweets, you can increase your traffic from this social media and make your tweets more professional and attractive.
-
-
-Check if these URLs should be nofollowed in robots meta tag(4 pages)
-These pages have 'nofollow' directive in the robots meta tag. This guideline tells a search engine that you want to put less weight to the links at the current page and grant them no internal weight.
-
-Check if these pages should have internal nofollow backlinks(2 pages)
-Nofollow attribute means that indexing signals such as link equity (e.g. Google's PageRank) are not passed through the link to the linked URL.
-
-Make title tag shorter(1 pages)
-Shorten title to under 65 characters, at least on the most important pages or on pages where important keywords appear past the 70 character limit.
-
-
-Delete the useless code and large “empty” spaces(1 pages)
-Redundant HTML code might slow down the page loading as well as its analysis by search robots.
-
-Check if internal links on these pages should be nofollowed(1 pages)
-The presence of internal links with a rel=nofollow attribute recommends a bot to avoid following internal links, thus decreasing their value and weight distribution among website links.
-
-* * *
-
-
-/* Petrol */
-color:rgba(149,165,166, 0.1); /* Petrol */
 
 respected
 prestigious
@@ -54,8 +12,7 @@ Better, more effective Aid.
 The main workload is handled by a Core Team of three people. They support local staff and volunteers working in multiple timezones to deliver better, more effective Aid.
 
 with training and programme delivery.
-providing
-The tools necessary to provide better humanitarian aid.
+providing the tools necessary to provide better humanitarian aid.
  coordinating training.
 To provide better humanitarian aid.
 
@@ -65,12 +22,9 @@ To provide better humanitarian aid.
 - and train-the-trainer programmes
 
  providing skill development courses.
-
 The bulk of the workload is **Capacity Building**  and x.
-
 This means supporting local staff with PFA tools to assist recovery of children and young people in disaster.
 and developing local staff and volunteer with PFA skills is performed by just three people.
-
 contributes towards training teams in
 **Capacity Building**
 **Psychosocial First Aid** skills:
@@ -107,7 +61,7 @@ Sam Holdsworth has over 20 years of experience empowering social change.
 Founded CWB in 2014 as a UK reg­istered charity to reinvent Humanitarian Aid
 
 5 major NGO Partnerships
-making an Award Winning contribution to Aid delivery
+making an Award Winning contributiontoAiddelivery
 
 
 SCALE:
@@ -124,10 +78,14 @@ Influencing large networks of their own with decentralised work practices.
 
 Doing the work Delivery Partners are too large and centralised to manage
 
-£1,000,000
+£1000000
 
 
 Unique
+
+Petrol:
+rgba(149,165,166, 0.1)
+
 
 as Board Member for Clowns Without Borders International.
 
@@ -135,19 +93,22 @@ as Board Member for Clowns Without Borders International.
 
 supporting behaviour change in children and young people
 
+
+
+
 managing budgets
 what makes us so able to
+
+
+
+
 
 
 Experience
 Vision
 Skills/Resources
 
-> Prioritise fun, the learning will come!
-> Changing the landscape of how we treat children
-> Learning to Laugh
-> aid pots see our shows and...
-
+Laughter first & the learning flows.
 
 Love, empathy and kindness
 coordinating
@@ -160,15 +121,20 @@ relief,  x.
 
 key thematics; WASH, PSS, GBV, Gender and Equality
 
-We understand children are incredibly good communicators, with large networks of their own.
-This means, we empower each participant with tools to repeat what they have learned.
+We understand children are incredibly good communicators, with large networks of their own. This means, we empower each participant with tools to repeat what they have learned.
 ```
 
 
 
+<!-- LinkedIn -->
 
+https://www.linkedin.com/company/clowns-without-borders-uk
 
+<!-- Virgin Money Giving -->
 
+https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801
+
+https://uk.virginmoneygiving.com/charity-web/charity/displayCampaignsHomePage.action?charityId=1009801
 
 <!-- CWBi pages -->
 
@@ -183,22 +149,20 @@ METAdrasi, for two yers now has been covering the educational needs of the child
 
 For the needs of the educational program in Mytilene, METAdrasi transports daily more than 250 children outside Moria. These children manage to“escape” for some hours from the terrible conditions of the hotspot in order to participate in the lessons held in the specially designed areas of the Non Formal Education Center in Mytilene, while in Kara Tepe, about 200 students spend creative time daily, both in the lessons and in the Child Friendly Space.
 
-In this context, [Clowns Without Borders](https://www.clownswithoutborders.org.uk/) visited METAdrasi’s Non-Formal Education Center in Mytilene and the Child Friendly Space in Kara Tepe with the aim of bringing joy and laughter to the children.
+In this context, [Clowns Without Borders UK](https://www.clownswithoutborders.org.uk/) visited METAdrasi’s Non-Formal Education Center in Mytilene and the Child Friendly Space in Kara Tepe with the aim of bringing joy and laughter to the children.
 
 Both children and teenagers had fun with the three shows that the clowns gave. As one of our educators stated “We were so happy to see how much fun our students had. We believe that such activities fill children with optimist and give them the chance to escape even for a little while, the inhuman living conditions of the hotspots.”
 
-We warmly thank Clowns Without Borders, who, through laughter, passed the message of hope to refugee children!
+We warmly thank Clowns Without Borders UK, who, through laughter, passed the message of hope to refugee children!
 
 METAdrasi:
 METAdrasi is a Greek NGO founded in December 2009 which helps facilitate the reception and integration of refugees and immigrants in Greece. It is focused on services not covered by the Public Authorities or other NGOs in Greece.
 
 _METAdrasi’s educational activities for refugee children are implemented in Lesvos and Chios with the support of [UNHCR](https://www.unhcr.org/)._
 
-*   ![Metadrasi - metadrasi cwb uk 6](https://metadrasi.org/wp-content/uploads/2020/02/metadrasi_cwb_uk_6.jpg)
-"Metadrasi - Clowns Without Borders UK pass the message of hope to our students 4"
+*   ![Metadrasi - metadrasi cwb uk 6](https://metadrasi.org/wp-content/uploads/2020/02/metadrasi_cwb_uk_6.jpg "Metadrasi - Clowns Without Borders UK pass the message of hope to our students 4")
 
-*   ![Metadrasi - metadrasi cwb uk 4](https://metadrasi.org/wp-content/uploads/2020/02/metadrasi_cwb_uk_4.jpg)
- "Metadrasi - Clowns Without Borders UK pass the message of hope to our students 5")
+*   ![Metadrasi - metadrasi cwb uk 4](https://metadrasi.org/wp-content/uploads/2020/02/metadrasi_cwb_uk_4.jpg "Metadrasi - Clowns Without Borders UK pass the message of hope to our students 5")
 
 
 Sharing is caring
@@ -218,12 +182,11 @@ Our aim is to defend human rights, especially children’s rights by promoting p
 
 
 COOP:
-- Rohingya refugees and host communities in Teknaf- Bangladesh
+- Rohingya refugees and host commu-
+nities in Teknaf- Bangladesh
 - training sessions conducted via Zoom.
 - test with the target groups,
-  give feedback,
-  and train their SI colleagues
-  and Rohingya community volunteers.
+give feedback, and train their SI colleagues and Rohingya community volunteers.
 - SI staff have delivered CWB-style hygiene promotion sessions directly to almost 10,000 children.
 - Solidartiés International
 - Swedish Chapter: CUG
@@ -231,23 +194,30 @@ COOP:
 
 Make Wash Fun (COVID 19)
 
-CWB delivered remote training to Hygiene Promotion
-(HP) Officers from Solidartiés International (SI)
+CWB delivered remote training to Hygiene Promo-
+tion (HP) Officers from Solidartiés International (SI)
 
-working with Rohingya refugees and host communities in Teknaf- Bangladesh. The training sessions
+working with Rohingya refugees and host commu-
+nities in Teknaf- Bangladesh. The training sessions
+
 were conducted via Zoom. In the same week, the SI
 trainees would then test with the target groups,
 give feedback, and train their SI colleagues and
 
-Rohingya community volunteers. Following completion of the training, SI then continued their own
+Rohingya community volunteers. Following com-
+pletion of the training, SI then continued their own
 
 training and measuring of sessions in the field. The
 
-project was very successful both as a demonstration of the viability of remote training as well as
+project was very successful both as a demonstra-
+tion of the viability of remote training as well as
 
 demonstrating the relevance and usefulness of the
 
-CWB approach to Hygiene Promotion in this current covid-19 context. Since completing the training, SI staff have delivered CWB-style hygiene promotion sessions directly to almost 10,000 children.
+CWB approach to Hygiene Promotion in this cur-
+rent covid-19 context. Since completing the trai-
+ning, SI staff have delivered CWB-style hygiene pro-
+motion sessions directly to almost 10,000 children.
 
 <!-- CWBi 18 Annual Report -->
 
@@ -525,7 +495,20 @@ Jo Ross, Amy Gwilliam, Inda Pereda, Al Cowie
 SUMMARY
 CWB UK went to a tour to refugee camps in Athens and its surroundings.
 
+----------------------------------------------
 
+
+
+
+Here: 2.45.43.19 > X
+London: 85.233.160.22 > iplocation.com/
+London: 178.62.66.222 > x
+
+- Graphika: wikispooks.com/wiki/Graphika
+- Leaked propaganda machine: wikispooks.com/wiki/Integrity_Initiative
+- viral propaganda website: viralityproject.org/
+
+* * *
 
 ----------------------------------------------
 
