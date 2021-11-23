@@ -38,6 +38,8 @@
 
 
 import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
+
+
 import Hero from '$lib/Hero.svelte';
 // News (that is the homepage!)
 import Image from "$lib/Image.svelte"
@@ -83,6 +85,7 @@ let microdata = {
 	};
 */
 
+
 </script>
 
 <!-- Default `index.html` BACKUP -->
@@ -97,6 +100,7 @@ let microdata = {
 <DecentralisedBannerWide />
 
 <Intro />
+
 
 <style>/*
 <section class="w-100 flex flex-row-ns flex-column bg-purple white" >
@@ -127,8 +131,8 @@ let microdata = {
 	bg-spa hover: #005333
 </section>
 
-<section class="w-100 flex flex-row-ns flex-column bg-egyptian white" >
-	bg-egyptian
+<section class="w-100 flex flex-row-ns flex-column bg-primary-back white" >
+	bg-primary-back
 </section>
 <section class="w-100 flex flex-row-ns flex-column bg-oxford white" >
 	bg-oxford
@@ -160,8 +164,8 @@ let microdata = {
 		bg-light-gray
 	</section>
 
-	<section class="w-100 flex flex-row-ns flex-column bg-near-white " >
-		bg-near-white
+	<section class="w-100 flex flex-row-ns flex-column bg-primary-fore " >
+		bg-primary-fore
 	</section>
 
 	<section class="w-100 flex flex-row-ns flex-column bg-white " >

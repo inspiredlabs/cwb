@@ -60,7 +60,7 @@ let alt = 'CWB.ORG.UK Logo';
 		</ul>
 	</nav>
 
-	<nav class="bg-egyptian white">
+	<nav class="bg-primary-back white">
 		<ul class="list pl0">
 			{#each routesRegulation as regulation}
 				<li class="{regulation.header}">
@@ -122,6 +122,13 @@ svg {
 
 path {
 	fill: var(--background);
+	/*
+	`app.css` for:
+	.accent {
+    fill:#ff285b;
+    fill: color(display-p3 1 0 0.331);
+  }
+	*/
 }
 
 

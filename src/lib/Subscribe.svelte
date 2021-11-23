@@ -7,10 +7,15 @@
 
 <script>
 import Sting from '$lib/header/Sting.svelte';
+let email = "";
 let form;
 let name = 'Newsfeed Subscription';
 let submitted = false;
 let isSubmitting = false;
+
+const handleInput = (event) => {
+  email = event.target.value;
+};
 
 const handleSubmit = (event) => {
 
@@ -52,7 +57,7 @@ netlify-honeypot="gotcha"
 class="{ submitted ? 'ping' : '' }">
 
 
-  <div class="cf f5 f6-l no-clutter ">
+  <div class="cf f5 f6-l no-clutter" id="subscribe">
     <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
     <div class="fn fl-l w-two-thirds-l pl2-l b white-80"><!-- pl2-l tr -->
       <label for="email" class="{ submitted ? 'o-0' : '' } transition"><!-- pl2-l tr -->
@@ -69,11 +74,12 @@ class="{ submitted ? 'ping' : '' }">
       <input type="hidden" name="form-name" value={name} />
       <input type="text" name="gotcha" class="visually-hidden" />
       <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-      <input name="subject" type="hidden" value="{name} inquiry" />
+      <input name="subject" type="hidden" value="{name} wants to be part of the Newsfeed" />
       <input
         id="email"
         type="email"
         name="email"
+        bind:value={email}
         placeholder="your@email.com"
         required
         class="transition input-reset br0 ba bw2 w-60 bg-white-80 b--transparent f6 f5-ns pv3 db active pa3">
@@ -83,11 +89,14 @@ class="{ submitted ? 'ping' : '' }">
         type="submit"
         value="Subscribe">
       {:else}
-      <div class="w-100 cf fl">
+      <div class="fn fl-l w-20 pr2-l">
         <div class="w3 h3">
-          <Sting /><pre>Thank you for joining our Newsfeed!</pre>
+          <Sting />
         </div>
-      </div>
+      </div><!-- /Column1 -->
+      <div class="fn fl-l w-80-l pl2-l flex justify-between h3 pt3">
+        <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for joining our Newsfeed!</pre>
+      </div><!-- /Column2&3 -->
       {/if}
 
     </div>
@@ -97,6 +106,9 @@ class="{ submitted ? 'ping' : '' }">
 </form>
 
 <style>
+.lh-none {
+  line-height: 0;
+}
 .active:focus {
   background-color: white;
   /* border-color: var(--egyptian); */
@@ -104,7 +116,9 @@ class="{ submitted ? 'ping' : '' }">
 
 .ping {
   transform: scale(1.1);
-  transition: transform 3s ease-out, opacity 13s 3s ease-out; /* , opacity 3s ease-out */
+  transition:
+    transform 3s ease-out,
+    opacity 3s 33s ease-out; /* , opacity 3s ease-out */
   transform-origin: top center;
   opacity: 0;
 }

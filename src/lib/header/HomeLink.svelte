@@ -34,7 +34,7 @@
 	</div>
 </div>
 -->
-<div class="flex items-center fw9 red no-clutter">
+<div class="flex items-center fw9 accent no-clutter">
   <div class="w-two-thirds tr h2 ">
 	<!-- interval={[33, 55, 88]} -->
 	<!-- on:done={() => myFun()} -->

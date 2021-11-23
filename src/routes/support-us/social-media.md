@@ -8,7 +8,9 @@ layout: article
 
 ## Social media
 
-You can help us fundraise by sharing our story,<!--with your own network through Social Media-->&nbsp;[Get&nbsp;In&nbsp;Touch](mailto:hello@clownswithoutborders.org.uk) directly or [Subscribe](#subscribe) to our newsfeed.
+
+
+You can help us fundraise by finding people to become a [Funding&nbsp;Partner](#funding-partner), sharing our story via Social Media,<!--with your own network through Social Media&nbsp;[Get&nbsp;In&nbsp;Touch](mailto:hello@clownswithoutborders.org.uk) directly--> or [Subscribe](#subscribe) to our newsfeed.
 
 - [Facebook](https://www.facebook.com/clownswithoutborders)
 - [Twitter](https://twitter.com/childrenlaughuk?fbclid=IwAR3nuAjonfHry9A6HWZ4Z2Hz9lA77XE1VZKvyyn0mT7PZPbV5y9OWOqW5M4)
@@ -22,7 +24,3 @@ You can help us fundraise by sharing our story,<!--with your own network through
   https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801
   https://uk.virginmoneygiving.com/charity-web/charity/displayCampaignsHomePage.action?charityId=1009801
 -->
-
-### Subscribe
-
-Simply add your email to [Subscribe](#subscribe) to our newsfeed.

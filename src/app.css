@@ -1,4 +1,11 @@
 :root {
+	--primary-back:#381c75;
+	--primary-fore:#f3f3f3;
+	--secondary-back:#211046;
+	--secondary-fore:#555555;
+	--accent: #ff285b;  /* Will be used as a fallback; see: colormine.org/color-converter & css.land/lch */
+
+	/*
 	--font-mono: monospace;
 	--pure-white: #ffffff;
 	--primary-color: #b9c6d2;
@@ -10,7 +17,58 @@
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+	*/
 }
+
+@supports (color: color(display-p3 1 1 1)) {
+  :root {
+		--primary-back:color(display-p3 0.122 0 0.44);/*color(display-p3 0.133 0 0.485)*/
+		--secondary-back:color(display-p3 0.072 0 0.26);/*color(display-p3 0.084 0 0.305)*/
+    --accent: color(display-p3 1 0 0.331); /* Will be used if supported (macOS Safari & caniuse.com/?search=color-gamut): css-tricks.com/the-expanding-gamut-of-color-on-the-web */
+  }
+}
+
+.primary-back { color: var(--primary-back); fill: var(--primary-back); }
+.bg-primary-back { background-color: var(--primary-back); }
+.b--primary-back { border-color: var(--primary-back); }
+.hover-primary-back:hover,
+.hover-primary-back:focus { color: var(--primary-back); }
+.hover-bg-primary-back:hover,
+.hover-bg-primary-back:focus { background-color: var(--primary-back); }
+
+.primary-fore { color: var(--primary-fore); fill: var(--primary-fore); }
+.bg-primary-fore { background-color: var(--primary-fore); }
+.b--primary-fore { border-color: var(--primary-fore); }
+.hover-primary-fore:hover,
+.hover-primary-fore:focus { color: var(--primary-fore); }
+.hover-bg-primary-fore:hover,
+.hover-bg-primary-fore:focus { background-color: var(--primary-fore); }
+
+.secondary-back { color: var(--secondary-back); fill: var(--secondary-back); }
+.bg-secondary-back { background-color: var(--secondary-back); }
+.b--secondary-back { border-color: var(--secondary-back); }
+.hover-secondary-back:hover,
+.hover-secondary-back:focus { color: var(--secondary-back); }
+.hover-bg-secondary-back:hover,
+.hover-bg-secondary-back:focus { background-color: var(--secondary-back); }
+
+.secondary-fore { color: var(--secondary-fore); fill: var(--secondary-fore); }
+.bg-secondary-fore { background-color: var(--secondary-fore); }
+.b--secondary-fore { border-color: var(--secondary-fore); }
+.hover-secondary-fore:hover,
+.hover-secondary-fore:focus { color: var(--secondary-fore); }
+.hover-bg-secondary-fore:hover,
+.hover-bg-secondary-fore:focus { background-color: var(--secondary-fore); }
+
+.accent { color: var(--accent); fill: var(--accent); }
+.bg-accent { background-color: var(--accent); }
+.b--accent { border-color: var(--accent); }
+.hover-accent:hover,
+.hover-accent:focus { color: var(--accent); }
+.hover-bg-accent:hover,
+.hover-bg-accent:focus { background-color: var(--accent); }
+
+
 
 .measure-custom-l {
   max-width: 40rem;

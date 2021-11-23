@@ -29,6 +29,7 @@ By investing in **Clowns Without Borders**, we will be able to carry this practi
 
 We make aid money work as hard as it can. When children participate directly they take ownership of ideas, remember what they have learned and start applying the lessons immediately. **Clowns Without Borders** has an approach that achieves unparalleled transmission of ideas, reaching new participants not present. This means, children in disaster who are recovering can become part of the Humanitarian Aid delivery process.
 
+
 ### Valuable Training & Tracking
 
 For Humanitarian Aid providers, we help improve programme outcomes you are already running. The effectiveness of which is measured using our Monitoring and Evaluation toolkit, and for children in disaster, this training forms a vital part of their recovery. **Clowns Without Borders** add value to existing programmes by helping tailor them to use our tools with minimal training.

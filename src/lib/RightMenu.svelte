@@ -73,8 +73,8 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     z-3 fixed pointer mb5
     bottom-0 right-0 fr
     ba bw2 b--black
-    bg-light-gray
-    hover-bg-white dark-red
+    bg-primary-fore
+    hover-bg-white accent
     mr0 ml0 pa2 pt1 pb1 tc
     transition"
   on:click={toggle}>
@@ -104,7 +104,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
   on:keydown={e => e.key === 'Escape' && toggle()}
   on:keydown={e => e.key === 'Tab' && open()}
   class:toggle={user.showMenu}
-  class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-2 bl b--black bg-dark-gray touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
+  class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-2 bl b--black bg-secondary-back touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
 >
 
 <!--

@@ -12,12 +12,12 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
 }
 -->
 
-<header class="pt5 bg-egyptian white-90 antialias">
+<header class="pt5 bg-primary-back white-90 antialias">
 
   <section class="cf w-100 pv3 f4 f5-l highlight">
   <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
     <div
-      class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf bg-near-white vh-50 ph3 br4"><!-- `bg-cobalt-egyptian-gradient`, `bg-light-gray` too dirty for banner -->
+      class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf bg-primary-fore vh-50 ph3 br4"><!-- `bg-cobalt-egyptian-gradient`, `bg-light-gray` too dirty for banner -->
 
     <h1
     style="padding-top:23vh;font-size:2.5vw">
@@ -58,8 +58,8 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
   bg-spa hover: #005333
 </section>
 
-<section class="w-100 flex flex-row-ns flex-column bg-egyptian white" >
-  bg-egyptian
+<section class="w-100 flex flex-row-ns flex-column bg-primary-back white" >
+  bg-primary-back
 </section>
 <section class="w-100 flex flex-row-ns flex-column bg-oxford white" >
   bg-oxford
@@ -90,8 +90,8 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
     bg-light-gray
   </section>
 
-  <section class="w-100 flex flex-row-ns flex-column bg-near-white " >
-    bg-near-white
+  <section class="w-100 flex flex-row-ns flex-column bg-primary-fore " >
+    bg-primary-fore
   </section>
 
   <section class="w-100 flex flex-row-ns flex-column bg-white " >
