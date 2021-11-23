@@ -54,7 +54,8 @@ const handleSubmit = (event) => {
   <h2 class="f1 f2-ns f1-m f-headline-l lh-solid fw7 white tc">Become a <span class="accent">Funding&nbsp;Partner</span></h2>
 
   <Section>
-    <h3 class="f3 georgia i lh-copy pb4">Get in touch via email, or contact <a href="+44 7939 522517" class="underline link dim accent">Sam</a> about developing a Funding&nbsp;Partnership.</h3>
+    <h3 class="f3 georgia i lh-copy pb4">Contact us via email, or <a href="mailto:sam@clownswithoutborders.org.uk" class="underline link dim accent">Get in touch</a> directly about developing a Funding&nbsp;Partnership.</h3>
+    <!-- tel:+447939522518 -->
     <form
       on:submit|preventDefault={handleSubmit}
       bind:this={form}
