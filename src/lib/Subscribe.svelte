@@ -9,7 +9,7 @@
 import Sting from '$lib/header/Sting.svelte';
 let email = "";
 let form;
-let name = 'Newsfeed Subscription';
+let name = 'Our Newsfeed';
 let submitted = false;
 let isSubmitting = false;
 
@@ -95,7 +95,7 @@ class="{ submitted ? 'ping' : '' }">
         </div>
       </div><!-- /Column1 -->
       <div class="fn fl-l w-80-l pl2-l flex justify-between h3 pt3">
-        <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for joining our Newsfeed!</pre>
+        <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for joining!</pre><!-- Thank you for joining {name} -->
       </div><!-- /Column2&3 -->
       {/if}
 

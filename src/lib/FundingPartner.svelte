@@ -98,7 +98,7 @@ const handleSubmit = (event) => {
             </div>
           </div><!-- /Column1 -->
           <div class="fn fl-l w-80-l pl2-l flex justify-between h3 pt3">
-            <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for joining our Newsfeed!</pre>
+            <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for your request</pre><!-- {name} -->
           </div><!-- /Column2&3 -->
           {/if}
         </div>
