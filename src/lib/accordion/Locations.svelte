@@ -41,7 +41,7 @@
 	This is about our work with Plan International.
 </Accordion>
 
-<Accordion isOpen={false} buttonText={'Save&nbsp;The Children'}>
+<Accordion isOpen={false} buttonText={'Save&nbsp;The&nbsp;Children'}>
 	This is about our work with Save The Children.
 </Accordion>
 

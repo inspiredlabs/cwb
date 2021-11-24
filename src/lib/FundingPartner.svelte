@@ -54,7 +54,7 @@ const handleSubmit = (event) => {
   <h2 class="f1 f2-ns f1-m f-headline-l lh-solid fw7 white tc">Become a <span class="accent">Funding&nbsp;Partner</span></h2>
 
   <Section>
-    <h3 class="f3 georgia i lh-copy pb4">Contact us here or <a href="mailto:sam@clownswithoutborders.org.uk" class="underline link dim accent">Get in touch</a> directly <!--or reach out via <a href="https://uk.linkedin.com/in/samantha-holdsworth" class="underline link dim accent">Social Media</a> -->to develop a Funding&nbsp;Partnership.</h3>
+    <h3 class="f3 georgia i lh-copy pb4">Send us your email here, or <a href="mailto:sam@clownswithoutborders.org.uk" class="underline link dim accent">Get in touch</a> directly <!--or reach out via <a href="https://uk.linkedin.com/in/samantha-holdsworth" class="underline link dim accent">Social Media</a> -->to develop a Funding&nbsp;Partnership.</h3>
     <!-- tel:+447939522518 -->
     <form
       on:submit|preventDefault={handleSubmit}
@@ -76,7 +76,7 @@ const handleSubmit = (event) => {
           <input type="hidden" name="form-name" value={name} />
           <input type="text" name="gotcha" class="visually-hidden" />
           <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-          <input name="subject" type="hidden" value="{name} wants to be part of the Newsfeed" />
+          <input name="subject" type="hidden" value="{email} has sent a {name}" />
           <input
             style="border-right:none"
             id="email"
@@ -98,12 +98,28 @@ const handleSubmit = (event) => {
             </div>
           </div><!-- /Column1 -->
           <div class="fn fl-l w-80-l pl2-l flex justify-between h3 pt3">
-            <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for your request</pre><!-- {name} -->
+            <pre class="b red bg-primary-fore br2 pa3 lh-none">Thank you for your request</pre>
+            <!-- {name} -->
           </div><!-- /Column2&3 -->
           {/if}
         </div>
       </div><!-- /Three columns -->
     </form><!-- /contents -->
+
+    <div class="fn fl-l w-50-l pr4-l"><!-- Col1 -->
+      <!-- --TODO: Courage, Care, Capacity Building, Courses -->
+      <h3 class="f4">Who is this&nbsp;for?<!-- Clowns Without&nbsp;Bordersf&hellip; --></h3>
+      <p class="lh-copy measure mt4 mt0-ns">
+        <strong class="fw6">NGO's that want to fund our&nbsp;work:</strong> we help your team reinvigorate practice with inclusive, engaging and age appropriate activities.
+      </p><!-- /contents -->
+    </div><!-- /column1 -->
+
+    <div class="fn fl-l w-50-l pl4-l"><!-- Col2 -->
+      <h3 class="f4">Can you give examples?</h3><!-- tracked-tight -->
+      <p class="lh-copy measure mt4 mt0-ns"><strong class="fw6">We can develop and deliver</strong> performances to support psycho-social first aid, Capacity Building workshops and Train&#8209;The&#8209;Trainer programmes.</p><!-- /contents -->
+    </div><!-- /Column2 -->
+
+
   </Section>
 </div>
 

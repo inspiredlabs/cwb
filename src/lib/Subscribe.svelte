@@ -9,7 +9,7 @@
 import Sting from '$lib/header/Sting.svelte';
 let email = "";
 let form;
-let name = 'Our Newsfeed';
+let name = 'Join Our Newsfeed';
 let submitted = false;
 let isSubmitting = false;
 
@@ -60,9 +60,7 @@ class="{ submitted ? 'ping' : '' }">
   <div class="cf f5 f6-l no-clutter" id="subscribe">
     <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
     <div class="fn fl-l w-two-thirds-l pl2-l b white-80"><!-- pl2-l tr -->
-      <label for="email" class="{ submitted ? 'o-0' : '' } transition"><!-- pl2-l tr -->
-        Join our Newsfeed
-      </label>
+      <label for="email" class="{ submitted ? 'o-0' : '' } transition">{name}</label>
     </div>
   </div>
 
@@ -74,7 +72,7 @@ class="{ submitted ? 'ping' : '' }">
       <input type="hidden" name="form-name" value={name} />
       <input type="text" name="gotcha" class="visually-hidden" />
       <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-      <input name="subject" type="hidden" value="{name} wants to be part of the Newsfeed" />
+      <input name="subject" type="hidden" value="{email} wants to {name}" />
       <input
         id="email"
         type="email"
