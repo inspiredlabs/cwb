@@ -110,7 +110,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
   <nav class="cf pv4 f5 f6-l no-clutter">
     <div class="fn fl-l w-third-l pr2-l">Charity Reg. Number: <a class="b link underline o-80 glow inherit" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156987">1156987</a></div><!-- /Column1 -->
     <div class="fn fl-l w-third-l pr1-l pl1-l">&nbsp;</div><!-- /Column2 -->
-    <div class="fn fl-l w-third-l pl2-l tr">&copy;&nbsp;<!-- Copyright --><a class="b link underline o-80 glow inherit" href="https://app.netlify.com/sites/happy-shaw-91e31c/deploys">CWB.ORG.UK</a> 2021</div><!-- /Column3 -->
+    <div class="fn fl-l w-third-l pl2-l tr">Website <a class="b link underline o-80 glow inherit" href="https://inspiredlabs.co.uk/">Scott&nbsp;Phillips</a> 2021<!-- &copy; --></div><!-- /Column3 -->
+    <!-- https://app.netlify.com/sites/happy-shaw-91e31c/deploys -->
   </nav><!-- /Three columns -->
 
 
