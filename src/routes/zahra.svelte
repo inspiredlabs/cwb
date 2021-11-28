@@ -90,7 +90,7 @@ export let news
 			{#each tags as article }
 				<a
 					class="link o-80 glow mid-gray bg-light-gray pa2 br3 mr2"
-					href={`/news/${article}`}
+					href={`/zahra/${article}`}
 				>
 					{article}
 				</a>
