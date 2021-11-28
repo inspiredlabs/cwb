@@ -73,7 +73,7 @@ function update() {
 
 
 <Section>
-<ul>
+<ul class="list pl0">
 	{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
 
 	{#if draft ? undefined : !draft }

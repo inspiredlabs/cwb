@@ -6,7 +6,7 @@ export let isOpen = true;
 </script>
 
 
-<span style="letter-spacing:-.025em" class="f1 fw8 white cascade pointer hover-accent transition" class:isOpen on:click|self={() => (isOpen = !isOpen)}>{@html buttonText}<span class="cross accent" class:isOpen></span><!-- tracked-tight  -->
+<span style="letter-spacing:-.025em;" class="f2 f2-ns f1-m f1-l fw8 white cascade pointer hover-accent transition" class:isOpen on:click|self={() => (isOpen = !isOpen)}>{@html buttonText}<span class="cross accent" class:isOpen></span><!-- tracked-tight  -->
 <div class="content highlight w-100 br1" use:slide={isOpen} on:animationEnd={() => console.log('Closed')}>
 <div class="pa3 f4 fw5 flex flex-column" style="letter-spacing:initial">
 	<!-- <strong>{fullText}</strong> -->

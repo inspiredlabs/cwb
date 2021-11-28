@@ -25,30 +25,31 @@
 <Section>
 <div class="hanging relative white o-80" >- <b class="">Our Partners</b> include:</div>
 
-<Accordion isOpen={false} buttonText={'UNICEF'}>
-	This is about our work with UNICEF.
-</Accordion>
+<div class="debug w-90 w-100-m">
+	<Accordion isOpen={false} buttonText={'UNICEF'}>
+		This is about our work with UNICEF.
+	</Accordion>
 
-<Accordion isOpen={false} buttonText={'UNHCR'}>
-	This is about our work with UNHCR.
-</Accordion>
+	<Accordion isOpen={false} buttonText={'UNHCR'}>
+		This is about our work with UNHCR.
+	</Accordion>
 
-<Accordion isOpen={false} buttonText={'Oxfam'}>
-	This is about our work with Oxfam.
-</Accordion>
+	<Accordion isOpen={false} buttonText={'Oxfam'}>
+		This is about our work with Oxfam.
+	</Accordion>
 
-<Accordion isOpen={false} buttonText={'Plan International'}>
-	This is about our work with Plan International.
-</Accordion>
+	<Accordion isOpen={false} buttonText={'<span class="dib dib-ns dib-m dn-l">Plan&nbsp;Int.</span><span class="dn dn-ns dn-m dib-l">Plan International</span>'}>
+		This is about our work with Plan International.
+	</Accordion>
 
-<Accordion isOpen={false} buttonText={'Save&nbsp;The&nbsp;Children'}>
-	This is about our work with Save The Children.
-</Accordion>
+	<Accordion isOpen={false} buttonText={'Save&nbsp;The <span class="dib dib-ns dib-m dn-l"></span>&nbsp;Children<span class="dn dn-ns dn-m dib-l">Children</span>'}>
+		This is about our work with Save The Children.
+	</Accordion>
 
-<Accordion isOpen={false} buttonText={'others, who share our values'}>
-	This is about our work with others who share our values.
-</Accordion>
-
+	<Accordion isOpen={false} buttonText={'others, who share our values'}>
+		This is about our work with others who share our values.
+	</Accordion>
+	</div>
 
 
 </Section>
