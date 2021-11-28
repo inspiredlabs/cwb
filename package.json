@@ -14,6 +14,7 @@
 		"@sveltejs/kit": "^1.0.0-next.198",
 		"mdsvex": "^0.9.8",
 		"svelte": "^3.34.0",
+		"svelte-paginate": "^0.0.1",
 		"svelte-preprocess": "^4.7.4",
 		"svelte-typewriter": "^2.4.5"
 	},

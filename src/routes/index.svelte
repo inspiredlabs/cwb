@@ -1,47 +1,86 @@
 <script context="module">
-	// 🔥 Static vs Serve Side Rendered: https://rodneylab.com/sveltekit-blog-starter/#staticVsSSR
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
-	export const prerender = true;
+// 🔥 Static vs Serve Side Rendered: https://rodneylab.com/sveltekit-blog-starter/#staticVsSSR
+/**
+ * @type {import('@sveltejs/kit').Load}
+ */
+export const prerender = true;
+
+
 
 	/* "Importing all `*.md` posts as modules is possible in vite, fetching them as a glob", -from: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=98
 	learn more: ://vitejs.dev/guide/features.html#glob-import
 	*/
-	const allPosts = import.meta.glob("./**/*.md"); // Make it recursive: `./**/`
+
+	// LEARN: relative paths: youtu.be/dCrUSdUeV1E?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=277
+	const allPosts = import.meta.glob("./blog/*.md"); //{markdown,md,svx}
+	// Import from VITE, as a single import. //console.log(allPosts);
 
 	let body = [];
+
 	for(let path in allPosts) {
-		//console.log(path)//meta only
-		//console.log(allPosts[path])//as a function. This needs `()` to be invoked.
 		body.push(allPosts[path]().then( ({metadata}) => {
-			//console.log(metadata)
-			return {path, metadata} // Valid metadata only: yamlvalidator.com/
+			return {path, metadata}
 		}))
 	}
 
-
 	// This is a promise: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=456
-	export const load = async() => {
+	export const load = async({page}) => {
 		const posts = await Promise.all(body)
+		const tag = page.params.tag || 'tech';
 
-		//console.log(posts)
+		const filteredPosts = posts.filter((post) => {
+			return post.metadata.tags.includes(tag)
+		})
+
 		return {
 			props: {
-				posts //send the `props` to the component
+				posts, //send the `props` to the component
+				filteredPosts,
 			}
 		}
+
 	}
+
 </script>
+
+
+
+
+
+
+
+
 <script>
 //import CloseTrigger from '$lib/CloseTrigger.svelte'; // <CloseTrigger />
+import { paginate, LightPaginationNav } from 'svelte-paginate'
+export let filteredPosts;
+
+
+const dateSortedPosts = filteredPosts.slice().sort((post1, post2) => {
+	return new Date(post2.metadata.date) - new Date(post1.metadata.date);
+});
+
+let items = dateSortedPosts;
+let currentPage = 1;
+let pageSize = 3;
+$: paginatedItems = paginate({ items, pageSize, currentPage })
+
+function update() {
+	setTimeout(() => {
+		window.location.reload();
+	}, 100);
+}
+
+
+
+
 
 
 import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
 import Locations from '$lib/accordion/Locations.svelte';
+import Section from '$lib/Section.svelte';
 
 import Hero from '$lib/Hero.svelte';
-// News (that is the homepage!)
 import Image from "$lib/Image.svelte"
 
 // About
@@ -84,11 +123,7 @@ let microdata = {
 		addressCountry: "United Kingdom"
 	};
 */
-
-
 </script>
-
-<!-- Default `index.html` BACKUP -->
 
 <svelte:head>
 	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
@@ -97,15 +132,62 @@ let microdata = {
   <meta name="author" content="Scott Phillips">
 </svelte:head>
 
+<Hero />
 <DecentralisedBannerWide />
-
-
+<Intro />
 <Locations />
 
-<Intro />
+<Section>
+<slot></slot>
+
+<ul>
+	{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
+
+	{#if draft ? undefined : !draft }
+		<li class="mb3">
+			<a sveltekit:prefetch href={`${path.replace(".md", "")}`}>{title}</a>
+			<span class="f7 o-80 glow mr2"><!-- georgia i  -->
+				{new Date(date).toDateString()}
+			</span>
+
+			{#each tags as tag}
+				<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pa1 br3 mr2">#{tag}</a>
+			{/each}
+
+			<!--   -->
+
+		</li>
+	{/if}
+
+{/each}
+</ul>
+
+<nav>
+	<LightPaginationNav
+		totalItems="{items.length}"
+		pageSize="{pageSize}"
+		currentPage="{currentPage}"
+		limit="{1}"
+		showStepOptions="{true}"
+		on:setPage="{(e) => currentPage = e.detail.page}"
+	/>
+</nav>
+</Section>
+
+
 
 
 <style>
+	nav :global(.light-pagination-nav .pagination-nav) {
+		background: transparent;
+		box-shadow: none;
+	}
+
+	nav :global(.option.active:hover) {
+		background: transparent;
+		cursor:auto;
+	}
+
 /*
 <section class="w-100 flex flex-row-ns flex-column bg-purple white" >
 	Next level colour-schemes: https://codepen.io/inspiredlabs/pen/yLMppJL <br><br>
@@ -245,4 +327,6 @@ https://regex101.com/
 	</div>
 </section>
 </article><!-- /mt -->
-*/</style>
+*/
+</style>
+

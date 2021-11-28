@@ -7,7 +7,7 @@
 	/* "Importing all `*.md` news as modules is possible in vite, fetching them as a glob", -from: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=98
 	learn more: ://vitejs.dev/guide/features.html#glob-import
 	*/
-	const allPosts = import.meta.glob("./news/*.md"); // Make it recursive: `./**/`
+	const allPosts = import.meta.glob("./zahra/*.md"); // Make it recursive: `./**/`
 
 	let body = [];
 	for(let path in allPosts) {
@@ -36,7 +36,7 @@
 import LDTag from '$lib/LDTag.svelte';
 import { websiteSchema, orgSchema } from '$lib/json-ld';
 
-import ZahraText from './news/ZahraText.svelte'
+import ZahraText from './zahra/ZahraText.svelte'
 import Image from "$lib/Image.svelte"
 export let news
 </script>

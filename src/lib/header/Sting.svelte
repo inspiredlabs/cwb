@@ -5,7 +5,7 @@
 <a href="/" class="db pointer"><img
   class="db mt1 mb1 no-select"
   src={logo} alt="Clowns Without Borders Logo"
-/></a>
+/><h1 class="sr-only">Clowns Without Borders</h1></a>
 
 
 <!--script type="application/ld+json">

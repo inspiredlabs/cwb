@@ -5,9 +5,9 @@ import addClasses from "rehype-add-classes" //https://github.com/martypdx/rehype
 
 const config = {
   "layout": {
-    "blog": "./src/lib/__blog.svelte",
+    //"blog": "./src/lib/__blog.svelte",
     "person": "./src/lib/__person.svelte",
-    "article": "./src/lib/__article.svelte"
+    //"article": "./src/lib/__article.svelte"
   },
 
   "extensions": [".svelte.md", ".md"],

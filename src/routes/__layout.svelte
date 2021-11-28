@@ -2,8 +2,8 @@
 	import Footer from "$lib/Footer.svelte";
 	import RightMenu from '$lib/RightMenu.svelte';//req. routes.js
 	import PageTransition from "$lib/PageTransition.svelte";
-	import LDTag from '$lib/LDTag.svelte';
-	import { websiteSchema, orgSchema } from '$lib/json-ld';
+	// import LDTag from '$lib/LDTag.svelte';
+	// import { websiteSchema, orgSchema } from '$lib/json-ld';
   export let key;
 	// import Header from '$lib/header/Header.svelte';
 	/* import "../tachyon.shower.css"; *//* layout components need import statement: //github.com/svelte-add/svelte-add/issues/129 && reset: //toolset.pkstate.com/removeComments/index.html */
@@ -40,8 +40,8 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
-	<LDTag schema={websiteSchema} />
-	<LDTag schema={orgSchema} />
+	<!-- <LDTag schema={websiteSchema} /> -->
+	<!-- <LDTag schema={orgSchema} /> -->
 </svelte:head>
 <!-- <Header /> -->
 
