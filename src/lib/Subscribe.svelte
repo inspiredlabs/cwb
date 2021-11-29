@@ -60,7 +60,7 @@ class="{ submitted ? 'ping' : '' }">
   <div class="cf f5 f6-l no-clutter" id="subscribe">
     <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
     <div class="fn fl-l w-two-thirds-l pl2-l b white-80"><!-- pl2-l tr -->
-      <label for="newsletter" class="{ submitted ? 'o-0' : '' } transition">{name}</label>
+      <label for="newsfeed" class="{ submitted ? 'o-0' : '' } transition">{name}</label>
     </div>
   </div>
 
@@ -74,9 +74,9 @@ class="{ submitted ? 'ping' : '' }">
       <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
       <input name="subject" type="hidden" value="{email} wants to {name}" />
       <input
-        id="newsletter"
+        id="newsfeed"
         type="email"
-        name="newsletter"
+        name="newsfeed"
         bind:value={email}
         placeholder="your@email.com"
         required
