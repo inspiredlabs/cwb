@@ -27,7 +27,7 @@
 
 
 		<div class="debug w-90 w-100-m">
-			<Accordion isOpen={false} buttonText={'UNICEF'}>
+			<!-- <Accordion isOpen={false} buttonText={'UNICEF'}>
 				This is about our work with UNICEF.
 			</Accordion>
 
@@ -49,7 +49,7 @@
 
 			<Accordion isOpen={false} buttonText={'others, who share our values'}>
 				This is about our work with others who share our values.
-			</Accordion>
+			</Accordion> -->
 		</div>
 
 
