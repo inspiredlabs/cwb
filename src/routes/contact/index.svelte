@@ -9,6 +9,7 @@
 <script>
 	import ContactBannerWide from './ContactBannerWide.svelte';
 	import Contact from '$lib/Contact.svelte';
+	import Section from '$lib/Section.svelte';//</Section>
 </script>
 
 <svelte:head>
@@ -21,12 +22,6 @@
 
 <ContactBannerWide />
 
-<section class="cf w-100 f4 f5-l highlight"><!-- pv3  -->
-	<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
-		<div class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf"><!-- pv4  -->
-
-			<Contact />
-
-		</div>
-	</div>
-</section>
+<Section>
+	<Contact />
+</Section>

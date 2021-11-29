@@ -11,11 +11,12 @@
 	let one, two, three;
 </script>
 
-<aside class="dt w-100 vh-100 vh-75-ns vh-75-m bg-center hero">
+<aside class="dt w-100 vh-100 vh-75-ns vh-75-m bg-center hero pt5">
 
   <div class="dtc v-mid mw8 center ph3-ns white pt0 ">
 
-		<section class="cf w-100 f4 f5-l highlight"><!-- pv3  -->
+		<!-- pv3  -->
+		<!-- <section class="cf w-100 f4 f5-l highlight">
 			<div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
 				<div class="fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
 
@@ -25,7 +26,7 @@
 
 				</div>
 			</div>
-		</section>
+		</section> -->
 
   <div class="cf ph2-ns pt2-ns pt5-m pt6-l">
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 ">

@@ -80,10 +80,12 @@ class="{ submitted ? 'ping' : '' }">
         bind:value={email}
         placeholder="your@email.com"
         required
-        class="transition input-reset br0 ba bw2 w-60 bg-white-80 b--transparent f6 f5-ns pv3 db active pa3">
+        class="transition input-reset br0 ba bw2 w-50 w-60-ns w-60-m w-60-l bg-white-80 b--secondary-fore f6 f5-ns pv3 db active pa3"
+        style="border-right:none"
+        >
 
       <input
-        class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--black white ttu tracked-mega bg-black-30 hover-bg-near-black w-40 db b system tc"
+        class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--secondary-fore white ttu tracked-mega bg-black-30 hover-bg-near-black w-50 w-40-ns w-40-m w-40-l db b system tc"
         type="submit"
         value="Subscribe">
       {:else}

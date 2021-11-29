@@ -6,15 +6,15 @@ import Margin from "$lib/Margin.svelte"
 /* "People like us, do things like this", from: https://youtu.be/Qsnap5Oh8S8?t=71 */
 let hotspots = [ // hotspots[0]
   "NGOs often &ldquo;see&nbsp;one, fund&nbsp;one&rdquo;<br>in reaction to our&nbsp;shows",
-  "Aid providers &ldquo;see&nbsp;one, fund&nbsp;one&rdquo;, after seeing children at our&nbsp;shows",
+  "Aid providers &ldquo;see&nbsp;one, fund&nbsp;one&rdquo;, after feeling the impact of our&nbsp;shows",
   "We would have to stop self-funded activites, without individual&nbsp;donors",
   "Programmes with UNICEF, UNHCR &amp; Oxfam started with them seeing our shows in&nbsp;person",
   "We would have to reduce our scope without individual&nbsp;donors",
   "Hundreds of individuals celebrate our work through <a target='_blank' class='white ' href='https://www.justgiving.com/cwb-uk'>Just&nbsp;Giving</a>",
   "Individuals each donate an average of £100&nbsp;through <a target='_blank' class='white ' href='https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801'>Virgin Money&nbsp;Giving</a>",
-  "NGOs fund our work because of how we use Kolb's&nbsp;Learning&nbsp;Cycle &amp;&nbsp;other key&nbsp;frameworks",
+  "NGOs fund our work because of how&nbsp;we&nbsp;use key&nbsp;frameworks like Kolb's&nbsp;Learning&nbsp;Cycle",
   "NGOs fund our development, they help us have the biggest&nbsp;impact",
-  "NGOs fund us because we help track their Humanitarian&nbsp;Objectives",
+  "NGOs fund us because we help track their Humanitarian<span class='dn dib-ns dib-m dib-l'>&nbsp;</span>Objectives",
 ]; // People like us help children heal. JOIN THEM
 
 /* Consider passing a default prop: svelte.dev/tutorial/default-values */
@@ -36,7 +36,7 @@ function getRandomNumber(min, max) {
 <div class="bg-accent pv4">
 
   <Margin>
-    <blockquote class="f1 fw7 no-clutter flex items-start flex-column flex-row-l pa0 ma0">
+    <blockquote class="f2 f1-ns f2-m f1-l fw7 no-clutter flex items-start flex-column flex-row-l pa0 ma0">
       <question class="w-100 w-third-l pa0 secondary-back tl tc-m tr-l pr3-l">
         Did you&nbsp;know?
         <!-- "People like us, do things like this", from: https://youtu.be/Qsnap5Oh8S8?t=71 */ -->

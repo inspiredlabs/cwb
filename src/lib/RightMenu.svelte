@@ -2,7 +2,7 @@
   import { page } from '$app/stores';
   import Sting from '$lib/header/Sting.svelte';
   //import HomeLink from '$lib/header/HomeLink.svelte';
-  import {routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
+  import {routesHome, routesAbout, routesSupport, routesCourses, routesRegulation} from '$lib/routes.js';
 
   import { xlink_attr } from 'svelte/internal';
 
@@ -70,7 +70,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
   on:keydown={e => e.key === 'Escape' && toggle()}
   class="
     input-reset
-    z-3 fixed pointer mb5
+    z-max fixed pointer mb5
     bottom-0 right-0 fr
     ba bw2 b--black
     bg-primary-fore
@@ -104,7 +104,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
   on:keydown={e => e.key === 'Escape' && toggle()}
   on:keydown={e => e.key === 'Tab' && open()}
   class:toggle={user.showMenu}
-  class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-2 bl b--black bg-secondary-back touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
+  class="transition backface-hidden w-two-thirds w-third-ns w-25-m w-25-l h-100 vh-100 top-0 right-0 fixed z-9999 bl b--black bg-secondary-back touch-scrolling white antialias pa3 pb6 f5 f6-ns f6-m f4-l"
 >
 
 <!--
@@ -113,6 +113,22 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     <Sting/>
   </div>
 </div> -->
+
+<!---- Home  ---->
+<ul class="list pl0">
+
+  {#each routesHome as home}
+    <!-- Note the reactive string literal doesn't need escaping //javascript.info/regexp-escaping -->
+    <li class={home.header}>
+      <a
+        class="lh-nav no-underline link o-80 glow inherit transition"
+        class:active={$page.path === `${home.href}`}
+        sveltekit:prefetch href="{home.href}"
+      >{home.title}</a>
+    </li>
+  {/each}
+</ul>
+<!---- /Home ---->
 
 <!---- ABOUT  ---->
 <ul class="list pl0">
@@ -128,7 +144,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     </li>
   {/each}
 </ul>
-<!---- ABOUT ---->
+<!---- /ABOUT ---->
 
 <!---- Support ---->
 <ul class="list pl0">
@@ -142,7 +158,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     </li>
   {/each}
 </ul>
-<!---- Support ---->
+<!---- /Support ---->
 
 <!-- Courses -->
 <ul class="list pl0">
@@ -156,7 +172,7 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     </li>
   {/each}
 </ul>
-<!-- Courses -->
+<!-- /Courses -->
 
 <hr class="o-50 mv4 ba"/><!-- style="border:2px solid white" -->
 
@@ -172,13 +188,13 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     </li>
   {/each}
 </ul>
-<!-- Regulation -->
+<!-- /Regulation -->
 
 </nav>
 
 
 <style>
-a{ will-change: opacity }
+/* a{ will-change: opacity } */
 a.active{
   opacity: 1;
   text-decoration: underline;

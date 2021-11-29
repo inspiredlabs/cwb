@@ -24,6 +24,8 @@
 	import Donate from './donate.md'
 	import SocialMedia from './social-media.md'
 
+	import Section from '$lib/Section.svelte';//</Section>
+
 </script>
 
 <svelte:head>
@@ -36,26 +38,23 @@
 
 <!-- https://ifesworld.org/en/give/ -->
 
-
-
 <OurApproachBannerWide />
+<Section>
+	<Partners/>
+		<Partnerships/>
+		<Corporate/>
+	<WorkWithUs/>
+		<Volunteers/>
+		<Facilitators/>
+	<Fundraising/>
+		<Gifts/>
+		<Trusts/>
+		<Campaign/>
+		<Philanthropy/>
+		<Donate/>
+	<SocialMedia/>
+	<!-- <SubscribeToOurNewsFeed/> -->
 
-<Partners/>
-	<Partnerships/>
-	<Corporate/>
-<WorkWithUs/>
-	<Volunteers/>
-	<Facilitators/>
-
-
-<Fundraising/>
-	<Gifts/>
-	<Trusts/>
-	<Campaign/>
-	<Philanthropy/>
-	<Donate/>
-<SocialMedia/>
-<!-- <SubscribeToOurNewsFeed/> -->
-
-<!-- <CodeOfEthics/> -->
-<!-- <PrivacyPolicy/> -->
+	<!-- <CodeOfEthics/> -->
+	<!-- <PrivacyPolicy/> -->
+</Section>

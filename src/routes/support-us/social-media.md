@@ -8,8 +8,6 @@ layout: article
 
 ## Social media
 
-
-
 You can help us fundraise by finding people to become a [Funding&nbsp;Partner](#funding-partner), sharing our story via Social Media,<!--with your own network through Social Media&nbsp;[Get&nbsp;In&nbsp;Touch](mailto:hello@clownswithoutborders.org.uk) directly--> or [Subscribe](#subscribe) to our newsfeed.
 
 - [Facebook](https://www.facebook.com/clownswithoutborders)
@@ -17,10 +15,3 @@ You can help us fundraise by finding people to become a [Funding&nbsp;Partner](#
 - [Youtube](https://www.youtube.com/channel/UCWDuY-wPQO3PL8HWTSPs86Q?fbclid=IwAR0dDha2_dPETQXvNqmT8GguWz4D2n0CrmY5Ttih_q01FXFWLvIliyWZ-hc)
 - [Instagram](https://www.instagram.com/clownswithoutbordersuk/)
 - [LinkedIn](https://www.linkedin.com/company/clowns-without-borders-uk)
-- [Just Giving](https://www.justgiving.com/cwb-uk)
-- [Virgin Money Giving](https://uk.virginmoneygiving.com/clownswithoutbordersuk)
-
-<!-- Virgin Money Giving
-  https://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1009801
-  https://uk.virginmoneygiving.com/charity-web/charity/displayCampaignsHomePage.action?charityId=1009801
--->

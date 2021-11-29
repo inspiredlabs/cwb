@@ -44,18 +44,18 @@ import Ed from './ed.md'
 </svelte:head>
 
 <AboutBannerWide />
-<Intro />
-<Awards />
-<!-- <OurImpact /> -->
-<WhoWeAre />
 <Section>
+	<Intro />
+	<Awards />
+	<!-- <OurImpact /> -->
+	<WhoWeAre />
 	<Sam />
 	<Halima />
 	<Edward />
-</Section>
-<Facilitators />
-<Trustees />
-<Section>
+
+	<Facilitators />
+	<Trustees />
+
 	<Unni />
 	<Shilpa />
 	<David />

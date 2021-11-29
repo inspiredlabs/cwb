@@ -15,25 +15,20 @@ import FundingPartner from "$lib/FundingPartner.svelte";
 
 
 <footer class="bg-primary-back white-90 antialias" id={page}>
-<Hotspot />
-<FundingPartner />
-
+  <Hotspot />
+  <FundingPartner />
 <Section>
+<!-- <header style="font-size:2.5vw" class="pt5">
+  <HomeLink />
+</header> -->
+  <Outro />
 
-
-<header style="font-size:2.5vw" class="pt5">
-  <HomeLink/>
-</header>
-
-
-<Outro />
-
-<hr class="bt inherit o-50 mv4"/><!-- fl cf w-100 bt mb0 inherit o-50 mv4 -->
-  <div class="w-100 cf fl">
-    <div class="w2 h2">
-      <Sting />
+  <hr class="bt inherit o-50 mv4"/><!-- fl cf w-100 bt mb0 inherit o-50 mv4 -->
+    <div class="w-100 cf fl">
+      <div class="w2 h2">
+        <Sting />
+      </div>
     </div>
-  </div>
 
   <nav class="cf pv4 f5 f6-l no-clutter">
     <div class="fn fl-l w-third-l pr2-l">
@@ -106,19 +101,24 @@ import FundingPartner from "$lib/FundingPartner.svelte";
 
   <Subscribe />
   <Social />
-
-  <nav class="cf pv4 f5 f6-l no-clutter">
-    <div class="fn fl-l w-third-l pr2-l">Charity Reg. Number: <a class="b link underline o-80 glow inherit" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156987">1156987</a></div><!-- /Column1 -->
-    <div class="fn fl-l w-third-l pr1-l pl1-l">&nbsp;</div><!-- /Column2 -->
-    <div class="fn fl-l w-third-l pl2-l tr">Website <a class="b link underline o-80 glow inherit" href="https://inspiredlabs.co.uk/">Scott&nbsp;Phillips</a> 2021<!-- &copy; --></div><!-- /Column3 -->
-    <!-- https://app.netlify.com/sites/happy-shaw-91e31c/deploys -->
-  </nav><!-- /Three columns -->
-
-
 </Section>
+
+<div class="bg-secondary-back-o-30">
+  <Section>
+    <nav class="cf pv4 f5 f6-l no-clutter">
+      <div class="fn fl-l w-third-l pr2-l">Charity Reg. Number: <a class="b link underline o-80 glow inherit" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156987">1156987</a></div><!-- /Column1 -->
+      <div class="fn fl-l w-third-l pr1-l pl1-l">&nbsp;</div><!-- /Column2 -->
+      <div class="fn fl-l w-third-l pl2-l tr">Website <a class="b link underline o-80 glow inherit" href="https://inspiredlabs.co.uk/">Scott&nbsp;Phillips</a> 2021<!-- &copy; --></div><!-- /Column3 -->
+      <!-- https://app.netlify.com/sites/happy-shaw-91e31c/deploys -->
+    </nav><!-- /Three columns -->
+  </Section>
+</div>
 </footer>
 
 <style>
+  .bg-secondary-back-o-30 {
+    background-color: rgba(33, 16, 70, var(--three));;
+  }
   a{ will-change: opacity }
 	a.active{
 		opacity: 1;

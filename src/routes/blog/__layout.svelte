@@ -64,40 +64,42 @@ function update(e) {
 }
 </script>
 
-<Section>
-<slot></slot>
+<div class="pv5">
+	<Section>
+		<slot></slot>
 
-<ul class="list pl0">
-	{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
-	{#if draft ? undefined : !draft }
-		<li class="mb3">
-			<a sveltekit:prefetch href={`${path.replace(".md", "")}`}>{title}</a>
-			<span class="f7 o-80 glow mr2"><!-- georgia i  -->
-				{new Date(date).toDateString()}
-			</span>
+		<ul class="list pl0">
+			{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
+			{#if draft ? undefined : !draft }
+				<li class="mb3">
+					<a sveltekit:prefetch href={`${path.replace(".md", "")}`}>{title}</a>
+					<span class="f7 o-80 glow mr2"><!-- georgia i  -->
+						{new Date(date).toDateString()}
+					</span>
 
-			{#each tags as tag}
-				<a sveltekit:prefetch on:click|once={update} href={`.././${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pa1 br3 mr2">#{tag}</a>
-			{/each}
+					{#each tags as tag}
+						<a sveltekit:prefetch on:click|once={update} href={`.././${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pa1 br3 mr2">#{tag}</a>
+					{/each}
 
-			<!-- href={`${path.replace(".md", "").replace("blog", "")}${tag}`} -->
+					<!-- href={`${path.replace(".md", "").replace("blog", "")}${tag}`} -->
 
-		</li>
-	{/if}
-{/each}
-</ul>
+				</li>
+			{/if}
+		{/each}
+		</ul>
 
-<nav>
-	<LightPaginationNav
-		totalItems="{items.length}"
-		pageSize="{pageSize}"
-		currentPage="{currentPage}"
-		limit="{1}"
-		showStepOptions="{true}"
-		on:setPage="{(e) => currentPage = e.detail.page}"
-	/>
-</nav>
-</Section>
+		<nav>
+			<LightPaginationNav
+				totalItems="{items.length}"
+				pageSize="{pageSize}"
+				currentPage="{currentPage}"
+				limit="{1}"
+				showStepOptions="{true}"
+				on:setPage="{(e) => currentPage = e.detail.page}"
+			/>
+		</nav>
+	</Section>
+</div>
 <style>
 	nav :global(.light-pagination-nav .pagination-nav) {
 		background: transparent;

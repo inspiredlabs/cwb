@@ -2,6 +2,10 @@
 	import Footer from "$lib/Footer.svelte";
 	import RightMenu from '$lib/RightMenu.svelte';//req. routes.js
 	import PageTransition from "$lib/PageTransition.svelte";
+	import Section from '$lib/Section.svelte';//<Section>
+	import Sting from '$lib/header/Sting.svelte';
+
+
 	// import LDTag from '$lib/LDTag.svelte';
 	// import { websiteSchema, orgSchema } from '$lib/json-ld';
   export let key;
@@ -56,5 +60,14 @@ Be aware of cumalative layout shift: https://web.dev/cls/
 	</PageTransition>
 </main>
 
-<RightMenu />
 <Footer />
+
+<nav class="w-100 fixed z-9">
+	<Section>
+		<div class="w3 h3">
+			<Sting />
+		</div>
+	</Section>
+</nav>
+
+<RightMenu />

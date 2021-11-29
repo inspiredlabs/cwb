@@ -6,6 +6,7 @@
 </script>
 <script>
 import RohingyaBannerWide from './RohingyaBannerWide.svelte';
+
 // Courses
 import Courses from './courses.md'
 
@@ -16,6 +17,7 @@ import GirlsRights from './girls-rights.md'
 import Wash from './wash.md'
 
 import Improve from './improve-programme-delivery-outcomes-you-already-run.md'
+import Section from '$lib/Section.svelte';
 </script>
 
 <svelte:head>
@@ -28,14 +30,13 @@ import Improve from './improve-programme-delivery-outcomes-you-already-run.md'
 
 <RohingyaBannerWide />
 
+<Section>
+	<Courses />
 
-<Courses />
+	<Programming />
+		<WellbeingProtection />
+		<GirlsRights />
+		<Wash />
 
-
-
-<Programming />
-	<WellbeingProtection />
-	<GirlsRights />
-	<Wash />
-
-<Improve />
+	<Improve />
+</Section>

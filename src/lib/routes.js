@@ -9,8 +9,15 @@ export const routes = [
 ];
 */
 
+export const routesHome = [
+	//{ href: '/', header: 'b pl0', title: 'Home' },
+	{ href: '/#locations', header: 'pl0', title: 'Where we Partner' },
+	{ href: '/#news', header: 'pl0', title: 'News' },
+	//{ href: '#funding-partner', header: 'pl0', title: 'Become a Funding Partner' },
+
+];
+
 export const routesAbout = [
-	//{ href: '/', header: 'pl0', title: 'Home' },
 	{ href: '/about', header: 'b', title: 'About Us' },
 		// { href: '/about#our-impact', header: 'b pl0', title: 'Our Impact' },
 		{ href: '/about#awards', header: 'pl0', title: 'Awards' },// \& Recognition

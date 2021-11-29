@@ -34,7 +34,7 @@
 	let one, two, three;
 </script>
 
-<aside class="dt w-100 vh-100 vh-75-ns vh-75-m bg-center hero">
+<aside class="dt w-100 vh-100 vh-75-ns vh-75-m bg-center hero pt5">
 
   <div class="dtc v-mid mw8 center ph3-ns white pt0 ">
 

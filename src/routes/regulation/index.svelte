@@ -9,6 +9,8 @@
 	import CharityRegulation from './reg.md'
 	import CodeOfEthics from './ethics.md'
 	import PrivacyPolicy from './privacy.md'
+	import Section from '$lib/Section.svelte';
+
 </script>
 
 <svelte:head>
@@ -21,8 +23,11 @@
 
 <!-- https://ifesworld.org/en/give/ -->
 
+
 <ExperienceBannerWide />
 
-<CharityRegulation/>
-<CodeOfEthics/>
-<PrivacyPolicy/>
+<Section>
+	<CharityRegulation/>
+	<CodeOfEthics/>
+	<PrivacyPolicy/>
+</Section>
