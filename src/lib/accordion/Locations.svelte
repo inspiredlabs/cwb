@@ -18,15 +18,101 @@
 
 	li { padding-bottom:1rem }
 
+	.cross:after {
+		content:'+';
+		top:-3.25px; /*~4px correct!*/
+		left:1.3px; /*~3px*/
+		position:relative;
+		color: var(--accent);
+	}
 </style>
 
 <div class="bg-primary-back no-clutter pv5" id="locations">
 	<Section>
 		<div class="hanging relative white o-80">- <b>Where we <!-- work --> Partner:</b></div>
+		<ul class="list pl0">
+
+			<li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">UNICEF</h3>
+				<p class="br2 pa3 bg-primary-fore">
+					<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
+					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.
+					<br>
+					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.
+				<!-- read more about it here -->
+				</p>
+			</li>
+			<li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">UNHCR</h3>
+				<p class="br2 pa3 bg-primary-fore">The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
+				<!-- read more about it here -->
+				</p>
+			</li>
+			<li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">Oxfam</h3>
+				<p class="br2 pa3 bg-primary-fore">The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
+				<!-- read more about it here -->
+				</p>
+			</li>
+			<li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">Solidarities International</h3>
+				<p class="br2 pa3 bg-primary-fore">
+				<!-- read more about it here -->
+				Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
+				</p>
+			</li>
+
+			<!-- <li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
+				<p class="br2 pa3 bg-primary-fore">
+				This is about our work with others who share our values.
+				</p>
+			</li> -->
+			<!-- read more about it here -->
+
+			<!-- <li>
+				- Plan Int.
+				- This is about our work with Save The Children.
+					- how we share the vision...
+					- and meet their goals
+					> important endorsement
+
+
+				## Moria Refugee Camp, Greece
+
+			We have been sharing laughter and performances with children and families escaping war and oppression **since 2016**. The conditions in the camps are basic with families being housed in tents, temporary wooden structures or metal sea containers.
+
+			The camps are difficult and sometimes frightening places for children. Wave of Hope.
+
+
+			## Jordan
+
+			The Za’atari refugee camp hosts around **80,000** Syrians who were forced to flee the war in Syria.
+
+			Children make up **50%** of the camp’s inhabitants. The camp is now Jordan’s fourth biggest city.
+
+			## Turkey
+
+			Over **1.6 million** children who have fled the war in Syria live as refugees across Turkey.
+
+			## Nepal
+
+			On 25th April 15 a massive **7.6** magnitude earthquake hit Nepal affecting over **850,000** people.
+
+			## Mozambique
+
+			On **14th March 2019**, Cyclone Idai made landfall near Beira city, Mozambique. It was one of the worst storms to ever hit Mozambique.
+
+			Flooding caused by the cyclone affected close to **2.2 million** people.
+
+			## Philippines
+
+			On **8th November 2013**, super typhoon Haiyan - believed to be the strongest storm ever recorded in history - made landfall in central Philippines, destroying **500,000 homes**.
+			</li> -->
 
 
 
-		<div class="debug w-90 w-100-m">
+
 			<!-- <Accordion isOpen={false} buttonText={'UNICEF'}>
 				This is about our work with UNICEF.
 			</Accordion>
@@ -48,13 +134,18 @@
 			</Accordion>
 
 			<Accordion isOpen={false} buttonText={'others, who share our values'}>
-				This is about our work with others who share our values.
+
 			</Accordion> -->
-		</div>
+
+
+
+		</ul>
 
 
 	</Section>
 </div>
+
+
 
 <!--style>
 <Accordion isOpen={false} buttonText={'R&D'}>
