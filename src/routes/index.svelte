@@ -127,6 +127,7 @@ let microdata = {
 </script>
 
 <svelte:head>
+	<title>Home | Clowns Without Borders</title>
 	<meta name="title" content="Humanitarian aid for children in disaster | Clowns Without Borders">
 	<meta name="description" content="Play offers children and young people the best protection from disaster. Discover how we can help deliver better NGO results on programmes you already run.">
 	<meta name="keywords" content="humanitarian aid, help refugees, refugee charity, capacity funding, corporate charity partnership, toxic stress, toxic childhood stress, human rights act, human rights, girl's rights, building capacity, capacity development training, WASH">
@@ -156,7 +157,7 @@ let microdata = {
 				</span>
 
 				{#each tags as tag}
-					<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
+					<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f6 o-80 glow mid-gray bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
 				{/each}
 
 				<!--   -->

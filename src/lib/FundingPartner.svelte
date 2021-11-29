@@ -77,6 +77,8 @@ const handleSubmit = (event) => {
           <input type="text" name="gotcha" class="visually-hidden" />
           <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
           <input name="subject" type="hidden" value="{email} has sent a {name}" />
+
+
           <input
             style="border-right:none"
             id="email"

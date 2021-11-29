@@ -10,5 +10,5 @@
       Our range of tools are developed to support behaviour change,<br>
       &amp; deliver more effective Aid than our top 5 NGO Partners&nbsp;alone.</h3>
     </header>
-      <a href="#funding-partner" class="pointer link transition br0 f6 f5-ns pv3 ba bw2 b--primary-back ttu tracked-mega bg-accent hover-bg-primary-back w-third w-20-l b system tc white ph3">Become a Funding Partner</a>
+      <a href="#funding-partner" class="pointer link transition br0 f6 f5-ns pv3 ba bw2 b--secondary-back ttu tracked-mega bg-primary-back hover-bg-accent w-third w-20-l b system tc white ph3 ph4-l">Become a Funding Partner</a>
 </div>
