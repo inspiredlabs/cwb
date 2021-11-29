@@ -51,12 +51,12 @@
 
   <div class="cf ph2-ns pt2-ns pt5-m pt6-l">
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 ">
-			<!-- hover-bg-charcoal transition -->
+			<!-- hover-bg-charcoal bg-transition -->
 			<div
 				use:viewport
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
-				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ one ? 'one' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2"><strong class="fw6">Founded in 2014</strong> as a&nbsp;UK reg&shy;istered&nbsp;chairty to build capacity and bring&nbsp;releif.</p>
 
@@ -68,7 +68,7 @@
 				use:viewport
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
-				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ two ? 'two' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Sharing laughter and play with over <strong class="fw6">55,000 children &amp; young&nbsp;people</strong></p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
@@ -76,7 +76,7 @@
 				use:viewport
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
-				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ three ? 'three' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">&hellip;across <strong class="fw6">14 countries</strong> in some of the world's most hostile conditions.</p>
 			</div>
   </div>

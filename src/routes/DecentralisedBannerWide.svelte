@@ -53,7 +53,7 @@
 
   <div class="cf ph2-ns pt2-ns pt5-m pt6-l">
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 ">
-			<!-- hover-bg-charcoal transition -->
+			<!-- hover-bg-charcoal bg-transition -->
 
 
 
@@ -63,7 +63,7 @@
 				use:viewport
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
-				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"><sup class="tracked">st</sup></div>
+				class="{ one ? 'one' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"><sup class="tracked">st</sup></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">We are reinventing<br> Humanitarian Aid Delivery in a <strong class="fw6">21st Century</strong>&nbsp;context.</p>
 
 				<!--
@@ -77,7 +77,7 @@
 				use:viewport
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
-				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">s</div>
+				class="{ two ? 'two' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">s</div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Empowering <strong class="fw6">1000s of children</strong> with valuable lifeskills, that truly&nbsp;scale&hellip;</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
@@ -85,7 +85,7 @@
 				use:viewport
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
-				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ three ? 'three' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Using decentralised work practices on behalf of the <strong class="fw6">5&nbsp;largest global&nbsp;NGO.</strong></p>
 			</div>
   </div>

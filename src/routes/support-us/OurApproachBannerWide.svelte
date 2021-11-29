@@ -30,12 +30,12 @@
 
   <div class="cf ph2-ns pt2-ns pt5-m pt6-l">
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 ">
-			<!-- hover-bg-charcoal transition -->
+			<!-- hover-bg-charcoal bg-transition -->
 			<div
 				use:viewport
 				on:enterViewport={() => one = true }
 				on:exitViewport={() => one = false }
-				class="{ one ? 'one' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ one ? 'one' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2"><strong class="fw6">21&nbsp;Trained Facilitators</strong> make money go further by&nbsp;collaborating remotely.</p>
     </div>
     <div class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0">
@@ -43,7 +43,7 @@
 				use:viewport
 				on:enterViewport={() => two = true }
 				on:exitViewport={() => two = false }
-				class="{ two ? 'two' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
+				class="{ two ? 'two' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number"></div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l pr2">Focusing<!--Concentrating--> on <strong class="fw6">3&nbsp;key&nbsp;areas:</strong> Wellbeing Protection,
 					Girl's&nbsp;Rights &amp;&nbsp;WASH.</p>
     </div>
@@ -52,7 +52,7 @@
 				use:viewport
 				on:enterViewport={() => three = true }
 				on:exitViewport={() => three = false }
-				class="{ three ? 'three' : '' } transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
+				class="{ three ? 'three' : '' } bg-transition f-5 f1-ns f1-m f-5-l fw7 tracked-tight avenir stroke-text o-0 number">+</div>
 				<p class="mt0 f2 fw2 f2-ns f3-m f2-l">Delivering <strong class="fw6">30+&nbsp;projects</strong> more effectively than our partners alone.</p>
 				<!-- Because our <b>21&nbsp;Facilitators</b> -->
 			</div>

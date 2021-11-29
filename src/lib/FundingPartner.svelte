@@ -94,7 +94,7 @@ const handleSubmit = (event) => {
             class="transition input-reset br0 ba bw2 w-two-thirds w-80-l bg-white-80 b--accent f6 f5-ns pv3 db active pa3">
 
           <input
-            class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent primary-back ttu tracked-mega bg-white hover-bg-accent w-third w-20-l db b system tc"
+            class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent primary-back ttu tracked-mega bg-white hover-bg-accent w-third w-20-l db b system tc"
             type="submit"
             value="Send">
           {:else}

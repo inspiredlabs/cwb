@@ -44,7 +44,7 @@ function getRandomNumber(min, max) {
       <answer class="w-100 w-two-thirds-l pa0 white tl tc-m tl-l">{@html hotspots[index]}</answer>
     </blockquote><!-- /Three columns -->
     <!-- <div class="pt5 tl tc-m tc-l">
-      <a href="#" class="link pointer transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--primary-back primary-back ttu tracked-mega hover-bg-white b system tc ph4">Join them</a>
+      <a href="#" class="link pointer bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--primary-back primary-back ttu tracked-mega hover-bg-white b system tc ph4">Join them</a>
     </div> -->
     <!-- Learn More&hellip; -->
   </Margin>
