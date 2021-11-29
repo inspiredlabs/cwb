@@ -72,9 +72,9 @@ Escape key: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cli
     input-reset
     z-max fixed pointer mb5
     bottom-0 right-0 fr
-    ba bw2 b--black
+    ba bw2 b--accent
     bg-primary-fore
-    hover-bg-white accent
+    hover-bg-white secondary-fore
     mr0 ml0 pa2 pt1 pb1 tc
     transition"
   on:click={toggle}>

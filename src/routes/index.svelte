@@ -143,7 +143,7 @@ let microdata = {
 <Intro />
 <Locations />
 
-<div class="pv5">
+<div class="pv5" id="news">
 	<Section>
 	<slot></slot>
 	<ul class="list pl0">
