@@ -70,8 +70,8 @@ class="{ submitted ? 'ping' : '' }">
       {#if !submitted}
       <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
       <input type="hidden" name="form-name" value={name} />
-      <label for="gotcha" class="sr-only">Gotcha!</label>
-      <input type="text" id="gotcha" name="gotcha" class="sr-only" />
+      <label for="subcribe-gotcha" class="sr-only">Gotcha!</label>
+      <input type="text" id="subcribe-gotcha" name="gotcha" class="sr-only" />
       <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
 
       <label for="subcribe-subject" class="sr-only">Subject</label>
