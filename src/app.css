@@ -8326,6 +8326,16 @@ code {
   transition: color 0.15s ease-in;
 }
 
+.o-transition {
+	transition: opacity 0.4s ease 0s;
+  -webkit-transition: opacity 0.4s ease 0s;
+}
+
+.o-transition:hover {
+  transition: opacity 0.4s ease 0s;
+  -webkit-transition: opacity 0.4s ease 0s;
+}
+
 .bg-transition {
 	transition: background-color 0.4s ease 0s;
   -webkit-transition: background-color 0.4s ease 0s;

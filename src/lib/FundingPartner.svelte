@@ -91,7 +91,7 @@ const handleSubmit = (event) => {
             bind:value={email}
             placeholder="your@email.com"
             required
-            class="transition input-reset br0 ba bw2 w-two-thirds w-80-l bg-white-80 b--accent f6 f5-ns pv3 db active pa3">
+            class="bg-transition input-reset br0 ba bw2 w-two-thirds w-80-l bg-white-80 b--accent f6 f5-ns pv3 db active pa3">
 
           <input
             class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent accent ttu tracked-mega white bg-primary-back hover-bg-accent w-third w-20-l db b system tc"

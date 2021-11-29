@@ -83,7 +83,7 @@ class="{ submitted ? 'ping' : '' }">
         bind:value={email}
         placeholder="your@email.com"
         required
-        class="transition input-reset br0 ba bw2 w-50 w-60-ns w-60-m w-60-l bg-white-80 b--secondary-fore f6 f5-ns pv3 db active pa3"
+        class="bg-transition input-reset br0 ba bw2 w-50 w-60-ns w-60-m w-60-l bg-white-80 b--secondary-fore f6 f5-ns pv3 db active pa3"
         style="border-right:none"
         >
 

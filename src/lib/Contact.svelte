@@ -37,7 +37,7 @@
 		<!-- f5 f5-ns input-reset -->
 	</div>
 	<div class="fr cb cf mb3 mb6-ns mb3-m mb3-l bg-black ma0">
-		<input class="transition input-reset pointer br0 f6 f5-ns b ph5 pv3 ba bw2 b--black white ttu tracked-mega bg-primary-back hover-bg-near-black w-100 db b system"
+		<input class="bg-transition input-reset pointer br0 f6 f5-ns b ph5 pv3 ba bw2 b--black white ttu tracked-mega bg-primary-back hover-bg-near-black w-100 db b system"
 		type=submit value=Send>
 		<!-- bw2-ns bg-mid-gray hover-bg-white accent  -->
 	</div>
