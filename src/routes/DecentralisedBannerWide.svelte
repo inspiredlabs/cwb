@@ -104,7 +104,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('https://cwb.org.uk/images/girl-looking-up-into-the-sky-smiling.jpg')
+			url('https://cwb.org.uk/images/girl-looking-up-into-the-sky-smiling.webp')
 			center center / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/

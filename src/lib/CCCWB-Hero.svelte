@@ -7,7 +7,7 @@ ASPECT RATIO: tippingpoint.dev/css-aspect-ratio
 .aspect-ratio--16-9 {
   overflow: hidden;
   padding-top: 56.25%;
-  background: url('city-skyline.jpg') no-repeat center;
+  background: url('city-skyline.webp') no-repeat center;
   background-size: cover;
 }
 -->

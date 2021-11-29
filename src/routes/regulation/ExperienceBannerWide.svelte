@@ -94,7 +94,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('https://cwb.org.uk/images/IMG_1914-1024x683.jpg')
+			url('https://cwb.org.uk/images/IMG_1914-1024x683.webp')
 			center 60% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/
