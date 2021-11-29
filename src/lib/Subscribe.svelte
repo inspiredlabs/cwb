@@ -88,7 +88,7 @@ class="{ submitted ? 'ping' : '' }">
         >
 
       <input
-        class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--secondary-fore white ttu tracked-mega bg-black-30 hover-bg-near-black w-50 w-40-ns w-40-m w-40-l db b system tc"
+        class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--secondary-fore white ttu tracked-mega bg-black-30 hover-bg-secondary-fore w-50 w-40-ns w-40-m w-40-l db b system tc"
         type="submit"
         value="Subscribe">
       {:else}
