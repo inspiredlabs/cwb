@@ -1,14 +1,14 @@
 ---
 draft: false
 region: en
-title: 
+title:
 tags:
   - water and sanitation hygine
   - refugee health
   - children and young people
   - programme delivery
   - clowns without borders
-images: ["https://cwb.org.uk/images/shilpa-thanki.jpg"]
+images: ["https://cwb.org.uk/images/shilpa-thanki.webp"]
 layout: article
 
 description: By transform technical information into age appropriate activities we share key hygiene messages to children that they enjoy repeating again and again.
@@ -39,17 +39,17 @@ This means we deliver the WASH Programme more effectively than our partners alon
 [&mdash;&nbsp;Silvia Ramos, UNICEF](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar)
 -->
 
-<!-- # Detail About WASH Programme 
-Content from this programme can even go viral. 
+<!-- # Detail About WASH Programme
+Content from this programme can even go viral.
 
 We impart valuable life skills that help create a healthier environment, even for those not present.
 
-We make the delivery of WASH more effective than the usual application of standard programming. 
+We make the delivery of WASH more effective than the usual application of standard programming.
 
 UNHCR, official:
 during emergencies
 protracted situations
-create a healthier environment 
+create a healthier environment
 refugees and host communities
 affect communities that host them.
 Untreated water
@@ -58,15 +58,15 @@ make access to WASH
 Untreated water
 proper sanitation
 refugee health, education and livelihoods
-WASH separate field of work, they are interdependent 
+WASH separate field of work, they are interdependent
 refugee-led hygiene promotion activities
 M&E, What is relevant for us to MONITOR?: https://wash.unhcr.org/download/wash-monitoring-system-briefing-note-v2/
 
 migration and refugee situations
-share key hygiene messages to children 
+share key hygiene messages to children
 games and songs
 Wash goes viral.
-train staff who 
+train staff who
 across dense refugee population
 temporary accomodation
 

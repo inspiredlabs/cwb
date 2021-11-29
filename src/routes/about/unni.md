@@ -4,7 +4,7 @@ region: en
 title: Dr. Unni Krishnan
 tags:
   - senior trustee
-images: ["https://cwb.org.uk/images/unni.jpg"]
+images: ["https://cwb.org.uk/images/unni.webp"]
 layout: person
 
 jobTitle: Senior Trustee

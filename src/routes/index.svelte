@@ -115,7 +115,7 @@ let microdata = {
 		name: "Clowns Without Borders, UK",
 		url: "https://cwb.org.uk/",
 		logo: "https://cwb.org.uk/images/cwb.svg",
-		image: "https://cwb.org.uk/images/sam-smiling.jpg",
+		image: "https://cwb.org.uk/images/sam-smiling.webp",
 		description: "index.svelte page description only",
 		telephone: 442072446908,
 		streetAddress: "118 Sternhold Avenue",
@@ -157,7 +157,7 @@ let microdata = {
 				</span>
 
 				{#each tags as tag}
-					<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f6 o-80 glow mid-gray bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
+					<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f6 primary-back hover-secondary-back bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
 				{/each}
 
 				<!--   -->

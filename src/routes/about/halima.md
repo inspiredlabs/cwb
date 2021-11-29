@@ -4,7 +4,7 @@ region: en
 title: Halima Habil
 tags:
   - producer
-images: ["https://cwb.org.uk/images/halima-habil-outside.jpg"]
+images: ["https://cwb.org.uk/images/halima-habil-outside.webp"]
 layout: person
 
 jobTitle: Producer

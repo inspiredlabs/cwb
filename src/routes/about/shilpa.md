@@ -5,7 +5,7 @@ title: Shilpa Thanki-Green
 tags:
   - senior trustee
   - treasurer
-images: ["https://cwb.org.uk/images/shilpa-thanki.jpg"]
+images: ["https://cwb.org.uk/images/shilpa-thanki.webp"]
 layout: person
 
 jobTitle: Senior Trustee, Treasurer

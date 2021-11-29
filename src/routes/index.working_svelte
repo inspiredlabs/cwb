@@ -73,7 +73,7 @@ let microdata = {
 		name: "Clowns Without Borders, UK",
 		url: "https://cwb.org.uk/",
 		logo: "https://cwb.org.uk/images/cwb.svg",
-		image: "https://cwb.org.uk/images/sam-smiling.jpg",
+		image: "https://cwb.org.uk/images/sam-smiling.webp",
 		description: "index.svelte page description only",
 		telephone: 442072446908,
 		streetAddress: "118 Sternhold Avenue",

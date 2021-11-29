@@ -4,7 +4,7 @@ region: en
 title: Tanya Glanville-Wallis
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/tanya-with-her-dog.jpg"]
+images: ["https://cwb.org.uk/images/tanya-with-her-dog.webp"]
 layout: person
 
 jobTitle: Trustee

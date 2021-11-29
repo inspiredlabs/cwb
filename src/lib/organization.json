@@ -4,7 +4,7 @@
   "name": "Clowns Without Borders, UK",
   "url": "https://cwb.org.uk/",
   "logo": "https://cwb.org.uk/images/cwb.svg",
-  "image": "https://cwb.org.uk/sam-smiling.jpg",
+  "image": "https://cwb.org.uk/sam-smiling.webp",
   "description": "Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.",
   "address": {
       "@type": "PostalAddress",

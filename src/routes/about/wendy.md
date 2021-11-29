@@ -4,7 +4,7 @@ region: en
 title: Wendy Lanchin
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/wendy-smiling.jpg"]
+images: ["https://cwb.org.uk/images/wendy-smiling.webp"]
 layout: person
 
 jobTitle: Trustee

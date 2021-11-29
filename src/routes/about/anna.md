@@ -4,7 +4,7 @@ region: en
 title: Annabel Morgan
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/anna-with-children.jpg"]
+images: ["https://cwb.org.uk/images/anna-with-children.webp"]
 layout: person
 
 jobTitle: Trustee

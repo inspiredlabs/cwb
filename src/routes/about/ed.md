@@ -4,7 +4,7 @@ region: en
 title: Ed King
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/ed-king-smiling.jpg"]
+images: ["https://cwb.org.uk/images/ed-king-smiling.webp"]
 layout: person
 
 jobTitle: Trustee

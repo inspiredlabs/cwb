@@ -8,7 +8,7 @@ tags:
   - children and young people
   - measure impact
   - clowns without borders
-images: ["https://cwb.org.uk/images/shilpa-thanki.jpg"]
+images: ["https://cwb.org.uk/images/shilpa-thanki.webp"]
 layout: article
 
 description: Learn how to improve programme delivery outcomes you already run, involve children and young people and measure impact with our Monitoring and Evaluation Tools.

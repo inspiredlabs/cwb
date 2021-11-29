@@ -4,7 +4,7 @@ region: en
 title: Niki Charalampopoulou
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/niki-smiling.jpg"]
+images: ["https://cwb.org.uk/images/niki-smiling.webp"]
 layout: person
 
 jobTitle: Trustee

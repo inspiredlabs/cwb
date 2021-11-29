@@ -4,7 +4,7 @@ region: en
 title: Samantha Holdsworth
 tags:
   - ceo
-images: ["https://cwb.org.uk/images/sam-smiling.jpg"]
+images: ["https://cwb.org.uk/images/sam-smiling.webp"]
 layout: person
 
 jobTitle: CEO

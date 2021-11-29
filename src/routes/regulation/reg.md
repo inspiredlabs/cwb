@@ -1,7 +1,7 @@
 ---
 region: en
 draft: true
-images: ["./images/tai-chi.jpg"]
+images: ["./images/tai-chi.webp"]
 layout: article
 
 ---
