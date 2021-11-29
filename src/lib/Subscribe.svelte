@@ -70,9 +70,12 @@ class="{ submitted ? 'ping' : '' }">
       {#if !submitted}
       <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
       <input type="hidden" name="form-name" value={name} />
-      <input type="text" name="gotcha" class="visually-hidden" />
+      <label for="gotcha" class="sr-only">Gotcha!</label>
+      <input type="text" id="gotcha" name="gotcha" class="sr-only" />
       <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-      <input name="subject" type="hidden" value="{email} wants to {name}" />
+
+      <label for="subcribe-subject" class="sr-only">Subject</label>
+      <input id="subcribe-subject" name="subject" type="hidden" value="{email} wants to {name}" />
       <input
         id="newsfeed"
         type="email"
@@ -124,7 +127,7 @@ class="{ submitted ? 'ping' : '' }">
 }
 
 /* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */
-.visually-hidden {
+/* .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -132,5 +135,5 @@ class="{ submitted ? 'ping' : '' }">
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
+} */
 </style>

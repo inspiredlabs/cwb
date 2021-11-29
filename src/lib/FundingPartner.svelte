@@ -73,10 +73,14 @@ const handleSubmit = (event) => {
         <div class="w-100 flex justify-between "><!-- pl2-l tr -->
           {#if !submitted}
           <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
+
           <input type="hidden" name="form-name" value={name} />
-          <input type="text" name="gotcha" class="visually-hidden" />
+
+          <label for="gotcha" class="sr-only">Gotcha!</label>
+          <input type="text" id="gotcha" name="gotcha" class="sr-only" />
           <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-          <input name="subject" type="hidden" value="{email} has sent a {name}" />
+          <label for="subject" class="sr-only">Subject</label>
+          <input id="subject" name="subject" type="hidden" value="{email} has sent a {name}" />
 
 
           <input
@@ -90,7 +94,7 @@ const handleSubmit = (event) => {
             class="transition input-reset br0 ba bw2 w-two-thirds w-80-l bg-white-80 b--accent f6 f5-ns pv3 db active pa3">
 
           <input
-            class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent primary-back ttu tracked-mega bg-accent hover-bg-white w-third w-20-l db b system tc"
+            class="{ isSubmitting ? "no-select" : "pointer" } transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent primary-back ttu tracked-mega bg-white hover-bg-accent w-third w-20-l db b system tc"
             type="submit"
             value="Send">
           {:else}
@@ -144,7 +148,7 @@ const handleSubmit = (event) => {
 }
 
 /* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */
-.visually-hidden {
+/* .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -152,5 +156,5 @@ const handleSubmit = (event) => {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
+} */
 </style>
