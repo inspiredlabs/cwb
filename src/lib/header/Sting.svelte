@@ -3,9 +3,10 @@
 </script>
 
 <a href="/" class="db pointer"><img
-  class="db mt1 mb1 no-select"
+  width="56" height="56"
+  class="db no-select"
   src={logo} alt="Clowns Without Borders Logo"
-/><h1 class="sr-only">Clowns Without Borders</h1></a>
+/><!-- mt1 mb1 --><h1 class="sr-only">Clowns Without Borders</h1></a>
 
 
 <!--script type="application/ld+json">

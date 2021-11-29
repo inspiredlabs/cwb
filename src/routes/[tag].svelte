@@ -77,7 +77,7 @@ function update() {
 					</span>
 
 					{#each tags as tag}
-						<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pa1 br3 mr2">#{tag}</a>
+						<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f7 o-80 glow mid-gray bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
 					{/each}
 
 					<!--   -->

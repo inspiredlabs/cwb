@@ -1,16 +1,16 @@
 :root {
 
 	--primary-back:#381c75;
-	--primary-back:rgba(56, 28, 117, var(--ten));
+	--primary-back:hsla(259,61%,28%, var(--ten));
 
 	--primary-fore:#f3f3f3;
-	--primary-fore:rgba(243, 243, 243, var(--ten));
+	--primary-fore:hsla(0,0%,95%, var(--ten));
 
 	--secondary-back:#211046;
-	--secondary-back:rgba(33, 16, 70, var(--ten));
+	--secondary-back:hsl(259,63%,17%, var(--ten));
 
 	--secondary-fore:#785463;
-	--secondary-fore:rgba(120, 84, 99, var(--ten));
+	--secondary-fore:hsla(335,18%,40%, var(--ten));
 
 	--accent: #ff285b;  /* Will be used as a fallback; see: colormine.org/color-converter & css.land/lch */
 

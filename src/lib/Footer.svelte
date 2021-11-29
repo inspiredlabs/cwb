@@ -117,7 +117,7 @@ import FundingPartner from "$lib/FundingPartner.svelte";
 
 <style>
   .bg-secondary-back-o-30 {
-    background-color: rgba(33, 16, 70, var(--three));;
+    --secondary-back:hsl(259,63%,17%, var(--three));
   }
   a{ will-change: opacity }
 	a.active{
