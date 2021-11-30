@@ -25,53 +25,149 @@
 		position:relative;
 		color: var(--accent);
 	}
+
+
+
+
+
+
+
+
+/* https://stackoverflow.com/questions/64724139/error-styling-the-details-summary-marker-in-safari-webkit */
+
+
+summary::after {
+	color:var(--accent);
+	position:relative;
+	content:'+';
+	will-change: transform;
+  display:inline-block;
+
+  -webkit-text-decoration:none;
+  text-decoration:none;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+}
+
+summary:hover{
+	color:var(--accent);
+}
+
+details>summary {
+	color: white;
+	transition: color 0.6s ease-out
+}
+
+details[open]>summary {
+	color:var(--accent);
+}
+
+details>summary:after {
+	transition: all 0.6s ease-out;
+	transform: rotate(0turn);
+	top:-2px;
+	left:-2.5px;
+}
+
+details[open]>summary:after {
+	transform: rotate(0.25turn);
+	top:2.0px;
+	left:1.0px;
+	color:var(--accent);
+	/* border-bottom: none!important; */
+}
+
+details[open]>summary:hover:after {
+	color:var(--accent)
+}
+
+details[open] summary~article {
+  animation:fade 0.666s ease-in-out
+}
+
+@keyframes fade {
+  0% { opacity:0 }
+  100% { opacity:1 }
+}
+
+details > summary {
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display:none
+}
 </style>
 
 <div class="bg-primary-back no-clutter pv5" id="locations">
+
 	<Section>
 		<div class="hanging relative white o-80">- <b>Where we <!-- work --> Partner:</b></div>
-		<ul class="list pl0">
-
-			<li>
-				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">UNICEF</h3>
-				<p class="br2 pa3 bg-primary-fore">
+		<!-- FOR EACH SNIPPET -->
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNICEF</summary>
+			<article class="br2 pa3 bg-primary-fore">
 					<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
-					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.
-					<br>
-					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.
-				<!-- read more about it here -->
-				</p>
-			</li>
-			<li>
-				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">UNHCR</h3>
-				<p class="br2 pa3 bg-primary-fore">The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
-				<!-- read more about it here -->
-				</p>
-			</li>
-			<li>
-				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">Oxfam</h3>
-				<p class="br2 pa3 bg-primary-fore">The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
-				<!-- read more about it here -->
-				</p>
-			</li>
-			<li>
-				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross">Solidarities International</h3>
-				<p class="br2 pa3 bg-primary-fore">
-				<!-- read more about it here -->
-				Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
-				</p>
-			</li>
+					<p>
+					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
+					<p>
+					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p>
+			</article>
+		</details>
+		<!-- FOR EACH SNIPPET -->
 
+
+
+
+
+
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNHCR</summary>
+			<article class="br2 pa3 bg-primary-fore">
+
+				<p>The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
+				</p>
+			</article>
+		</details>
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Oxfam</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
+				</p>
+			</article>
+		</details>
+
+		<!-- open -->
+		<!-- <details>
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Plan International</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>
+					<b>Myanmar</b>.
+				</p>
+			</article>
+		</details> -->
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Solidarities International</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>
+					Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
+					</p>
+			</article>
+		</details>
 			<!-- <li>
 				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
-				<p class="br2 pa3 bg-primary-fore">
+				<p>
 				This is about our work with others who share our values.
 				</p>
 			</li> -->
 			<!-- read more about it here -->
 
 			<!-- <li>
-				- Plan Int.
+				- Plan International, see Unni.
 				- This is about our work with Save The Children.
 					- how we share the vision...
 					- and meet their goals
@@ -136,12 +232,6 @@
 			<Accordion isOpen={false} buttonText={'others, who share our values'}>
 
 			</Accordion> -->
-
-
-
-		</ul>
-
-
 	</Section>
 </div>
 

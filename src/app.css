@@ -7172,6 +7172,7 @@ code {
   0,
   0.4);
 }
+/*
 summary {
   width: 100%;
   cursor: pointer
@@ -7231,6 +7232,7 @@ details[open] summary~* {
     opacity: 1
   }
 }
+*/
 .bg-animate {
   color: rgba(170,
   170,
