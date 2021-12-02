@@ -80,7 +80,7 @@ function update() {
 				<!-- `index.svelte` NOT: `href={/blog/${path.replace(".md", "")}}` -->
 				<a
 					sveltekit:prefetch
-					href={`/blog/${path.replace(".md", "")}`}
+					href={`${path.replace(".md", "")}`}
 					class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 link primary-back hover-secondary-fore"
 				>
 				<!-- hover-bg-white bg-transition -->
