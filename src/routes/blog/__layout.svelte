@@ -3,7 +3,7 @@
 
 	// Import from VITE, as a single import.
 	const allPosts = import.meta.glob("./*.md"); // `./blog/*.md` //{markdown,md,svx}
-	console.log(allPosts);
+	//console.log(allPosts);
 
 	let body = [];
 

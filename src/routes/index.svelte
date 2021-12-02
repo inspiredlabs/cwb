@@ -26,16 +26,17 @@ export const prerender = true;
 	// This is a promise: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=456
 	export const load = async({page}) => {
 		const posts = await Promise.all(body)
-		const tag = page.params.tag || 'tech';
+		const tag = page.params.tag; // || 'tech'
 
-		const filteredPosts = posts.filter((post) => {
-			return post.metadata.tags.includes(tag)
-		})
+		// const filteredPosts = posts.filter((post) => {
+		// 	return post.metadata.tags.includes(tag)
+		// })
 
 		return {
 			props: {
 				posts, //send the `props` to the component
-				filteredPosts,
+				//filteredPosts,
+				tag
 			}
 		}
 
@@ -53,10 +54,10 @@ export const prerender = true;
 <script>
 //import CloseTrigger from '$lib/CloseTrigger.svelte'; // <CloseTrigger />
 import { paginate, LightPaginationNav } from 'svelte-paginate'
-export let filteredPosts;
+export let posts;//filteredPosts
 
 
-const dateSortedPosts = filteredPosts.slice().sort((post1, post2) => {
+const dateSortedPosts = posts.slice().sort((post1, post2) => {
 	return new Date(post2.metadata.date) - new Date(post1.metadata.date);
 });
 
