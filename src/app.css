@@ -12,7 +12,8 @@
 	--secondary-fore:#785463;
 	--secondary-fore:hsla(335,18%,40%, var(--ten));
 
-	--accent: #ff285b;  /* Will be used as a fallback; see: colormine.org/color-converter & css.land/lch */
+	/* #ff285b CONVERT: colordesigner.io/convert/hextohsl */
+	--accent: hsl(346,100%,58%);  /* Will be used as a fallback; see: colormine.org/color-converter & css.land/lch */
 
 	/*
 	--font-mono: monospace;

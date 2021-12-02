@@ -6,32 +6,9 @@
 <!-- <svelte:head>
 	<link rel='stylesheet' href='https://inspiredlabs.co.uk/css/sourcesans.css'>
 </svelte:head> -->
+
 <style>
-
-	hr {
-		width:100%;
-		border: 0 solid transparent;
-		border-bottom: 2px solid var(--accent);
-	}
-
 	.hanging { left:-0.8rem }
-
-	li { padding-bottom:1rem }
-
-	.cross:after {
-		content:'+';
-		top:-3.25px; /*~4px correct!*/
-		left:1.3px; /*~3px*/
-		position:relative;
-		color: var(--accent);
-	}
-
-
-
-
-
-
-
 
 /* https://stackoverflow.com/questions/64724139/error-styling-the-details-summary-marker-in-safari-webkit */
 
@@ -100,6 +77,9 @@ summary::-webkit-details-marker {
 }
 </style>
 
+
+
+
 <div class="bg-primary-back no-clutter pv5" id="locations">
 
 	<Section>
@@ -111,6 +91,7 @@ summary::-webkit-details-marker {
 					<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
 					<p>
 					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
+					<hr clss="bn w-100" style="border-top: 2px solid var(--accent)">
 					<p>
 					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p>
 			</article>

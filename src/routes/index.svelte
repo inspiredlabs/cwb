@@ -77,7 +77,7 @@ function update() {
 
 
 import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
-import Locations from '$lib/accordion/Locations.svelte';
+import Locations from './Locations.svelte';
 import Section from '$lib/Section.svelte';
 import Sting from '$lib/header/Sting.svelte';
 
@@ -86,6 +86,7 @@ import Image from "$lib/Image.svelte"
 
 // About
 import Intro from './intro.md'
+import Layout from './__layout.svelte';
 // Our Impact
 
 // Awards and Recognition
@@ -141,58 +142,285 @@ let microdata = {
 <Hero />
 <DecentralisedBannerWide />
 <Intro />
-<Locations />
 
-<div class="pv5" id="news">
+
+
+
+<div class="bg-primary-back no-clutter pv5" id="locations">
+
 	<Section>
-	<slot></slot>
-	<ul class="list pl0">
-		{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
+		<div class="hanging relative white o-80">- <b>Where we <!-- work --> Partner:</b></div>
+		<!-- FOR EACH SNIPPET -->
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNICEF</summary>
+			<article class="br2 pa3 bg-primary-fore">
+					<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
+					<p>
+					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
+					<hr clss="bn w-100" style="border-top: 2px solid var(--accent)">
+					<p>
+					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p>
+			</article>
+		</details>
+		<!-- FOR EACH SNIPPET -->
 
-		{#if draft ? undefined : !draft }
-			<li class="mb3">
-				<a sveltekit:prefetch href={`${path.replace(".md", "")}`}>{title}</a>
-				<time class="f7 o-80 glow mr2"><!-- georgia i  -->
-					{new Date(date).toDateString()}
-				</time>
 
-				{#each tags as tag}
-					<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="f6 primary-back hover-secondary-back bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
-				{/each}
 
-				<!--   -->
 
-			</li>
-		{/if}
 
-	{/each}
-	</ul>
 
-	<nav>
-		<LightPaginationNav
-			totalItems="{items.length}"
-			pageSize="{pageSize}"
-			currentPage="{currentPage}"
-			limit="{1}"
-			showStepOptions="{true}"
-			on:setPage="{(e) => currentPage = e.detail.page}"
-		/>
-	</nav>
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNHCR</summary>
+			<article class="br2 pa3 bg-primary-fore">
+
+				<p>The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
+				</p>
+			</article>
+		</details>
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Oxfam</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
+				</p>
+			</article>
+		</details>
+
+		<!-- open -->
+		<!-- <details>
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Plan International</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>
+					<b>Myanmar</b>.
+				</p>
+			</article>
+		</details> -->
+
+		<details><!-- open -->
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Solidarities International</summary>
+			<article class="br2 pa3 bg-primary-fore">
+				<p>
+					Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
+					</p>
+			</article>
+		</details>
+			<!-- <li>
+				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
+				<p>
+				This is about our work with others who share our values.
+				</p>
+			</li> -->
+			<!-- read more about it here -->
+
+			<!-- <li>
+				- Plan International, see Unni.
+				- This is about our work with Save The Children.
+					- how we share the vision...
+					- and meet their goals
+					> important endorsement
+
+
+				## Moria Refugee Camp, Greece
+
+			We have been sharing laughter and performances with children and families escaping war and oppression **since 2016**. The conditions in the camps are basic with families being housed in tents, temporary wooden structures or metal sea containers.
+
+			The camps are difficult and sometimes frightening places for children. Wave of Hope.
+
+
+			## Jordan
+
+			The Za’atari refugee camp hosts around **80,000** Syrians who were forced to flee the war in Syria.
+
+			Children make up **50%** of the camp’s inhabitants. The camp is now Jordan’s fourth biggest city.
+
+			## Turkey
+
+			Over **1.6 million** children who have fled the war in Syria live as refugees across Turkey.
+
+			## Nepal
+
+			On 25th April 15 a massive **7.6** magnitude earthquake hit Nepal affecting over **850,000** people.
+
+			## Mozambique
+
+			On **14th March 2019**, Cyclone Idai made landfall near Beira city, Mozambique. It was one of the worst storms to ever hit Mozambique.
+
+			Flooding caused by the cyclone affected close to **2.2 million** people.
+
+			## Philippines
+
+			On **8th November 2013**, super typhoon Haiyan - believed to be the strongest storm ever recorded in history - made landfall in central Philippines, destroying **500,000 homes**.
+			</li> -->
+
 	</Section>
 </div>
 
 
 
+
+
+
+<section class="dt w-100 vh-100 vh-75-ns vh-75-m" id="news">
+	<div class="dtc v-mid mw8 center ph3-ns pt0">
+		<Section>
+			<h2 class="tc primary-back">
+			<span class="accent">Our Impact</span>&nbsp;Newsfeed</h2>
+			<slot></slot>
+		</Section>
+		<div class="cf"><!-- ph2-ns pt2-ns pt5-m pt6-l -->
+			{#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+
+			{#if draft ? undefined : !draft }
+			<!-- `index.svelte` NOT: `href={/blog/${path.replace(".md", "")}}` -->
+			<a
+				sveltekit:prefetch
+				href={`${path.replace(".md", "")}`}
+				class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 link primary-back hover-secondary-fore"
+			>
+			<!-- hover-bg-white bg-transition -->
+			<header class="w-80">
+				<h4 class="f4 f4-m f3-l lh-title h3">{title}</h4>
+				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
+					{#if !date ? undefined : date }
+						<time class="f7 f6-ns f6-m f6-l ttu b">{new Date(date).toDateString()}</time>
+
+					{/if}
+					{#if !author ? undefined : author }
+						<div class="f7 f6-ns f6-m f6-l gray ml1 b">/ {author}</div>
+					{/if}
+				</div>
+				{#if !serp ? undefined : serp }
+					<p>{@html serp}</p>
+				{/if}
+				<hr class="accent b--inherit br0 b--solid">
+				<!-- w-100 w-two-thirds-ns w-two-thirds-m w-two-thirds-l -->
+			</header>
+			{#each tags as tag}
+				<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="pointer link transition f8 f6-ns f6-m f6-l fl-m pv2 ph1 ph3-ns ph2-m ph3-l mr2 ba bw1 b--primary-back secondary-fore ttu tracked tracked-ns tracked-m tracked-mega-l hover-bg-white dib b system tc mv1">#{@html tag}</a>
+			{/each}
+		</a>
+
+
+			{/if}
+
+		{/each}
+		</div>
+	</div>
+	</section>
+
+	<Section>
+		<nav>
+			<LightPaginationNav
+				totalItems="{items.length}"
+				pageSize="{pageSize}"
+				currentPage="{currentPage}"
+				limit="{1}"
+				showStepOptions="{true}"
+				on:setPage="{(e) => currentPage = e.detail.page}"
+			/>
+		</nav>
+	</Section>
+
+
+
+
+
+
+
+
 <style>
-	nav :global(.light-pagination-nav .pagination-nav) {
-		background: transparent;
-		box-shadow: none;
+
+	.hanging { left:-0.8rem }
+
+	/* https://stackoverflow.com/questions/64724139/error-styling-the-details-summary-marker-in-safari-webkit */
+
+
+	summary::after {
+		color:var(--accent);
+		position:relative;
+		content:'+';
+		will-change: transform;
+		display:inline-block;
+
+		-webkit-text-decoration:none;
+		text-decoration:none;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
 	}
 
-	nav :global(.option.active:hover) {
-		background: transparent;
-		cursor:auto;
+	summary:hover{
+		color:var(--accent);
 	}
+
+	details>summary {
+		color: white;
+		transition: color 0.6s ease-out
+	}
+
+	details[open]>summary {
+		color:var(--accent);
+	}
+
+	details>summary:after {
+		transition: all 0.6s ease-out;
+		transform: rotate(0turn);
+		top:-2px;
+		left:-2.5px;
+	}
+
+	details[open]>summary:after {
+		transform: rotate(0.25turn);
+		top:2.0px;
+		left:1.0px;
+		color:var(--accent);
+		/* border-bottom: none!important; */
+	}
+
+	details[open]>summary:hover:after {
+		color:var(--accent)
+	}
+
+	details[open] summary~article {
+		animation:fade 0.666s ease-in-out
+	}
+
+	@keyframes fade {
+		0% { opacity:0 }
+		100% { opacity:1 }
+	}
+
+	details > summary {
+		list-style: none;
+	}
+
+	summary::-webkit-details-marker {
+		display:none
+	}
+
+
+
+/***** NEWSFEED *****/
+nav :global(.light-pagination-nav .option:hover) {
+	background-color: var(--accent)!important;
+	color: var(--secondary-back);
+}
+
+nav :global(.light-pagination-nav .pagination-nav) {
+	background: transparent;
+	box-shadow: none;
+}
+
+nav :global(.option.active) {
+	color:var(--accent)!important;
+	background: transparent!important
+}
+
+nav :global(.option.active:hover) {
+	background: transparent!important;
+	cursor:auto;
+}
 
 /*
 <section class="w-100 flex flex-row-ns flex-column bg-purple white" >

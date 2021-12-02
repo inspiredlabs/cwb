@@ -2,7 +2,7 @@
 	export const prerender = true;
 
 	// Import from VITE, as a single import.
-	const allPosts = import.meta.glob("./*.md"); //{markdown,md,svx}
+	const allPosts = import.meta.glob("./*.md"); // `./blog/*.md` //{markdown,md,svx}
 	console.log(allPosts);
 
 	let body = [];
@@ -64,30 +64,58 @@ function update(e) {
 }
 </script>
 
-<div class="pv5">
-	<Section>
-		<slot></slot>
+<div class="pv5 ">
 
-		<ul class="list pl0">
-			{#each paginatedItems as {path, metadata:{ draft, title, tags, date, region,  images } }}
+
+<section class="dt w-100 vh-100 vh-75-ns vh-75-m" id="news">
+	<div class="dtc v-mid mw8 center ph3-ns pt0">
+		<Section>
+			<h2 class="tc primary-back">
+			<span class="accent">Our Impact</span>&nbsp;Newsfeed</h2>
+			<slot></slot>
+		</Section>
+		<div class="cf"><!-- ph2-ns pt2-ns pt5-m pt6-l -->
+			{#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+
 			{#if draft ? undefined : !draft }
-				<li class="mb3">
-					<a sveltekit:prefetch href={`${path.replace(".md", "")}`}>{title}</a>
-					<time class="f7 o-80 glow mr2"><!-- georgia i  -->
-						{new Date(date).toDateString()}
-					</time>
+			<!-- `index.svelte` NOT: `href={/blog/${path.replace(".md", "")}}` -->
+			<a
+				sveltekit:prefetch
+				href={`/blog/${path.replace(".md", "")}`}
+				class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 link primary-back hover-secondary-fore"
+			>
+			<!-- hover-bg-white bg-transition -->
+			<header class="w-80">
+				<h4 class="f4 f4-m f3-l lh-title h3">{title}</h4>
+				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
+					{#if !date ? undefined : date }
+						<time class="f7 f6-ns f6-m f6-l ttu b">{new Date(date).toDateString()}</time>
 
-					{#each tags as tag}
-						<a sveltekit:prefetch on:click|once={update} href={`.././${tag}`} class="f6 primary-back hover-secondary-back bg-light-gray pv2 ph3 br3 mr2">#{tag}</a>
-					{/each}
+					{/if}
+					{#if !author ? undefined : author }
+						<div class="f7 f6-ns f6-m f6-l gray ml1 b">/ {author}</div>
+					{/if}
+				</div>
+				{#if !serp ? undefined : serp }
+					<p>{@html serp}</p>
+				{/if}
+				<hr class="accent b--inherit br0 b--solid">
+				<!-- w-100 w-two-thirds-ns w-two-thirds-m w-two-thirds-l -->
+			</header>
+			{#each tags as tag}
+				<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="pointer link transition f8 f6-ns f6-m f6-l fl-m pv2 ph1 ph3-ns ph2-m ph3-l mr2 ba bw1 b--primary-back secondary-fore ttu tracked tracked-ns tracked-m tracked-mega-l hover-bg-white dib b system tc mv1">#{@html tag}</a>
+			{/each}
+		</a>
 
-					<!-- href={`${path.replace(".md", "").replace("blog", "")}${tag}`} -->
 
-				</li>
 			{/if}
-		{/each}
-		</ul>
 
+		{/each}
+		</div>
+	</div>
+	</section>
+
+	<Section>
 		<nav>
 			<LightPaginationNav
 				totalItems="{items.length}"
@@ -99,16 +127,36 @@ function update(e) {
 			/>
 		</nav>
 	</Section>
+
+
 </div>
+
+
+
+
+
+
+
 <style>
-	nav :global(.light-pagination-nav .pagination-nav) {
-		background: transparent;
-		box-shadow: none;
-	}
 
+/***** NEWSFEED *****/
+nav :global(.light-pagination-nav .option:hover) {
+	background-color: var(--accent)!important;
+	color: var(--secondary-back);
+}
 
-	nav :global(.option.active:hover) {
-		background: transparent;
-		cursor:auto;
-	}
+nav :global(.light-pagination-nav .pagination-nav) {
+	background: transparent;
+	box-shadow: none;
+}
+
+nav :global(.option.active) {
+	color:var(--accent)!important;
+	background: transparent!important
+}
+
+nav :global(.option.active:hover) {
+	background: transparent!important;
+	cursor:auto;
+}
 </style>
