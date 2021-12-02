@@ -54,7 +54,8 @@ export const prerender = true;
 <script>
 //import CloseTrigger from '$lib/CloseTrigger.svelte'; // <CloseTrigger />
 import { paginate, LightPaginationNav } from 'svelte-paginate'
-export let posts;//filteredPosts
+export let posts;//filteredPosts.
+//Consider conditional logic inside `_layout.svelte` to strafe the `/path/`.
 
 
 const dateSortedPosts = posts.slice().sort((post1, post2) => {

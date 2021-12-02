@@ -56,7 +56,7 @@ $: paginatedItems = paginate({ items, pageSize, currentPage })
 
 function update(e) {
 
-	history.pushState({}, "blog", "test");
+	history.pushState({}, "blog", "");
 
 	setTimeout(() => {
 		window.location.reload();
