@@ -26,7 +26,7 @@ export const prerender = true;
 	// This is a promise: https://youtu.be/yKPC316i_gI?list=PLm_Qt4aKpfKgonq1zwaCS6kOD-nbOKx7V&t=456
 	export const load = async({page}) => {
 		const posts = await Promise.all(body)
-		const tag = page.params.tag; // || 'tech'
+		//const tag = page.params.tag; // || 'tech'
 
 		// const filteredPosts = posts.filter((post) => {
 		// 	return post.metadata.tags.includes(tag)
@@ -36,7 +36,7 @@ export const prerender = true;
 			props: {
 				posts, //send the `props` to the component
 				//filteredPosts,
-				tag
+				//tag
 			}
 		}
 
@@ -74,6 +74,8 @@ import DecentralisedBannerWide from './DecentralisedBannerWide.svelte';
 import Locations from './Locations.svelte';
 import Section from '$lib/Section.svelte';
 import Sting from '$lib/header/Sting.svelte';
+import Subscribe from '$lib/Subscribe.svelte';
+
 
 import Hero from '$lib/Hero.svelte';
 import Image from "$lib/Image.svelte"
@@ -140,33 +142,44 @@ let microdata = {
 
 
 
-<div class="bg-primary-back no-clutter pv5" id="locations">
+<div class="bg-primary-back pv5" id="locations">
 
 	<Section>
-		<div class="hanging relative white o-80">- <b>Where we <!-- work --> Partner:</b></div>
-		<!-- FOR EACH SNIPPET -->
+		<div class="hanging relative white o-80 no-clutter">- <b>Where we <!-- work --> Partner:</b></div>
+
+<details><!-- open -->
+<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNICEF</summary>
+<article class="br2 pa3 bg-primary-fore highlight">
+{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+		{#each tags as tag}
+
+			{#if tag === 'UNICEF'}
+			<h3><a
+				sveltekit:prefetch
+				href={`${path.replace(".md", "")}`}
+				class="pointer link hover-underline"
+			>{title}</a></h3>
+				{#if !serp ? undefined : serp }
+					<p class="serp">{@html serp}</p>
+				{/if}
+			{/if}
+
+		{/each}
+	{/each}
+	<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
+		<!-- <p>
+			Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
+
+		<p>
+		"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p> -->
+</article>
+</details>
+
+
+
 		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNICEF</summary>
-			<article class="br2 pa3 bg-primary-fore">
-					<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
-					<p>
-					Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
-					<hr clss="bn w-100" style="border-top: 2px solid var(--accent)">
-					<p>
-					"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p>
-			</article>
-		</details>
-		<!-- FOR EACH SNIPPET -->
-
-
-
-
-
-
-
-		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">UNHCR</summary>
-			<article class="br2 pa3 bg-primary-fore">
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNHCR</summary>
+			<article class="br2 pa3 bg-primary-fore highlight">
 
 				<p>The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
 				</p>
@@ -174,8 +187,8 @@ let microdata = {
 		</details>
 
 		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Oxfam</summary>
-			<article class="br2 pa3 bg-primary-fore">
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Oxfam</summary>
+			<article class="br2 pa3 bg-primary-fore highlight">
 				<p>The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
 				</p>
 			</article>
@@ -183,8 +196,8 @@ let microdata = {
 
 		<!-- open -->
 		<!-- <details>
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Plan International</summary>
-			<article class="br2 pa3 bg-primary-fore">
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Plan International</summary>
+			<article class="br2 pa3 bg-primary-fore highlight">
 				<p>
 					<b>Myanmar</b>.
 				</p>
@@ -192,8 +205,8 @@ let microdata = {
 		</details> -->
 
 		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer">Solidarities International</summary>
-			<article class="br2 pa3 bg-primary-fore">
+			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Solidarities International</summary>
+			<article class="br2 pa3 bg-primary-fore highlight">
 				<p>
 					Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
 					</p>
@@ -249,7 +262,6 @@ let microdata = {
 
 	</Section>
 </div>
-
 
 
 
@@ -318,6 +330,11 @@ let microdata = {
 		</nav>
 	</Section>
 
+<!-- <div class="bg-secondary-back pv3">
+	<Section>
+		<Subscribe />
+	</Section>
+</div> -->
 
 
 
@@ -326,6 +343,15 @@ let microdata = {
 
 
 <style>
+
+	.serp {
+		padding-bottom: 2em;
+		border-bottom: 2px solid var(--accent)/* <hr clss="bn w-100" style="border-top: 2px solid var(--accent)"> */
+	}
+	.serp:last-of-type {
+		border-bottom:none;
+		padding-bottom: 0;
+	}
 
 	.hanging { left:-0.8rem }
 

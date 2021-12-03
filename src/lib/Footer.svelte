@@ -2,7 +2,7 @@
 // import { children } from "svelte/internal";
 import Sting from '$lib/header/Sting.svelte';
 
-import {routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
+import {routesHome, routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
 import { page } from '$app/stores';
 import HomeLink from '$lib/header/HomeLink.svelte';
 import Outro from '$lib/Outro.svelte';
@@ -25,13 +25,34 @@ import FundingPartner from "$lib/FundingPartner.svelte";
   <Outro />
 
   <hr class="bt inherit o-50 mv4"/><!-- fl cf w-100 bt mb0 inherit o-50 mv4 -->
-    <div class="w-100 cf fl">
-      <div class="w2 h2">
-        <Sting />
-      </div>
+
+  <!-- <div class="w-100 cf fl">
+    <div class="w2 h2">
+      <Sting />
     </div>
+  </div> -->
 
   <nav class="cf pv4 f5 f6-l no-clutter">
+    <div class="w-100 cf fl">
+      <!-- Home<br>
+      Where we partner<br>
+      News<br>
+      Become a funding partner<br> -->
+
+      <!---- HOME  ---->
+      <ul class="list pl0">
+        {#each routesHome as home}
+          <li class="{home.header}">
+            <a
+              class="lh-nav no-underline link o-80 glow inherit transition"
+              class:active={$page.path === `${home.href}`}
+              sveltekit:prefetch href="{home.href}"
+            >{home.title}</a>
+          </li>
+        {/each}
+      </ul>
+      <!---- HOME ---->
+    </div>
     <div class="fn fl-l w-third-l pr2-l">
       <!---- ABOUT  ---->
       <ul class="list pl0">

@@ -10,10 +10,10 @@ export const routes = [
 */
 
 export const routesHome = [
-	//{ href: '/', header: 'b pl0', title: 'Home' },
+	{ href: '/', header: 'b pl0', title: 'Home' },
 	{ href: '/#locations', header: 'pl0', title: 'Where we Partner' },
-	{ href: '/#news', header: 'pl0', title: 'News' },
-	//{ href: '#funding-partner', header: 'pl0', title: 'Become a Funding Partner' },
+	{ href: '/blog', header: 'pl0', title: 'News' },
+	{ href: '#funding-partner', header: 'pl0', title: 'Become a Funding Partner' },
 
 ];
 
