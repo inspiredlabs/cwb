@@ -15,24 +15,24 @@
 
 	export const load = async({page}) => {
 		const posts = await Promise.all(body)
-		const tag = page.params.tag;
+		//const metadata = page.params;
+		//const title = page.params.title;
 
 		return {
 			props: {
 				posts,
-				tag
+				//metadata
 			}
 		}
 
 	}
-
+console.log(allPosts);
 </script>
 <script>
 import Section from '$lib/Section.svelte';
 import { paginate, LightPaginationNav } from 'svelte-paginate';// github.com/TahaSh/svelte-paginate
 export let posts;
-// export let tag;
-
+//export let metadata;
 
 const dateSortedPosts = posts.slice().sort((post1, post2) => {
 	return new Date(post2.metadata.date) - new Date(post1.metadata.date);
@@ -62,18 +62,32 @@ function update(e) {
 		window.location.reload();
 	}, 100);
 }
+
+
+import { page } from '$app/stores';
+//import { metadata } from "./first.md";
+//console.log(metadata)
 </script>
 
+<slot></slot>
+
 <div class="pv5 ">
-
-
-<section class="dt w-100 vh-100 vh-75-ns vh-75-m" id="news">
+<section class="dt w-100 vh-100 vh-75-ns vh-75-m" id="#news">
 	<div class="dtc v-mid mw8 center ph3-ns pt0">
 		<Section>
 			<h2 class="tc primary-back">
 			<span class="accent">Our Impact</span>&nbsp;Newsfeed</h2>
-			<slot></slot>
 		</Section>
+
+		<!-- {#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+			{#if path }
+				{title}<br>
+				{objective}<br>
+				{tags}<br>
+				{path}
+			{/if}
+		{/each} -->
+
 		<div class="cf"><!-- ph2-ns pt2-ns pt5-m pt6-l -->
 			{#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
 
@@ -89,7 +103,7 @@ function update(e) {
 				<h4 class="f4 f4-m f3-l lh-title h3">{title}</h4>
 				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
 					{#if !date ? undefined : date }
-						<time class="f7 f6-ns f6-m f6-l ttu b">{new Date(date).toDateString()}</time>
+						<time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1">{new Date(date).toDateString()}</time><!-- .toLocaleDateString() -->
 
 					{/if}
 					{#if !author ? undefined : author }
@@ -99,12 +113,14 @@ function update(e) {
 				{#if !serp ? undefined : serp }
 					<p>{@html serp}</p>
 				{/if}
-				<hr class="accent b--inherit br0 b--solid">
+				<!--hr class="accent b--inherit br0 b--solid"-->
 				<!-- w-100 w-two-thirds-ns w-two-thirds-m w-two-thirds-l -->
 			</header>
-			{#each tags as tag}
-				<a sveltekit:prefetch on:click|once={update} href={`${tag}`} class="pointer link transition f8 f6-ns f6-m f6-l fl-m pv2 ph1 ph3-ns ph2-m ph3-l mr2 ba bw1 b--primary-back secondary-fore ttu tracked tracked-ns tracked-m tracked-mega-l hover-bg-white dib b system tc mv1">#{@html tag}</a>
-			{/each}
+			<div class="cf pv3">
+				{#each tags as tag}
+					<a sveltekit:prefetch on:click|once={update} href={`.././${tag}`} class="pointer link transition f8 f6-ns f6-m f6-l fl-m pv2 ph1 ph3-ns ph2-m ph3-l mr2 ba bw1 b--primary-back secondary-fore ttu tracked tracked-ns tracked-m tracked-mega-l hover-bg-white dib b system tc mv1">#{@html tag}</a>
+				{/each}
+			</div>
 		</a>
 
 

@@ -5,9 +5,11 @@
   <header class="w-100 pv3 bg-red cf" >
     <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
       <div class="pv3 fr w-100 w-100-ns w-100-m measure-custom-l f4 cf">
-        Blog background picture<br>
-        Blog title
-        <!-- {title} -->
+        TITLE
+        <!--
+          {title}
+          Blog background picture<br>
+          Blog title -->
       </div>
     </div>
   </header>

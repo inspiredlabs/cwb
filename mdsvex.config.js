@@ -7,6 +7,7 @@ const config = {
   "layout": {
     //"blog": "./src/lib/__blog.svelte",
     "person": "./src/lib/__person.svelte",
+    "news": "./src/lib/__news.svelte",
     //"article": "./src/lib/__article.svelte"
   },
 

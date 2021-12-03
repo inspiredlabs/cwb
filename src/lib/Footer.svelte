@@ -14,7 +14,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
 </script>
 
 
-<footer class="bg-primary-back white-90 antialias" id={page}>
+<footer class="bg-primary-back white-90 antialias">
+  <!-- id={$page.path} -->
   <Hotspot />
   <FundingPartner />
 <Section>
