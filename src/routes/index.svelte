@@ -154,55 +154,79 @@ let microdata = {
 		{#each tags as tag}
 
 			{#if tag === 'UNICEF'}
-			<h3><a
+			<a
 				sveltekit:prefetch
 				href={`${path.replace(".md", "")}`}
-				class="pointer link hover-underline"
-			>{title}</a></h3>
+				class="pointer link primary-back hover-secondary-fore transition"
+			><h3>{@html title}</h3>
 				{#if !serp ? undefined : serp }
 					<p class="serp">{@html serp}</p>
 				{/if}
+			</a>
 			{/if}
 
 		{/each}
 	{/each}
 	<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
-		<!-- <p>
-			Escaping persecution in&nbsp;Myanmar, an estimated 700,000 Rohingya&nbsp;people fled to Bangladesh and now live in refugee camps near <b>Cox’s Bazar,&nbsp;Dhaka</b>.</p>
-
-		<p>
-		"Make Wash Fun" is a handwashing behaviour change programme developed over 3 years with the Rohingya&nbsp;children. This hygine focused movement has been shared with thousands of children to help overcome the effects of poor sanitation in slums across the&nbsp;city.</p> -->
 </article>
 </details>
+<details><!-- open -->
+	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNHCR</summary>
+	<article class="br2 pa3 bg-primary-fore highlight">
+	{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+			{#each tags as tag}
+
+				{#if tag === 'UNHCR'}
+				<a
+					sveltekit:prefetch
+					href={`${path.replace(".md", "")}`}
+					class="pointer link primary-back hover-secondary-fore transition"
+				><h3>{@html title}</h3>
+					{#if !serp ? undefined : serp }
+						<p class="serp">{@html serp}</p>
+					{/if}
+				</a>
+				{/if}
+
+			{/each}
+		{/each}
+	</article>
+</details>
+
+<details><!-- open -->
+	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Oxfam</summary>
+	<article class="br2 pa3 bg-primary-fore highlight">
+	{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+			{#each tags as tag}
+
+				{#if tag === 'OXFAM'}
+				<a
+					sveltekit:prefetch
+					href={`${path.replace(".md", "")}`}
+					class="pointer link primary-back hover-secondary-fore transition"
+				><h3>{@html title}</h3>
+					{#if !serp ? undefined : serp }
+						<p class="serp">{@html serp}</p>
+					{/if}
+				</a>
+				{/if}
+
+			{/each}
+		{/each}
+	</article>
+	</details>
 
 
 
-		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNHCR</summary>
-			<article class="br2 pa3 bg-primary-fore highlight">
-
-				<p>The UN High Commissioner described <b>Hungary's Transit Zones</b> as “detention&nbsp;centers”. It is extremely difficult to access these sites, where families live in small, locked&nbsp;compounds. The monotony of day-to-day life is compounded during Summer, when there is no&nbsp;school. We created fun resources for UNHCR&nbsp;to build anticipation before delivering performances and&nbsp;workshops. We also developed a series of activities to help the UNHCR&nbsp;team keep sharing laughter and play after we had&nbsp;left. This helped raise awareness of Clowns Without Borders unique approach to delivering Humanitarian&nbsp;Aid.
-				</p>
-			</article>
-		</details>
-
-		<details><!-- open -->
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Oxfam</summary>
-			<article class="br2 pa3 bg-primary-fore highlight">
-				<p>The aim of the <b>Bangladesh</b> tour, 2018 was to create a safe, fun and engaging space for children to explore WASH resources (Sanitation &amp; Hygine). We delivered playful workshops training adult facilitators to focus on making self-expression&nbsp;fun.
-				</p>
-			</article>
-		</details>
-
-		<!-- open -->
-		<!-- <details>
-			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Plan International</summary>
-			<article class="br2 pa3 bg-primary-fore highlight">
-				<p>
-					<b>Myanmar</b>.
-				</p>
-			</article>
-		</details> -->
+<!-- open -->
+<!-- <details>
+	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Plan International</summary>
+	<article class="br2 pa3 bg-primary-fore highlight">
+		<p>
+			<b>Myanmar</b>.
+		</p>
+	</article>
+</details> -->
 
 		<details><!-- open -->
 			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Solidarities International</summary>
@@ -282,11 +306,11 @@ let microdata = {
 			<a
 				sveltekit:prefetch
 				href={`${path.replace(".md", "")}`}
-				class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 link primary-back hover-secondary-fore"
+				class="fl w-100 w-100-ns w-third-m w-third-l pa2 pa0-m pt0 pointer link primary-back hover-secondary-fore transition"
 			>
 			<!-- hover-bg-white bg-transition -->
 			<header class="w-80">
-				<h4 class="f4 f4-m f3-l lh-title h3">{title}</h4>
+				<h4 class="f4 f4-m f3-l lh-title h3">{@html title}</h4>
 				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
 					{#if !date ? undefined : date }
 						<time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1">{new Date(date).toDateString()}</time><!-- .toLocaleDateString() -->
@@ -348,7 +372,7 @@ let microdata = {
 		padding-bottom: 2em;
 		border-bottom: 2px solid var(--accent)/* <hr clss="bn w-100" style="border-top: 2px solid var(--accent)"> */
 	}
-	.serp:last-of-type {
+	.serp:last-of-type { /* https://css-tricks.com/almanac/selectors/l/last-of-type/ */
 		border-bottom:none;
 		padding-bottom: 0;
 	}
@@ -404,8 +428,20 @@ let microdata = {
 		color:var(--accent)
 	}
 
+
+
+
+
 	details[open] summary~article {
-		animation:fade 0.666s ease-in-out
+		/* animation:fade 0.666s ease-in-out */
+		animation: animate 0.666s ease-in-out;
+	}
+
+	@keyframes animate {
+		from {
+			opacity: 0;
+			transform: translateY(-1em);
+		}
 	}
 
 	@keyframes fade {
@@ -417,8 +453,10 @@ let microdata = {
 		list-style: none;
 	}
 
-	summary::-webkit-details-marker {
-		display:none
+	summary{ list-style: none }
+	summary::-webkit-details-marker,
+	summary::marker{
+		display: none;
 	}
 
 
@@ -546,14 +584,14 @@ https://regex101.com/
 						{#if jobTitle ? jobTitle : undefined }
 						<Image
 							imageJPG={image}
-							alt="{title} is {jobTitle}"
-							caption="{title} is {jobTitle} {index}"
+							alt="{@html title} is {jobTitle}"
+							caption="{@html title} is {jobTitle} {index}"
 						/>
 						{:else}
 						<Image
 							imageJPG={image}
-							alt="{title}"
-							caption="{title} {index}"
+							alt="{@html title}"
+							caption="{@html title} {index}"
 						/>
 						{/if}
 					{/if}

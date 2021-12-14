@@ -16,6 +16,22 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
       <h3 class="i georgia f3 tc fw1 mb5 w-80 w-100-ns w-80-m mr-auto ml-auto">{@html serp}</h3>
       </header>
         <!-- <a href="#funding-partner" class="pointer link bg-transition br0 f6 f5-ns pv3 ba bw2 b--secondary-back ttu tracked-mega bg-primary-back hover-bg-accent w-third w-20-l b system tc white ph3 ph4-l">Become a Funding Partner</a> -->
+
+
+  <div class="tc white pb3 pt5">
+    {#if !date ? undefined : date }
+      <time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1 pb3">{new Date(date).toDateString()}</time><!-- .toLocaleDateString()  pb2 pb3-l -->
+    {/if}
+  </div>
+  <div class="tc white pt3 pb5">
+    {#if !author ? undefined : author }
+      <div class="f7 f6-ns f6-m f6-l gray ml1 b" >{author}</div>
+      <!-- hover-white bg-transition pointer link -->
+    {/if}
+  </div>
+
+
+
     </div>
       <Section>
         <slot></slot>

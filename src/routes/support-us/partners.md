@@ -8,7 +8,7 @@ layout: article
 
 # Support Us
 
-> &hellip;in reinventing Humanitarian&nbsp;Aid delivery
+> &hellip;we're reinventing Humanitarian&nbsp;Aid delivery
 
 <!--
 > With your support, we are reinventing Humanitarian&nbsp;Aid delivery&nbsp;&amp; empowering children with valuable&nbsp;life-skills.
@@ -32,6 +32,8 @@ We are looking for Partners to provide substantial funds to assist Children&nbsp
 We work in areas where we can have the biggest impact. We do this by working in partnership with charities and NGOs who share our values. <!--This means we can assess where there is the most unmet need and bring more joy to the most number of children.-->
 
 Each partnership is different and depends on the needs of the communities we serve. <!--What remains the same is that children’s wellbeing is at the heart of every decision we make.--> If you are interested in working with us, please [Get&nbsp;In&nbsp;Touch](mailto:sam@clownswithoutborders.org.uk).
+
+Get in touch directly, or inform us below to develop a Funding Partnership.
 
 <!-- Logos + Avoid repetition -->
 <!-- How are these partners distinguished? -->

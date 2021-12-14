@@ -1,13 +1,25 @@
 <script>
-  import logo from '$lib/images/cwb.svg';
+  //import logo from '$lib/images/cwb.svg'; // `src={logo}`
 </script>
+<style>
+  /* ref: https://drafts.csswg.org/css-color-4/#valdef-color-display-p3 */
+  /* Inline SVG due to Safari bug w. P3 color management
+  .accent {
+    fill: hsl(346,100%,58%)
+  }
+  @media (color-gamut: p3) {
+    .accent { fill:color(display-p3 1 0 0.331) }
+  }
+  */
 
-<a href="/" class="db pointer"><img
-  width="56" height="56"
-  class="db no-select"
-  src={logo} alt="Clowns Without Borders Logo"
-/><!-- mt1 mb1 --><h1 class="sr-only">Clowns Without Borders</h1></a>
-
+  /* small dark-gray SVG shadow, with minimal opacity */
+  .ds0-dark-gray {
+    filter: drop-shadow(0px 0.125rem 0.125rem rgb(51 51 51 / 0.125))/* rgb.to/hex/333*/
+  }
+</style>
+<a href="/" class="db pointer">
+  <!-- Req. universal `defs` file  -->
+  <svg class="db no-select ds0-dark-gray" width="56" height="56" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 124"><g transform="translate(0,15)"><path d="M36.1 45.6c.1-14.3 12-25.8 26-25.8 14 .2 25.9 11.6 25.8 25.9-.1 14.3-11.8 25.8-26 25.8S36 59.9 36.1 45.6zm86.7 21.5c-9.2 25.3-33.4 42.3-60.2 42.3h-.3c-28.3-.1-52.8-18.1-61-44.8-1.1-3.7-.8-7.6 1-11 1.8-3.4 4.8-5.9 8.5-7.1 3.7-1.1 7.6-.8 11 1 3.4 1.8 5.9 4.8 7.1 8.5 4.5 14.5 17.9 24.3 33.4 24.4h.2c14.7 0 28-9.3 33-23.2 2.7-7.5 11-11.4 18.6-8.7 7.5 2.8 11.4 11.1 8.7 18.6z" class="accent"/><path d="M114.3 64.1c-7.9 21.8-28.7 36.4-51.8 36.4h-.3C38 100.3 16.9 84.8 9.9 61.9c-.9-2.9.7-6 3.6-6.9 2.9-.9 6 .7 6.9 3.6C26 77 42.9 89.3 62.3 89.4h.2c18.5 0 35.1-11.7 41.4-29.1 1-2.9 4.2-4.3 7-3.3 3 1.1 4.5 4.2 3.4 7.1z" fill="white"/></g></svg><h1 class="sr-only">Clowns Without Borders</h1></a>
 
 <!--script type="application/ld+json">
   { "@context" : "http://schema.org",
