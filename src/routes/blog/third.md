@@ -3,7 +3,7 @@ title: "We bring laughter to children in crisis&nbsp;zones"
 objective: "Alongside <b>UNHCR</b>, we were the only NGO able to enter <b>Hungary's Transit Zones</b> because of our completely unique kind of Humanitarian&nbsp;Aid."
 tags:
 - UNHCR
-- x
+- UN High Commissioner
 - Hungary
 author: Sam Holdsworth
 layout: news

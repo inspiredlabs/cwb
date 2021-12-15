@@ -81,7 +81,7 @@ import { page } from '$app/stores';
 
 		<!-- {#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
 			{#if path }
-				{title}<br>
+				{@html title}<br>
 				{objective}<br>
 				{tags}<br>
 				{path}
@@ -100,7 +100,7 @@ import { page } from '$app/stores';
 			>
 			<!-- hover-bg-white bg-transition -->
 			<header class="w-80">
-				<h4 class="f4 f4-m f3-l lh-title h3">{title}</h4>
+				<h4 class="f4 f4-m f3-l lh-title h3">{@html title}</h4>
 				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
 					{#if !date ? undefined : date }
 						<time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1">{new Date(date).toDateString()}</time><!-- .toLocaleDateString() -->

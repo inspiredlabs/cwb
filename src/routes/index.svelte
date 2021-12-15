@@ -228,14 +228,15 @@ let microdata = {
 	</article>
 </details> -->
 
-		<details><!-- open -->
+
+		<!-- Learn: what does Sam need?
+			<details>
 			<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Solidarities International</summary>
 			<article class="br2 pa3 bg-primary-fore highlight">
-				<p>
-					Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
+				<p>Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
 					</p>
 			</article>
-		</details>
+		</details> -->
 			<!-- <li>
 				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
 				<p>
