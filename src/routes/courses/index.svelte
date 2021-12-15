@@ -5,7 +5,9 @@
 	export const prerender = true;
 </script>
 <script>
-import RohingyaBannerWide from './RohingyaBannerWide.svelte';
+
+	import CoursesHero from './CoursesHero.svelte';
+	import RohingyaBannerWide from './RohingyaBannerWide.svelte';
 
 // Courses
 import Courses from './courses.md'
@@ -28,6 +30,7 @@ import Section from '$lib/Section.svelte';
 	<meta name="author" content="Scott Phillips">
 </svelte:head>
 
+<CoursesHero />
 <RohingyaBannerWide />
 
 <Section>

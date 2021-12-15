@@ -6,7 +6,7 @@
 </script>
 
 <script>
-
+import AboutHero from './AboutHero.svelte'
 import AboutBannerWide from './AboutBannerWide.svelte'
 import Section from '$lib/Section.svelte'
 
@@ -43,6 +43,7 @@ import Ed from './ed.md'
 	<meta name="author" content="Scott Phillips">
 </svelte:head>
 
+<AboutHero />
 <AboutBannerWide />
 <Section>
 	<Intro />
