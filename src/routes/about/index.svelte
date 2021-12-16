@@ -24,7 +24,7 @@ import Trustees from './trustees.md'
 import Unni from './unni.md'
 import Shilpa from './shilpa.md'
 
-import David from './david.md'
+// import David from './david.md'
 import Tanya from './tanya.md'
 import Niki from './niki.md'
 import Wendy from './wendy.md'
@@ -59,7 +59,7 @@ import Ed from './ed.md'
 
 	<Unni />
 	<Shilpa />
-	<David />
+	<!-- <David /> -->
 	<Tanya />
 	<Niki />
 	<Wendy />

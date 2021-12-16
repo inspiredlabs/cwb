@@ -43,3 +43,11 @@ Over 12 inspiring years, Sam managed £1m budget, co-ordinated with up-to 60 art
 - achievements
 - trusted endosements
 -->
+
+<!--
+UK Representative
+[Samantha Holdsworth](http://nimble-fish.co.uk/about-the-fish/)
+`sam@clownswithoutborders.org.uk`
+
+Co-Founder of `Nimble Fish`, an arts company founded in 2006. Since its inception she has devised and/ or delivered 30+ theatre based projects with communities that have little experience of the arts. The production, `The Container`, set in a 40ft metal container, exploring migration received an `Amnesty International Award` and an `Edinburgh Fringe First`. Sam is also an experienced facilitator and workshop leader specializing in delivering and developing drama workshops for “at risk” children. She founded `Clowns Without Borders UK` in June 2014. Sam is also a `Clore Leadership` and `Winston Churchill Travel Fellow`. Sam was trained at the `Royal Central School of Speech and Drama` where she received an `MA Distinction` in Advanced Theatre Practice and also trained for a year with international clown teacher, `Philippe Gaulier`.
+-->

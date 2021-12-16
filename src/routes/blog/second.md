@@ -22,7 +22,6 @@ revision: draft || published
 
 <!--
 
-title: "We bring laughter to children in crisis&nbsp;zones"
 title: "We bring joy to children in conflict&nbsp;zones"
 
 # Partner name
@@ -46,7 +45,6 @@ Annabel Morgan, Nicholas Mamba, Edward Morgan (logistician) and two internationa
 > The magic ingredient? Play.
 
 <!--
-
 **Play** helps children learn about themselves, each other and the world. It strengthens their bodies and their brains. It opens children up to new experiences and provides fertile ground for developing skills. It’s the best and most exciting way to learn.
 -->
 

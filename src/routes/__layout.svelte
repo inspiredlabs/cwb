@@ -62,7 +62,7 @@ Be aware of cumalative layout shift: https://web.dev/cls/
 
 <Footer />
 
-<nav class="w-100 fixed z-999">
+<nav class="w-100 fixed z-999" style="pointer-events: none">
 	<Section>
 		<div class="w3 h3">
 			<Sting />

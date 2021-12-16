@@ -150,71 +150,105 @@ let microdata = {
 <details><!-- open -->
 <summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNICEF</summary>
 <article class="br2 pa3 bg-primary-fore highlight">
-{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
-		{#each tags as tag}
-
-			{#if tag === 'UNICEF'}
-			<a
-				sveltekit:prefetch
-				href={`${path.replace(".md", "")}`}
-				class="pointer link primary-back hover-secondary-fore transition"
-			><h3>{@html title}</h3>
-				{#if !serp ? undefined : serp }
-					<p class="serp">{@html serp}</p>
-				{/if}
-			</a>
-			{/if}
-
-		{/each}
-	{/each}
-	<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
-</article>
-</details>
-<details><!-- open -->
-	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNHCR</summary>
-	<article class="br2 pa3 bg-primary-fore highlight">
+	<ul class="list pl0">
 	{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
-			{#each tags as tag}
-
-				{#if tag === 'UNHCR'}
-				<a
-					sveltekit:prefetch
-					href={`${path.replace(".md", "")}`}
-					class="pointer link primary-back hover-secondary-fore transition"
-				><h3>{@html title}</h3>
-					{#if !serp ? undefined : serp }
-						<p class="serp">{@html serp}</p>
-					{/if}
-				</a>
+		{#each tags as tag}
+			{#if tag === 'UNICEF'}
+				<li>
+					<a
+						sveltekit:prefetch
+						href={`${path.replace(".md", "")}`}
+						class="pointer link primary-back hover-secondary-fore transition"
+					><h3>{@html title}</h3>
+						{#if !serp ? undefined : serp }
+							<p class="serp">{@html serp}</p>
+						{/if}
+					</a>
+				</li>
 				{/if}
-
 			{/each}
 		{/each}
+	</ul>
+</article>
+	<!-- [MAKE WASH FUN](https://www.unicef.org/rosa/stories/rohingya-children-become-hygiene-promotion-ambassadors-during-covid-19-response-coxs-bazar) -->
+</details>
+<details><!-- open -->
+<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">UNHCR</summary>
+<article class="br2 pa3 bg-primary-fore highlight">
+	<ul class="list pl0">
+		{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+			{#each tags as tag}
+				{#if tag === 'UNHCR'}
+				<li>
+					<a
+						sveltekit:prefetch
+						href={`${path.replace(".md", "")}`}
+						class="pointer link primary-back hover-secondary-fore transition"
+					><h3>{@html title}</h3>
+						{#if !serp ? undefined : serp }
+							<p class="serp">{@html serp}</p>
+						{/if}
+					</a>
+				</li>
+				{/if}
+			{/each}
+		{/each}
+		</ul>
 	</article>
 </details>
 
 <details><!-- open -->
 	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Oxfam</summary>
 	<article class="br2 pa3 bg-primary-fore highlight">
-	{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
-			{#each tags as tag}
-
-				{#if tag === 'OXFAM'}
-				<a
-					sveltekit:prefetch
-					href={`${path.replace(".md", "")}`}
-					class="pointer link primary-back hover-secondary-fore transition"
-				><h3>{@html title}</h3>
-					{#if !serp ? undefined : serp }
-						<p class="serp">{@html serp}</p>
+		<ul class="list pl0">
+			{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+				{#each tags as tag}
+					{#if tag === 'OXFAM'}
+					<li>
+						<a
+							sveltekit:prefetch
+							href={`${path.replace(".md", "")}`}
+							class="pointer link primary-back hover-secondary-fore transition"
+						><h3>{@html title}</h3>
+							{#if !serp ? undefined : serp }
+								<p class="serp">{@html serp}</p>
+							{/if}
+						</a>
+					</li>
 					{/if}
-				</a>
-				{/if}
 
+				{/each}
 			{/each}
-		{/each}
+		</ul>
 	</article>
-	</details>
+</details>
+
+	<details><!-- open -->
+		<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Plan International</summary>
+		<article class="br2 pa3 bg-primary-fore highlight">
+			<ul class="list pl0">
+				{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+						{#each tags as tag}
+
+							{#if tag === 'Plan International'}
+							<li>
+								<a
+									sveltekit:prefetch
+									href={`${path.replace(".md", "")}`}
+									class="pointer link primary-back hover-secondary-fore transition"
+								><h3>{@html title}</h3>
+									{#if !serp ? undefined : serp }
+										<p class="serp">{@html serp}</p>
+									{/if}
+								</a>
+							</li>
+							{/if}
+
+						{/each}
+					{/each}
+				</ul>
+			</article>
+		</details>
 
 
 
@@ -225,7 +259,7 @@ let microdata = {
 		<p>
 			<b>Myanmar</b>.
 		</p>
-	</article>
+	</ul></article>
 </details> -->
 
 
@@ -235,7 +269,7 @@ let microdata = {
 			<article class="br2 pa3 bg-primary-fore highlight">
 				<p>Games Against Covid-19 reaches ten thousand children in response to reinventing Solidarities' hygiene promotion&nbsp;sessions delivered in <b>Teknaf Refugee Camp, Bangladesh</b>. Important messages are lost when facilitators are unable to maintain people’s&nbsp;attention. Clowns Without Borders inspire and motivate children.
 					</p>
-			</article>
+			</ul></article>
 		</details> -->
 			<!-- <li>
 				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
@@ -328,7 +362,7 @@ let microdata = {
 				<!-- w-100 w-two-thirds-ns w-two-thirds-m w-two-thirds-l -->
 			</header>
 			<div class="cf pv3">
-				{#each tags as tag}
+				<ul class="list pl0">{#each tags as tag}
 					<a sveltekit:prefetch on:click|once={update} href={`.././${tag}`} class="pointer link transition f8 f6-ns f6-m f6-l fl-m pv2 ph1 ph3-ns ph2-m ph3-l mr2 ba bw1 b--primary-back secondary-fore ttu tracked tracked-ns tracked-m tracked-mega-l hover-bg-white dib b system tc mv1">#{@html tag}</a>
 				{/each}
 			</div>
@@ -368,6 +402,14 @@ let microdata = {
 
 
 <style>
+
+	.list li {
+		border-bottom: 2px solid var(--accent)/* <hr clss="bn w-100" style="border-top: 2px solid var(--accent)"> */
+	}
+
+	.list li:last-of-type {
+		border-bottom: 2px solid transparent
+	}
 
 	.serp {
 		padding-bottom: 2em;
@@ -577,7 +619,7 @@ https://regex101.com/
 -->
 
 	{#if draft ? undefined : !draft }
-		<li class="">
+		<li>
 
 
 				{#each images as image, index }
@@ -621,7 +663,7 @@ https://regex101.com/
 		</div>
 	</div>
 </section>
-</article><!-- /mt -->
+</ul></article><!-- /mt -->
 */
 </style>
 

@@ -5,6 +5,7 @@
 	export const prerender = true;
 </script>
 <script>
+	import ExperienceHero from './ExperienceHero.svelte';
 	import ExperienceBannerWide from './ExperienceBannerWide.svelte';
 	import CharityRegulation from './reg.md'
 	import CodeOfEthics from './ethics.md'
@@ -23,7 +24,7 @@
 
 <!-- https://ifesworld.org/en/give/ -->
 
-
+<ExperienceHero />
 <ExperienceBannerWide />
 
 <Section>
