@@ -159,7 +159,7 @@ let microdata = {
 						sveltekit:prefetch
 						href={`${path.replace(".md", "")}`}
 						class="pointer link primary-back hover-secondary-fore transition"
-					><h3>{@html title}</h3>
+					><h3 class="lh-title">{@html title}</h3>
 						{#if !serp ? undefined : serp }
 							<p class="serp">{@html serp}</p>
 						{/if}
@@ -184,7 +184,7 @@ let microdata = {
 						sveltekit:prefetch
 						href={`${path.replace(".md", "")}`}
 						class="pointer link primary-back hover-secondary-fore transition"
-					><h3>{@html title}</h3>
+					><h3 class="lh-title">{@html title}</h3>
 						{#if !serp ? undefined : serp }
 							<p class="serp">{@html serp}</p>
 						{/if}
@@ -209,7 +209,7 @@ let microdata = {
 							sveltekit:prefetch
 							href={`${path.replace(".md", "")}`}
 							class="pointer link primary-back hover-secondary-fore transition"
-						><h3>{@html title}</h3>
+						><h3 class="lh-title">{@html title}</h3>
 							{#if !serp ? undefined : serp }
 								<p class="serp">{@html serp}</p>
 							{/if}
@@ -223,32 +223,65 @@ let microdata = {
 	</article>
 </details>
 
-	<details><!-- open -->
-		<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">Plan Inter&shy;national</summary>
-		<article class="br2 pa3 bg-primary-fore highlight">
-			<ul class="list pl0">
-				{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
-						{#each tags as tag}
+<details><!-- open -->
+<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">
+	<span class="dn dib-ns dib-m dib-l">Plan International</span>
+	<span class="dib dn-ns dn-m dn-l">PLAN</span>
+</summary>
+<article class="br2 pa3 bg-primary-fore highlight">
+	<ul class="list pl0">
+		{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+				{#each tags as tag}
 
-							{#if tag === 'Plan International'}
-							<li>
-								<a
-									sveltekit:prefetch
-									href={`${path.replace(".md", "")}`}
-									class="pointer link primary-back hover-secondary-fore transition"
-								><h3>{@html title}</h3>
-									{#if !serp ? undefined : serp }
-										<p class="serp">{@html serp}</p>
-									{/if}
-								</a>
-							</li>
+					{#if tag === 'Plan International'}
+					<li>
+						<a
+							sveltekit:prefetch
+							href={`${path.replace(".md", "")}`}
+							class="pointer link primary-back hover-secondary-fore transition"
+						><h3 class="lh-title">{@html title}</h3>
+							{#if !serp ? undefined : serp }
+								<p class="serp">{@html serp}</p>
 							{/if}
+						</a>
+					</li>
+					{/if}
 
-						{/each}
+				{/each}
+			{/each}
+		</ul>
+	</article>
+</details>
+
+<details><!-- open -->
+	<summary class="f2 f2-ns f1-m f1-l fw8 pointer no-clutter">
+		<span class="dn dib-ns dib-m dib-l">Save The&nbsp;Children</span>
+		<span class="dib dn-ns dn-m dn-l">Save<br>The Children</span>
+	</summary>
+	<article class="br2 pa3 bg-primary-fore highlight">
+		<ul class="list pl0">
+			{#each dateSortedPosts as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}
+					{#each tags as tag}
+
+						{#if tag === 'Save The Children'}
+						<li>
+							<a
+								sveltekit:prefetch
+								href={`${path.replace(".md", "")}`}
+								class="pointer link primary-back hover-secondary-fore transition"
+							><h3 class="lh-title">{@html title}</h3>
+								{#if !serp ? undefined : serp }
+									<p class="serp">{@html serp}</p>
+								{/if}
+							</a>
+						</li>
+						{/if}
+
 					{/each}
-				</ul>
-			</article>
-		</details>
+				{/each}
+			</ul>
+		</article>
+	</details>
 
 
 
@@ -272,7 +305,7 @@ let microdata = {
 			</ul></article>
 		</details> -->
 			<!-- <li>
-				<h3 style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
+				<h3 class="lh-title">{@html title}</h3> style="letter-spacing:-.025em" class="f2 f2-ns f1-m f1-l fw8 white cross lh-title">Others, who share our values</h3>
 				<p>
 				This is about our work with others who share our values.
 				</p>
