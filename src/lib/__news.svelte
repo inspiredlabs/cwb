@@ -13,7 +13,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
         {@html title}
       </h2>
       <!-- {$page.path} -->
-      <h3 class="i georgia f3 tc fw1 mb5 w-80 w-100-ns w-80-m measure-l mr-auto ml-auto">{@html serp}</h3>
+      <h3 class="i georgia f3 tc fw1 mb5 w-100 w-100-ns w-80-m measure-l mr-auto ml-auto">{@html serp}</h3>
       </header>
         <!-- <a href="#funding-partner" class="pointer link bg-transition br0 f6 f5-ns pv3 ba bw2 b--secondary-back ttu tracked-mega bg-primary-back hover-bg-accent w-third w-20-l b system tc white ph3 ph4-l">Become a Funding Partner</a> -->
 
