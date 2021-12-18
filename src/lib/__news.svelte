@@ -44,24 +44,20 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
 <div class="w-100 pv5 tc "><!-- bg-primary-back -->
 	<Section>
 
-
-
-
-
-
     <!--
-    , {@html objective}, {@html tags}, {@html author},  {@html serp}, {@html date}
+    You can cross check encoded URL here urlencoder.io/
+    {@html objective}, {@html tags}, {@html author},  {@html serp}, {@html date}
     -->
 
 
 		<h4 class="primary-back">Share article <span class="accent">with:</span></h4><!-- ttu tracked -->
 		<ul class="list pl0 tracked tracked-m tracked-l ttu mb3 b no-clutter">
-			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Clowns%20Without%20Borders:%20{ encodeURI(`${serp}`) }"
+			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Clowns%20Without%20Borders%20article:%20CWB.ORG.UK{$page.path}:%0A{ encodeURI(`${serp}`) }"
 					target="_blank" title="Share on Facebook"
 					class="pointer link color-transition bg-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook ttu tracked tracked-ns tracked-m tracked-mega-l hover-secondary-back hover-bg-white dib b system tc mv1">facebook</a><!--br1-->
 					<!-- Static: stackoverflow.com/questions/5478702/add-facebook-share-button-to-static-html-page -->
 				</li>
-			<li class="f8 f7-ns f5-m f4-l dib"><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;text=Clowns%20Without%20Borders:%20{ encodeURI(`${title}`) }%0A{ encodeURI(`${serp}`) }"
+			<li class="f8 f7-ns f5-m f4-l dib"><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;text=Clowns%20Without%20Borders%20article:%20CWB.ORG.UK{$page.path}%0A{ encodeURI(`${serp}`) }"
 					target="_blank" title="Tweet this"
 					class="pointer link color-transition bg-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-twitter ttu tracked tracked-ns tracked-m tracked-mega-l hover-secondary-back hover-bg-white dib b system tc mv1">twitter</a><!--br1--></li>
 			<li class="f8 f7-ns f5-m f4-l dib"><a href="mailto:?subject=Clowns%20Without%20Borders%20article:%20CWB.ORG.UK{$page.path}&amp;body={ encodeURI(`${title}`) }%0AAn%20article%20by%20{ encodeURI(`${author}`) }%20from%20Clowns%20Without%20Borders:%0Ahttps%3A%2F%2Fcwb.org.uk{$page.path}"
