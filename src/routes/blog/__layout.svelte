@@ -64,7 +64,7 @@ function update(e) {
 }
 
 
-import { page } from '$app/stores';
+
 //import { metadata } from "./first.md";
 //console.log(metadata)
 </script>
@@ -87,6 +87,8 @@ import { page } from '$app/stores';
 				{path}
 			{/if}
 		{/each} -->
+
+
 
 		<div class="cf"><!-- ph2-ns pt2-ns pt5-m pt6-l -->
 			{#each paginatedItems as {path, metadata:{ title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r } }}

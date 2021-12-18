@@ -3,7 +3,7 @@
 import Sting from '$lib/header/Sting.svelte';
 
 import {routesHome, routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
-import { page } from '$app/stores';
+import { page } from '$app/stores'; //{$page.path === `${home.href}`}
 import HomeLink from '$lib/header/HomeLink.svelte';
 import Outro from '$lib/Outro.svelte';
 import Social from './Social.svelte';

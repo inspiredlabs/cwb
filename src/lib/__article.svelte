@@ -1,8 +1,6 @@
 <script>
 //export let title, description, tags; // from markdown
-
 /* on-the-fly classes: github.com/martypdx/rehype-add-classes */
-
 </script>
 
 <!-- | CWB.ORG.UK

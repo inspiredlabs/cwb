@@ -1,6 +1,5 @@
 <!-- Blog Layout -->
 
-
 <article class="cf w-100 f4 f5-l highlight bg-gold">
   <header class="w-100 pv3 bg-red cf" >
     <div class="fl w-80 w-80-ns w-80-m w-two-thirds-l pl2 pl1-ns pl4-m pr4-m pl2-l">
