@@ -63,7 +63,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
         class="pointer link o-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-twitter ttu tracked tracked-ns tracked-m tracked-mega-l hover-o-100 o-80 dibb system tc mv1">twitter</a><!-- %0A%0A{encodeURI(`${serp}`)} --></li>
 			<li class="f8 f7-ns f5-m f4-l dib">
         <!-- { encodeURI(`${title}`) }%20%E2%80%93%20by%20{ encodeURI(`${author}`) }%3A%0A%0A -->
-        <a href="mailto:?subject=Clowns%20Without%20Borders%20article&amp;body=https%3A%2F%2Fcwb.org.uk{$page.path}"
+        <a href="mailto:?subject=Clowns%20Without%20Borders%20articleby%20{ encodeURI(`${author}`) }&amp;body=https%3A%2F%2Fcwb.org.uk{$page.path}"
 					target="_blank" title="email this"
 					class="pointer link o-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-pm-blue-dark ttu tracked tracked-ns tracked-m tracked-mega-l hover-o-100 o-80 dibb system tc mv1">email</a><!--br1--></li>
 		</ul>
