@@ -473,7 +473,12 @@ let microdata = {
 		flex-direction:column;
 	}
 
-	summary:hover{
+	summary:focus,
+	summary:active {
+		color:var(--accent);
+	}
+
+	summary:hover {
 		color:var(--accent);
 	}
 
