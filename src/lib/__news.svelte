@@ -54,7 +54,8 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
 
 		<h4 class="primary-back">Share article <span class="accent">with:</span></h4><!-- ttu tracked -->
 		<ul class="list pl0 tracked tracked-m tracked-l ttu mb3 b no-clutter">
-			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Clowns%20Without%20Borders%20article:%20CWB.ORG.UK{$page.path}:%0A{encodeURI(`${title}`)}%0A{encodeURI(`${serp}`)}"
+			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Clowns%20Without%20Borders%20article:%0A%0A{encodeURI(`${title}`)}%0A%0A{encodeURI(`${serp}`)}
+        %0A%0A -from:%20https%3A%2F%2Fcwb.org.uk{$page.path}"
 					target="_blank" title="Share on Facebook"
 					class="pointer link color-transition bg-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook ttu tracked tracked-ns tracked-m tracked-mega-l hover-secondary-back hover-bg-white dib b system tc mv1">facebook</a><!--br1-->
 					<!-- Static: stackoverflow.com/questions/5478702/add-facebook-share-button-to-static-html-page -->
