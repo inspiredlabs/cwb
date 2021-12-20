@@ -8,7 +8,7 @@ tags:
 author: Sam Holdsworth
 layout: news
 images: ["./images/tai-chi.webp"]
-serp: "Escaping persecution in Myanmar, an estimated 700,000 Rohingya people fled to <b>Bangladesh</b> & now live in refugee camps&hellip; working with <b>UNICEF</b> we implemented a successful behaviour change&nbsp;programme."
+serp: "Escaping persecution in Myanmar, an estimated 700,000 Rohingya people fled to Bangladesh & now live in refugee camps, working with UNICEF we implemented a successful behaviour change programme."
 ethno: en-GB
 date: 2019-03-15 20:00:00
 

@@ -8,7 +8,7 @@ tags:
 author: Sam Holdsworth
 layout: news
 images: ["./images/tai-chi.webp"]
-serp: "Co-ordination with <b>Save The Children</b> provided refugees in crisis an important opportunity to Play, which is a Human&nbsp;Right."
+serp: "Co-ordination with Save The Children provided refugees in crisis an important opportunity to Play, which is a Human Right."
 ethno: en-GB
 date: 2017-02-09 20:00:00
 

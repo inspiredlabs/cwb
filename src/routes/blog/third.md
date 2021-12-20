@@ -8,7 +8,7 @@ tags:
 author: Sam Holdsworth
 layout: news
 images: ["./images/tai-chi.webp"]
-serp: "Alongside <b>UNHCR</b>, we were the only NGO able to enter <b>Hungary's Transit Zones</b> because of our completely unique kind of Humanitarian&nbsp;Aid."
+serp: "Alongside UNHCR, we were the only NGO able to enter Hungary's Transit Zones because of our completely unique kind of Humanitarian Aid."
 ethno: en-GB
 date: 2018-08-01 20:00:00
 

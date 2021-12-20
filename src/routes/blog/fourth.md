@@ -8,7 +8,7 @@ tags:
 author: Sam Holdsworth
 layout: news
 images: ["./images/tai-chi.webp"]
-serp: "<b>Super-typhoon Haiyan</b> is believed to be the strongest storm in recorded&nbsp;history, we started delivering Psychosocial First Aid as soon as it was safe through <b>Plan&nbsp;International</b> in&nbsp;<b>The&nbsp;Philippines</b>."
+serp: "Super-typhoon Haiyan is believed to be the strongest storm in recorded history, we started delivering Psychosocial First Aid as soon as it was safe through Plan International in The Philippines."
 ethno: en-GB
 date: 2014-02-09 20:00:00
 

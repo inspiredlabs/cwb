@@ -9,7 +9,7 @@ tags:
 author: Sam Holdsworth
 layout: news
 images: ["./images/tai-chi.webp"]
-serp: "<b>Oxfam</b> funded workshops in November 2018 to deliver hygiene resources to Rohingya refugee children in <b>Bangladesh</b>, which has been recognised in the Points of Light&nbsp;award."
+serp: "Oxfam funded workshops in November 2018 to deliver hygiene resources to Rohingya refugee children in Bangladesh, which has been recognised in the Points of Light award."
 ethno: en-GB
 date: 2018-11-08 20:00:00
 
