@@ -85,7 +85,7 @@ function update() {
 				>
 				<!-- hover-bg-white bg-transition -->
 				<header class="w-80">
-					<div class="mb2 mb4-ns mb4-m mb4-l f4 f4-m f3-l lh-title h3">{@html title}</div>
+					<div class="mb2 mb4-ns mb4-m mb4-l f4 f4-m f3-l lh-title h3 b">{@html title}</div>
 					<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
 						{#if !date ? undefined : date }
 							<time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1 pb2">{new Date(date).toDateString()}</time><!-- .toLocaleDateString() -->

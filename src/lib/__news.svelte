@@ -69,7 +69,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
     <!-- "semantically" "social networking" "sharing widget" "html" -->
     <!-- learn: A/B test this on audience -->
     <!-- <h4 class="primary-back">Who could you <span class="accent">share&nbsp;this?</span></h4> -->
-		<header class="primary-back bc"><span class="accent">Share</span> article on:</header><!-- ttu tracked -->
+		<header class="primary-back b"><span class="accent">Share</span> article on:</header><!-- ttu tracked -->
 		<ul class="list pl0 tracked tracked-m tracked-l ttu mb3 b ">
 			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Article%20by%20{ encodeURI(`${author}`) },%20Clowns%20Without%20Borders"
       target="_blank" rel="noreferrer" title="Share on Facebook"
