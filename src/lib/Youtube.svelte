@@ -1,5 +1,5 @@
 <script>
-  //import Lazytube from '$lib/ytdefer/ytdefer.js'; // then onMount, rather than onLoad.
+  // from: https://stackoverflow.com/questions/50410828/how-to-prevent-youtube-js-calls-from-slowing-down-page-load
   import { onMount } from 'svelte'; // simple: svelte.dev/repl/onmount?version=3.46.3
   onMount(async () => {
     // size of youtube icon

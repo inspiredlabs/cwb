@@ -9,6 +9,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
     <header class="white lh-title mr-auto ml-auto w-90 w-80-ns w-80-m w-80-l tc flex flex-column">
       <p class="pv3">
         <span class="f8 f6-ns f6-m f6-l pv2 ph1 ph3-ns ph2-m ph3-l ba bw1 b--accent accent ttu tracked tracked-ns tracked-m tracked-mega-l b system tc">Our impact</span>
+        <!-- b--silver silver -->
       </p>
       <h2 class="f1 f2-ns f1-m f-headline-l fw7 mb0">
         {@html title}
@@ -26,7 +27,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
   </div>
   <div class="tc white pt3 pb5">
     {#if !author ? undefined : author }
-      <div class="f7 f6-ns f6-m f6-l gray ml1 b" >{author}</div>
+      <div class="f7 f6-ns f6-m f6-l silver ml1 b" >{author}</div>
       <!-- hover-white bg-transition pointer link -->
     {/if}
   </div>
@@ -38,10 +39,15 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
   </article>
 
 <style>
-.hover-o-100:focus,
-.hover-o-100:active {
-  opacity: 1;
-}</style>
+.hover-o-80:hover,
+.hover-o-80:focus,
+.hover-o-80:active {
+  opacity: .8;
+}
+.bg-twitter-alt {
+  background: #0d8ddb;
+}
+</style>
 
 
 <!-- bug: `Share.svelte` isn't recieving `post` from `__news.svelte` -->
@@ -57,17 +63,18 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
 		<ul class="list pl0 tracked tracked-m tracked-l ttu mb3 b ">
 			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Article%20by%20{ encodeURI(`${author}`) },%20Clowns%20Without%20Borders"
       target="_blank" title="Share on Facebook"
-      class="pointer link o-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook ttu tracked tracked-ns tracked-m tracked-mega-l hover-o-100 o-80 dib system tc mv1">Facebook</a><!--br1-->
+      class="pointer link f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook ttu tracked tracked-ns tracked-m tracked-mega-l dib system tc mv1 hover-o-80 o-transition">Facebook</a><!-- br1 o-transition hover-o-100 o-80 -->
         <!-- Static: stackoverflow.com/questions/5478702/add-facebook-share-button-to-static-html-page -->
       </li>
 			<li class="f8 f7-ns f5-m f4-l dib"><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;text=https%3A%2F%2Fcwb.org.uk{$page.path}"
         target="_blank" title="Tweet this"
-        class="pointer link o-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-twitter ttu tracked tracked-ns tracked-m tracked-mega-l hover-o-100 o-80 dib system tc mv1">twitter</a><!-- %0A%0A{encodeURI(`${serp}`)} --></li>
+        class="pointer link f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-twitter-alt ttu tracked tracked-ns tracked-m tracked-mega-l dib system tc mv1 hover-o-80 o-transition">twitter</a><!-- %0A%0A{encodeURI(`${serp}`)} --><!-- br1 o-transition hover-o-100 o-80 --></li>
 			<li class="f8 f7-ns f5-m f4-l dib">
         <!-- { encodeURI(`${title}`) }%20%E2%80%93%20by%20{ encodeURI(`${author}`) }%3A%0A%0A -->
         <a href="mailto:?subject=Clowns%20Without%20Borders%20article%20by%20{ encodeURI(`${author}`) }&amp;body=https%3A%2F%2Fcwb.org.uk{$page.path}"
 					target="_blank" title="email this"
-					class="pointer link o-transition f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-pm-blue-dark ttu tracked tracked-ns tracked-m tracked-mega-l hover-o-100 o-80 dib system tc mv1">email</a><!--br1--></li>
+					class="pointer link f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-pm-blue-dark ttu tracked tracked-ns tracked-m tracked-mega-l dib system tc mv1 hover-o-80 o-transition">email</a><!-- br1 o-transition hover-o-100 o-80 -->
+        </li>
 		</ul>
 	</Section>
 </div>

@@ -385,7 +385,7 @@ let microdata = {
 
 					{/if}
 					{#if !author ? undefined : author }
-						<div class="f7 f6-ns f6-m f6-l gray b pt2 pt0-l pl2-l"><!-- ciao -->{author}</div>
+						<div class="f7 f6-ns f6-m f6-l mid-gray b pt2 pt0-l pl2-l"><!-- ciao -->{author}</div>
 					{/if}
 				</div>
 				{#if !serp ? undefined : serp }
