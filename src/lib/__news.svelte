@@ -4,6 +4,12 @@ import Section from '$lib/Section.svelte';
 export let title, objective, tags, author, location, images, serp, ethno, date, t, layout, draft, r; // `from markdown fontmatter
 </script>
 
+<!-- Tutorial: https://svelte.dev/tutorial/svelte-head -->
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={serp}>
+</svelte:head>
+
 <article class="cf w-100 pa0 ma0">
   <div class="bg-primary-back">
     <header class="white lh-title mr-auto ml-auto w-90 w-80-ns w-80-m w-80-l tc flex flex-column">
@@ -51,13 +57,6 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
   background: #156BD9;
 }
 </style>
-
-<!-- Tutorial: https://svelte.dev/tutorial/svelte-head -->
-<svelte:head>
-  <title>{title}</title>
-  <title>{serp}</title>
-  <meta name="description" content="">
-</svelte:head>
 
 <!-- bug: `Share.svelte` isn't recieving `post` from `__news.svelte` -->
 <!--
