@@ -68,6 +68,8 @@ Maksuda Sultana, a Technical Manager for Hygiene Promotion with UNICEF partner C
 
 Watch: [Artists working with children who have fled Myanmar](https://www.youtube.com/watch?v=MhdrEDr2MjI)<!--, on the&nbsp;BBC -->.
 
+<Youtube watchID='njcZ6jOgazU'/>
+
 <!--
 # A network of clowns brings laughter to Rohingya camps
 - from: https://www.devex.com/news/a-network-of-clowns-brings-laughter-to-rohingya-camps-94416

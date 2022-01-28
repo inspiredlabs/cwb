@@ -41,6 +41,13 @@
                 var alt = e.getAttribute('data-alt');
                 im.alt = alt;
             }
+
+            if (!e.hasAttribute('data-alt'))
+            {
+                var alt = 'YouTube thumbnail';
+                im.alt = alt;
+            }
+
             if (e.hasAttribute('data-title'))
             {
                 var title = e.getAttribute('data-title');

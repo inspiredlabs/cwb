@@ -45,10 +45,19 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
   opacity: .8;
 }
 .bg-twitter-alt {
-  background: #0d8ddb;
+  background: #0A70AF;
+}
+.bg-facebook-alt {
+  background: #156BD9;
 }
 </style>
 
+<!-- Tutorial: https://svelte.dev/tutorial/svelte-head -->
+<svelte:head>
+  <title>{title}</title>
+  <title>{serp}</title>
+  <meta name="description" content="">
+</svelte:head>
 
 <!-- bug: `Share.svelte` isn't recieving `post` from `__news.svelte` -->
 <!--
@@ -63,7 +72,7 @@ export let title, objective, tags, author, location, images, serp, ethno, date, 
 		<ul class="list pl0 tracked tracked-m tracked-l ttu mb3 b ">
 			<li class="f8 f7-ns f5-m f4-l dib"><!-- ph0 pv2 ph2-ns pv2-ns  --><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;quote=Article%20by%20{ encodeURI(`${author}`) },%20Clowns%20Without%20Borders"
       target="_blank" title="Share on Facebook"
-      class="pointer link f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook ttu tracked tracked-ns tracked-m tracked-mega-l dib system tc mv1 hover-o-80 o-transition">Facebook</a><!-- br1 o-transition hover-o-100 o-80 -->
+      class="pointer link f8 f6-ns f6-m f6-l fl-m pv2 pv1-m ph1 ph3-ns ph3-m ph4-l mr2 ba bw1 b--secondary-back white bg-facebook-alt ttu tracked tracked-ns tracked-m tracked-mega-l dib system tc mv1 hover-o-80 o-transition">Facebook</a><!-- br1 o-transition hover-o-100 o-80 -->
         <!-- Static: stackoverflow.com/questions/5478702/add-facebook-share-button-to-static-html-page -->
       </li>
 			<li class="f8 f7-ns f5-m f4-l dib"><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcwb.org.uk{$page.path}%2F&amp;text=https%3A%2F%2Fcwb.org.uk{$page.path}"
