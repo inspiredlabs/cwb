@@ -75,7 +75,7 @@ function update(e) {
 <section class="dt w-100 vh-100 vh-75-ns vh-75-m" id="#news">
 	<div class="dtc v-mid mw8 center ph3-ns pt0">
 		<Section>
-			<h2 class="tc primary-back">
+			<h2 class="tc primary-back no-clutter">
 			<span class="accent">Our&nbsp;Impact</span> Newsfeed</h2>
 		</Section>
 
@@ -102,7 +102,7 @@ function update(e) {
 			>
 			<!-- hover-bg-white bg-transition -->
 			<header class="w-80">
-				<h4 class="mb2 mb4-ns mb4-m mb4-l f4 f4-m f3-l lh-title h3">{@html title}</h4>
+				<div class="mb2 mb4-ns mb4-m mb4-l f4 f4-m f3-l lh-title h3">{@html title}</div>
 				<div class="flex flex-column flex-column-m flex-row-l primary-back"><!-- justify-between -->
 					{#if !date ? undefined : date }
 						<time class="f7 f6-ns f6-m f6-l ttu b bb b--accent bw1 pb2">{new Date(date).toDateString()}</time><!-- .toLocaleDateString() -->
@@ -128,10 +128,7 @@ function update(e) {
 
 			{/if}
 
-		{/each}
-		</div>
-	</div>
-	</section>
+			{/each}</div></div></section>
 
 	<Section>
 		<nav>
