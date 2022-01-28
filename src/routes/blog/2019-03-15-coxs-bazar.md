@@ -33,6 +33,8 @@ revision: draft || published
 - people
 -->
 
+
+
 ## Dhaka: the world’s most heavily populated&nbsp;city
 
 <!--
@@ -61,7 +63,10 @@ Maksuda Sultana, a Technical Manager for Hygiene Promotion with UNICEF partner C
 
 > We are teaching through real-life scenarios, by playing games and using drama to deliver important lessons on health and hygiene – in a way that children understand. It’s called "learning through laughter". When children enjoy learning, they are far more likely to remember lessons and adopt good hygiene practices.
 
+<script>import Youtube from '$lib/Youtube.svelte';</script>
+<Youtube watchID='MhdrEDr2MjI'/>
 
+Watch: [Artists working with children who have fled Myanmar](https://www.youtube.com/watch?v=MhdrEDr2MjI)<!--, on the&nbsp;BBC -->.
 
 <!--
 # A network of clowns brings laughter to Rohingya camps
