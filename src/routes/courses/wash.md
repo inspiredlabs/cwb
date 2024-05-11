@@ -75,7 +75,7 @@ temporary accomodation
 
 
 <!--
-![children dancing at a clown event](https://cwb.org.uk/images/children-dancing-at-a-clowning-event.jpg)
+![children dancing at a clown event](https://happy-shaw-91e31c.netlify.app/images/children-dancing-at-a-clowning-event.jpg)
 -->
 
 <!--

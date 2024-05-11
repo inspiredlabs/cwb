@@ -88,8 +88,8 @@ Defining metadata with consistency and plurality should benefit us from percepta
 ```
 - `FAIR` (Findable, accessible, Interoperable, Reusable) [best practices](https://maastrichtu-ids.github.io/best-practices/docs/fair-data).
 - Consider our `cross platform` structure of taglines:
-  - `site.json` as described on this: [Website](https://cwb.org.uk/): `Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.`
-  - `organization.json` described with a PostalAddress as: [Organization](https://cwb.org.uk/): `Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.`
+  - `site.json` as described on this: [Website](https://happy-shaw-91e31c.netlify.app/): `Training and Fundraising to improve the emotional wellbeing of children and young people living through conflict and disaster.`
+  - `organization.json` described with a PostalAddress as: [Organization](https://happy-shaw-91e31c.netlify.app/): `Facilitator Training and Programme Development to improve the emotional wellbeing of children and young people living through conflict and disaster.`
   - [twitter](https://twitter.com/childrenlaughUK): Image caption: `#ChildRefugees` && ```Clowns Without Borders is a humanitarian arts led #charity dedicated to bringing emotional relief to #children living in #crisis across the globe.```
   - channel/UCWDuY-wPQO3PL8HWTSPs86Q = [Youtube](https://www.youtube.com/channel/UCWDuY-wPQO3PL8HWTSPs86Q/about): `Sharing laughter with children in Humanitarian Disaster`
   - [Instagram](https://www.instagram.com/clownswithoutbordersuk/): ```Providing emotional relief to children and their communities in crisis through the power of laughter and play. ```

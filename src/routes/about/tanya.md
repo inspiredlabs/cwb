@@ -10,7 +10,7 @@ layout: person
 jobTitle: Trustee
 name: Tanya Glanville-Wallis
 telephone:
-url: https://cwb.org.uk/about/tanya
+url: https://happy-shaw-91e31c.netlify.app/about/tanya
 
 ---
 

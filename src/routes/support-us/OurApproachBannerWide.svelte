@@ -67,7 +67,7 @@
 -->
 
 <style>
-	/* 'https://cwb.org.uk/images'; */
+	/* 'https://happy-shaw-91e31c.netlify.app/images'; */
 .hero {
 	/* Animated BG: https://codepen.io/kachibito/pen/LMaGBg/*/
 	background: linear-gradient(
@@ -78,7 +78,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('https://cwb.org.uk/images/children-crowded-watching-a-play-942x1024.webp')
+			url('https://happy-shaw-91e31c.netlify.app/images/children-crowded-watching-a-play-942x1024.webp')
 			center 92% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/

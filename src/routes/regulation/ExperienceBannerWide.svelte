@@ -83,7 +83,7 @@
 </aside>
 
 <style>
-	/* 'https://cwb.org.uk/images'; */
+	/* 'https://happy-shaw-91e31c.netlify.app/images'; */
 .hero {
 	/* Animated BG: https://codepen.io/kachibito/pen/LMaGBg/*/
 	background: linear-gradient(
@@ -94,7 +94,7 @@
 				rgba(0, 0, 0, 0.6)
 			)
 			0 0 / 100% no-repeat,
-			url('https://cwb.org.uk/images/IMG_1914-1024x683.webp')
+			url('https://happy-shaw-91e31c.netlify.app/images/IMG_1914-1024x683.webp')
 			center 60% / cover no-repeat;
 }
 	.stroke-text { color: inherit; }/*inherit*/

@@ -11,7 +11,7 @@ layout: person
 jobTitle: Senior Trustee, Treasurer
 name: Shilpa Thanki-Green
 telephone:
-url: https://cwb.org.uk/about/shilpa
+url: https://happy-shaw-91e31c.netlify.app/about/shilpa
 
 ---
 
@@ -24,7 +24,7 @@ url: https://cwb.org.uk/about/shilpa
  [&mdash;&nbsp;Shilpa Thanki-Green, Associate Charted Management Accountant]({url})
 -->
 
-Shilpa actively supports children and young people's rights by ensuring funds reach those in need<!-- for [CWB](https://cwb.org.uk/)-->. She has over twenty years of experience as a leader in Financial Services and has been a Trustee of _Street Child_.
+Shilpa actively supports children and young people's rights by ensuring funds reach those in need<!-- for [CWB](https://happy-shaw-91e31c.netlify.app/)-->. She has over twenty years of experience as a leader in Financial Services and has been a Trustee of _Street Child_.
 
 <!--an Associate Charted Management Accountant--> <!-- working with _KPMG_, _Morgan Stanley_ and _Citi Bank_. Shilpa has also been a Trustee of _Street Child_. -->
 

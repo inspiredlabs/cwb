@@ -10,7 +10,7 @@ layout: person
 jobTitle: Chair Person
 name: David Lacey
 telephone: 020 7605 0157
-url: https://cwb.org.uk/about/david
+url: https://happy-shaw-91e31c.netlify.app/about/david
 
 ---
 

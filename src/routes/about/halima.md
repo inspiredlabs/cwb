@@ -10,7 +10,7 @@ layout: person
 jobTitle: Producer
 name: Halima Habil
 telephone:
-url: https://cwb.org.uk/about/halima
+url: https://happy-shaw-91e31c.netlify.app/about/halima
 
 ---
 

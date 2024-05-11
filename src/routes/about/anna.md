@@ -10,7 +10,7 @@ layout: person
 jobTitle: Trustee
 name: Annabel Morgan
 telephone: 4407831 778 705
-url: https://cwb.org.uk/about/anna
+url: https://happy-shaw-91e31c.netlify.app/about/anna
 
 ---
 

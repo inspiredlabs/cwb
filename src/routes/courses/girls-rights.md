@@ -27,7 +27,7 @@ Following a Humanitarian Disaster women are especially vulnerable to exclusion a
 We share techniques that establish inclusion, lead to greater agency and strengthen self-esteem. Combined, these help communities become resilient, inclusive and help resolve conflict without violence.
 
 <!--
-![girl covering her face with her t shirt](https://cwb.org.uk/images/girl-covering-her-face-with-her-t-shirt-1024x652.jpg)
+![girl covering her face with her t shirt](https://happy-shaw-91e31c.netlify.app/images/girl-covering-her-face-with-her-t-shirt-1024x652.jpg)
 -->
 
 <!--

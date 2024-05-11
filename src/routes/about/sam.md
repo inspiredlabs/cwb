@@ -10,13 +10,13 @@ layout: person
 jobTitle: CEO
 name: Samantha Holdsworth
 telephone: 442072446908
-url: https://cwb.org.uk/about/sam
+url: https://happy-shaw-91e31c.netlify.app/about/sam
 
 ---
 
 ||||
 | -----------: | ----------- | -----------: | ----------- |
-| Website | [CWB.ORG.UK](https://cwb.org.uk/) | LinkedIn | [Samantha Holdsworth](https://uk.linkedin.com/in/samantha-holdsworth) |
+| Website | [CWB.ORG.UK](https://happy-shaw-91e31c.netlify.app/) | LinkedIn | [Samantha Holdsworth](https://uk.linkedin.com/in/samantha-holdsworth) |
 
 <!--### The Vision-->
 

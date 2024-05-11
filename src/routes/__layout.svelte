@@ -32,7 +32,7 @@
 	<!-- Debouncing the whole layout: https://greekfoods.netlify.app/ -->
 	<!--link href="https://instantwebapp.com/css/tachyon.shower.css" rel="stylesheet" /-->
 	<!-- from: https://favicon.io/favicon-converter/ -->
-	<!-- <link rel=“canonical” href=“https://cwb.org.uk/” /> --><!-- todo: https://ahrefs.com/blog/canonical-tags/ -->
+	<!-- <link rel=“canonical” href=“https://happy-shaw-91e31c.netlify.app/” /> --><!-- todo: https://ahrefs.com/blog/canonical-tags/ -->
 	<!-- My microdata: -->
 	<!-- https://json-ld.org/playground/ -->
 	<!-- https://search.google.com/test/rich-results/ -->

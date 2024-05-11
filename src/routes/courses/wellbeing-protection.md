@@ -43,7 +43,7 @@ normal childhood experience-->
 <!--
 ![boy climbing on the back of a clown](/images/boy-climbing-on-the-back-of-a-clown-1024x683.jpg)
 
-![children dancing at a clown event](https://cwb.org.uk/images/children-dancing-at-a-clowning-event.jpg)
+![children dancing at a clown event](https://happy-shaw-91e31c.netlify.app/images/children-dancing-at-a-clowning-event.jpg)
 -->
 
 <!--
