@@ -4,7 +4,7 @@ region: en
 title: Edward Morgan
 tags:
   - project manager
-images: ["https://cwb.org.uk/images/close-up-of-edward.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/close-up-of-edward.webp"]
 layout: person
 
 jobTitle: Project Manager

@@ -8,7 +8,7 @@ tags:
   - children and young people
   - programme delivery
   - clowns without borders
-images: ["https://cwb.org.uk/images/girl-covering-her-face-with-her-t-shirt-1024x652.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/girl-covering-her-face-with-her-t-shirt-1024x652.webp"]
 layout: article
 
 description: We share intuitive techniques to establish inclusion, agency and self-esteem. All help communities become resilient and resolve conflict without violence.

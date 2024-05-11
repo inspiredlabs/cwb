@@ -8,7 +8,7 @@ tags:
   - children and young people
   - programme delivery
   - clowns without borders
-images: ["https://cwb.org.uk/images/shilpa-thanki.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/shilpa-thanki.webp"]
 layout: article
 
 description: By transform technical information into age appropriate activities we share key hygiene messages to children that they enjoy repeating again and again.

@@ -4,7 +4,7 @@ region: en
 title: David Lacey
 tags:
   - trustee
-images: ["https://cwb.org.uk/images/david-smiling.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/david-smiling.webp"]
 layout: person
 
 jobTitle: Chair Person

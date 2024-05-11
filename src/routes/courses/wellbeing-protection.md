@@ -7,7 +7,7 @@ tags:
   - children and young people
   - programme delivery
   - clowns without borders
-images: ["https://cwb.org.uk/images/shilpa-thanki.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/shilpa-thanki.webp"]
 layout: article
 
 description: When we create opportunities to laugh, we ease trauma and develop coping skills. These contribute to a normal childhood and build community resilience.

@@ -5,7 +5,7 @@ title: Who we are
 tags:
   - about
   - who we are
-images: ["https://cwb.org.uk/images/sam-smiling.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/sam-smiling.webp"]
 layout: article
 
 ---

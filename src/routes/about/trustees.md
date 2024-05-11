@@ -4,7 +4,7 @@ region: en
 title: Trustees
 tags:
   - trustees
-images: ["https://cwb.org.uk/images/sam-smiling.webp"]
+images: ["https://happy-shaw-91e31c.netlify.app/images/sam-smiling.webp"]
 layout: article
 
 ---

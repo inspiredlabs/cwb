@@ -71,9 +71,9 @@ We are looking for your valuable support. We are seeking Innovation Funding and 
 let microdata = {
 		type: "NGO",
 		name: "Clowns Without Borders, UK",
-		url: "https://cwb.org.uk/",
-		logo: "https://cwb.org.uk/images/cwb.svg",
-		image: "https://cwb.org.uk/images/sam-smiling.webp",
+		url: "https://happy-shaw-91e31c.netlify.app/",
+		logo: "https://happy-shaw-91e31c.netlify.app/images/cwb.svg",
+		image: "https://happy-shaw-91e31c.netlify.app/images/sam-smiling.webp",
 		description: "index.svelte page description only",
 		telephone: 442072446908,
 		streetAddress: "118 Sternhold Avenue",

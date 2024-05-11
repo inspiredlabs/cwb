@@ -6,6 +6,7 @@
 </script>
 
 <script>
+/* learn: `~/support/How to use SvelteKit with Netlify Forms (simple prerendered approach).mp4` */
 import Sting from '$lib/header/Sting.svelte';
 let email = "";
 let form;
