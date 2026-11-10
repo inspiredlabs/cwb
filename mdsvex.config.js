@@ -1,13 +1,13 @@
 //import toc from 'rehype-toc'
-import relativeImages from 'mdsvex-relative-images';
 import rehypeSlug from "rehype-slug"
 import addClasses from "rehype-add-classes" //https://github.com/martypdx/rehype-add-classes
+import { fileURLToPath } from 'node:url';
 
 const config = {
   "layout": {
     //"blog": "./src/lib/__blog.svelte",
-    "person": "./src/lib/__person.svelte",
-    "news": "./src/lib/__news.svelte",
+    "person": fileURLToPath(new URL('./src/lib/__person.svelte', import.meta.url)),
+    "news": fileURLToPath(new URL('./src/lib/__news.svelte', import.meta.url)),
     //"article": "./src/lib/__article.svelte"
   },
 
@@ -18,7 +18,6 @@ const config = {
     "dashes": "oldschool"
   },
 
-  "remarkPlugins": [relativeImages],
   "rehypePlugins": [
     //toc,
     rehypeSlug,

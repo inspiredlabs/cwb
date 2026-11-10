@@ -1,52 +1,28 @@
-<script context="module">
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
-  export const prerender = true;
-</script>
-
 <script>
 import Section from '$lib/Section.svelte';
 import Sting from '$lib/header/Sting.svelte';
-let email = "";
+import { FORMSPREE_ENDPOINT, submitFormspree } from '$lib/formspree.js';
+
 let form;
 let name = 'Funding Partnership Request';
 let submitted = false;
 let isSubmitting = false;
+let errorMessage = '';
 
-const handleInput = (event) => {
-  email = event.target.value;
-};
-
-const handleSubmit = (event) => {
-
-  let formData = new FormData(form);
-
+async function handleSubmit() {
+  if (isSubmitting) return;
   isSubmitting = true;
-
-  return fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => {
-      // note: do something:
-      console.log("Form submitted!");
-      submitted = true;
-      isSubmitting = false;
-
-    })
-    .finally(() => {
-      // note: do something:
-      console.log("It works!");
-      // xxx
-      form.reset();
-    })
-    .catch((error) => {
-      console.log(error);
-      isSubmitting = false;
-    });
-  };
+  errorMessage = '';
+  try {
+    await submitFormspree(form);
+    form.reset();
+    submitted = true;
+  } catch (error) {
+    errorMessage = error.message || 'Your request could not be sent. Please try again.';
+  } finally {
+    isSubmitting = false;
+  }
+}
 </script>
 
 <div class="cf pv4 f5 mb4 bg-secondary-back" id="funding-partner">
@@ -60,9 +36,8 @@ const handleSubmit = (event) => {
       on:submit|preventDefault={handleSubmit}
       bind:this={form}
       name={name}
-      netlify
-      netlify-honeypot="gotcha"
-      class="{ submitted ? 'ping' : '' }">
+      action={FORMSPREE_ENDPOINT}
+      method="POST">
       <div class="f5 f6-l no-clutter ">
         <div class="w-100 b white-80"><!-- pl2-l tr -->
           <label for="email" class="{ submitted ? 'o-0' : '' } transition">{name}</label>
@@ -72,15 +47,8 @@ const handleSubmit = (event) => {
       <div class="pv4 f5 f6-l no-clutter ">
         <div class="w-100 flex justify-between "><!-- pl2-l tr -->
           {#if !submitted}
-          <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
-
-          <input type="hidden" name="form-name" value={name} />
-
-          <label for="gotcha" class="sr-only">Gotcha!</label>
-          <input type="text" id="gotcha" name="gotcha" class="sr-only" />
-          <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-          <label for="subject" class="sr-only">Subject</label>
-          <input id="subject" name="subject" type="hidden" value="{email} has sent a {name}" />
+          <input type="hidden" name="subject" value="Funding partnership enquiry — Clowns Without Borders" />
+          <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
 
           <input
@@ -88,7 +56,6 @@ const handleSubmit = (event) => {
             id="email"
             type="email"
             name="email"
-            bind:value={email}
             placeholder="your@email.com"
             required
             class="bg-transition input-reset br0 ba bw2 w-two-thirds w-80-l bg-white-80 b--accent f6 f5-ns pv3 db active pa3">
@@ -96,7 +63,8 @@ const handleSubmit = (event) => {
           <input
             class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--accent accent ttu tracked-mega white bg-primary-back hover-bg-accent w-third w-20-l db b system tc"
             type="submit"
-            value="Send">
+            value={isSubmitting ? 'Sending…' : 'Send'}
+            disabled={isSubmitting}>
           {:else}
           <div class="fn fl-l w-20 pr2-l">
             <div class="w3 h3">
@@ -110,6 +78,7 @@ const handleSubmit = (event) => {
           {/if}
         </div>
       </div><!-- /Three columns -->
+      {#if errorMessage}<p role="alert" class="red">{errorMessage}</p>{/if}
     </form><!-- /contents -->
 
     <div class="fn fl-l w-50-l pr4-l"><!-- Col1 -->
@@ -133,18 +102,10 @@ const handleSubmit = (event) => {
 .lh-none {
   line-height: 0;
 }
+.honeypot { display: none; }
 .active:focus {
   background-color: white;
   /* border-color: var(--egyptian); */
-}
-
-.ping {
-  transform: scale(1.1);
-  transition:
-    transform 3s ease-out,
-    opacity 3s 33s ease-out; /* , opacity 3s ease-out */
-  transform-origin: top center;
-  opacity: 0;
 }
 
 /* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */

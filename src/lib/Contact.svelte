@@ -1,47 +1,56 @@
-<script context="module">
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
-	export const prerender = true;
+<script>
+	import { FORMSPREE_ENDPOINT, submitFormspree } from '$lib/formspree.js';
 
+	let form;
+	let submitted = false;
+	let isSubmitting = false;
+	let errorMessage = '';
+
+	async function handleSubmit() {
+		if (isSubmitting) return;
+		isSubmitting = true;
+		errorMessage = '';
+		try {
+			await submitFormspree(form);
+			form.reset();
+			submitted = true;
+		} catch (error) {
+			errorMessage = error.message || 'Your message could not be sent. Please try again.';
+		} finally {
+			isSubmitting = false;
+		}
+	}
 </script>
 
+{#if submitted}
+	<p class="f5 f4-ns highlight system pv6" role="status">Thank you for your message.</p>
+{:else}
 <form
-	accept-charset=utf-8
-	method=POST enctype="application/x-www-form-urlencoded"
+	bind:this={form}
+	on:submit|preventDefault={handleSubmit}
+	action={FORMSPREE_ENDPOINT}
+	method="POST"
 	class="f5 f4-ns highlight system cf no-clutter pv6"
-	name="Contact"
-	netlify-honeypot="gotcha"
-	netlify>
-<!-- action="/done.html" // form data-netlify="true" -->
-<!-- For each detected tag, it sets up a dedicated "form" which is pretty much an append-only schemaless document store of all submissions.
-		- from: swyx.io/sveltekit-netlify-forms/
--->
-	<input type="hidden" name="form-name" value="Contact" />
-	<!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
-
-	<input name="subject" type="hidden" value="InstantWebapp inquiry" />
-	<input name="gotcha" class="visually-hidden" />
+	name="Contact">
+	<input name="subject" type="hidden" value="Contact enquiry — Clowns Without Borders" />
+	<input name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
 	<div class="mb4">
-		<label for="email" class="f6 f5-ns ttu tracked-mega pl3">Address</label>
-		<!-- simple client-side html form validation using email pattern: stackoverflow.com/questions/19605773/html5-email-validation/57993606#57993606
-		unable to pass: `pattern={pattern}`
-		-->
-		<input type="email" name="email" class=" input-reset br0 bn mt3 pa3 w-100 bg-white-80" placeholder="your@email.com" required>
+		<label for="contact-email" class="f6 f5-ns ttu tracked-mega pl3">Address</label>
+		<input id="contact-email" type="email" name="email" class="input-reset br0 bn mt3 pa3 w-100 bg-white-80" placeholder="your@email.com" required>
 
 	</div>
 
 	<div class="mb4">
-		<label for="message" class="f6 f5-ns ttu tracked-mega pl3">Message</label>
-		<textarea class="mw-100 input-reset br0 bn mt3 pa3 w-100 bg-white-80" name="message" rows="4" placeholder="Your message&hellip;" style="min-width:100%;" required></textarea>
-		<!-- f5 f5-ns input-reset -->
+		<label for="contact-message" class="f6 f5-ns ttu tracked-mega pl3">Message</label>
+		<textarea id="contact-message" class="mw-100 input-reset br0 bn mt3 pa3 w-100 bg-white-80" name="message" rows="4" placeholder="Your message&hellip;" style="min-width:100%;" required></textarea>
 	</div>
+	{#if errorMessage}<p role="alert" class="red">{errorMessage}</p>{/if}
 	<div class="fr cb cf mb3 mb6-ns mb3-m mb3-l bg-black ma0">
 		<input class="bg-transition input-reset pointer br0 f6 f5-ns b ph5 pv3 ba bw2 b--black white ttu tracked-mega bg-primary-back hover-bg-near-black w-100 db b system"
-		type=submit value=Send>
-		<!-- bw2-ns bg-mid-gray hover-bg-white accent  -->
+		type="submit" value={isSubmitting ? 'Sending…' : 'Send'} disabled={isSubmitting}>
 	</div>
 </form>
+{/if}
 
 <style>
 	/* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */

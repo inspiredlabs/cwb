@@ -31,8 +31,8 @@ export const routesAbout = [
 export const routesCourses = [
   { href: '/courses', header: 'b', title: 'Courses' },
     { href: '/courses#programme-delivery', header: 'pl0', title: 'Programme Delivery' },
-		{ href: '/courses#training-for-facilitators', header: 'pl0', title: 'Training for Facilitators' },
-    { href: '/courses#monitoring-and-evaluation', header: 'pl0', title: 'Monitoring \& Evaluation' },
+		{ href: '/courses#about-our-training-structure', header: 'pl0', title: 'Training for Facilitators' },
+    { href: '/courses#working-together-to-measure-impact', header: 'pl0', title: 'Monitoring \& Evaluation' },
     // { href: '/courses#login', header: 'b pl0', title: 'Login' },
 ];
 

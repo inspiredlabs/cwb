@@ -1,38 +1,31 @@
-# create-svelte
+# Clowns Without Borders UK website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This is a SvelteKit site built with `@sveltejs/adapter-vercel`. Site-owned images live in `static/images` and are referenced from the site root, for example `/images/girl-looking-up-into-the-sky-smiling.webp`.
 
-## Creating a project
+## Local development
 
-If you're seeing this, you've probably already done this step. Congrats!
+Use Node.js 26 and pnpm 10.18.0:
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-> Note: the `@next` is temporary
+The development server listens on `http://localhost:3000`. Check a production build with:
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```sh
+pnpm build
+pnpm preview
 ```
 
-## Building
+## Deploy to Vercel
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+Import the repository as a SvelteKit project. The `package.json` Node engine pins Vercel builds and functions to Node.js 26.x. Use the repository root, the pnpm lockfile, and the standard `pnpm build` command. Leave the Output Directory at the SvelteKit framework default; the Vercel adapter generates `.vercel/output` during the build.
 
-```bash
-npm run build
-```
+After deployment, confirm that `/images/girl-looking-up-into-the-sky-smiling.webp` loads from the new Vercel domain. Images in `static/images` are copied to that URL path by SvelteKit.
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## Formspree forms
+
+Contact, Newsfeed, and Funding Partnership all submit to `https://formspree.io/f/xvkapzrj`. Each form sends a distinct `subject` field so the messages can be distinguished in Formspree. The forms submit with JavaScript when available and retain their standard HTML `action` and `method="POST"` fallback.
+
+The endpoint is a public form ID. Formspree account usernames, passwords, and API keys are not needed for submissions. If the endpoint changes, update `src/lib/formspree.js`.

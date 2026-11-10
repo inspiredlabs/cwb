@@ -3,7 +3,7 @@
 import Sting from '$lib/header/Sting.svelte';
 
 import {routesHome, routesAbout, routesSupport, routesCourses, routesRegulation } from '$lib/routes.js';
-import { page } from '$app/stores'; //{$page.path === `${home.href}`}
+import { page } from '$app/stores'; //{$page.url.pathname === `${home.href}`}
 import HomeLink from '$lib/header/HomeLink.svelte';
 import Outro from '$lib/Outro.svelte';
 import Social from './Social.svelte';
@@ -15,7 +15,7 @@ import FundingPartner from "$lib/FundingPartner.svelte";
 
 
 <footer class="bg-primary-back white-90 antialias">
-  <!-- id={$page.path} -->
+  <!-- id={$page.url.pathname} -->
   <Hotspot />
   <FundingPartner />
 <Section>
@@ -45,8 +45,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
           <li class="{home.header}">
             <a
               class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${home.href}`}
-              sveltekit:prefetch href="{home.href}"
+              class:active={$page.url.pathname === `${home.href}`}
+              data-sveltekit-preload-data="hover" href="{home.href}"
             >{home.title}</a>
           </li>
         {/each}
@@ -61,8 +61,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
           <li class="{about.header}">
             <a
               class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${about.href}`}
-              sveltekit:prefetch href="{about.href}"
+              class:active={$page.url.pathname === `${about.href}`}
+              data-sveltekit-preload-data="hover" href="{about.href}"
             >{about.title}</a>
           </li>
         {/each}
@@ -75,8 +75,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
           <li class="{regulation.header}">
             <a
               class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${regulation.href}`}
-              sveltekit:prefetch href="{regulation.href}"
+              class:active={$page.url.pathname === `${regulation.href}`}
+              data-sveltekit-preload-data="hover" href="{regulation.href}"
             >{regulation.title}</a>
           </li>
         {/each}
@@ -92,8 +92,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
           <li class="{support.header}">
             <a
               class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${support.href}`}
-              sveltekit:prefetch href="{support.href}"
+              class:active={$page.url.pathname === `${support.href}`}
+              data-sveltekit-preload-data="hover" href="{support.href}"
             >{support.title}</a>
           </li>
         {/each}
@@ -109,8 +109,8 @@ import FundingPartner from "$lib/FundingPartner.svelte";
         <li class="{courses.header}">
             <a
               class="lh-nav no-underline link o-80 glow inherit transition"
-              class:active={$page.path === `${courses.href}`}
-              sveltekit:prefetch href="{courses.href}"
+              class:active={$page.url.pathname === `${courses.href}`}
+              data-sveltekit-preload-data="hover" href="{courses.href}"
             >{courses.title}</a>
           </li>
         {/each}

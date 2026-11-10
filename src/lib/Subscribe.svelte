@@ -1,61 +1,35 @@
-<script context="module">
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
-  export const prerender = true;
-</script>
-
 <script>
-/* learn: `~/support/How to use SvelteKit with Netlify Forms (simple prerendered approach).mp4` */
-import Sting from '$lib/header/Sting.svelte';
-let email = "";
-let form;
-let name = 'Join Our Newsfeed';
-let submitted = false;
-let isSubmitting = false;
+	import Sting from '$lib/header/Sting.svelte';
+	import { FORMSPREE_ENDPOINT, submitFormspree } from '$lib/formspree.js';
 
-const handleInput = (event) => {
-  email = event.target.value;
-};
+	let form;
+	let name = 'Join Our Newsfeed';
+	let submitted = false;
+	let isSubmitting = false;
+	let errorMessage = '';
 
-const handleSubmit = (event) => {
-
-  let formData = new FormData(form);
-
-  isSubmitting = true;
-
-  return fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => {
-      // note: do something:
-      console.log("Form submitted!");
-      submitted = true;
-      isSubmitting = false;
-
-    })
-    .finally(() => {
-      // note: do something:
-      console.log("It works!");
-      // xxx
-      form.reset();
-    })
-    .catch((error) => {
-      console.log(error);
-      isSubmitting = false;
-    });
-  };
+	async function handleSubmit() {
+		if (isSubmitting) return;
+		isSubmitting = true;
+		errorMessage = '';
+		try {
+			await submitFormspree(form);
+			form.reset();
+			submitted = true;
+		} catch (error) {
+			errorMessage = error.message || 'Your subscription could not be sent. Please try again.';
+		} finally {
+			isSubmitting = false;
+		}
+	}
 </script>
 
 <form
 on:submit|preventDefault={handleSubmit}
 bind:this={form}
 name={name}
-netlify
-netlify-honeypot="gotcha"
-class="{ submitted ? 'ping' : '' }">
+action={FORMSPREE_ENDPOINT}
+method="POST">
 
 
   <div class="cf f5 f6-l no-clutter" id="subscribe">
@@ -69,19 +43,12 @@ class="{ submitted ? 'ping' : '' }">
     <div class="fn fl-l w-third-l pr2-l">&nbsp;</div><!-- /Column1 -->
     <div class="fn fl-l w-two-thirds-l pl2-l flex justify-between "><!-- pl2-l tr -->
       {#if !submitted}
-      <!-- - from: https://docs.netlify.com/forms/setup/#html-forms -->
-      <input type="hidden" name="form-name" value={name} />
-      <label for="subcribe-gotcha" class="sr-only">Gotcha!</label>
-      <input type="text" id="subcribe-gotcha" name="gotcha" class="sr-only" />
-      <!-- `name="subject"` only appreas on: app.netlify.com/sites/instantwebapp/settings/forms#form-notifications -->
-
-      <label for="subcribe-subject" class="sr-only">Subject</label>
-      <input id="subcribe-subject" name="subject" type="hidden" value="{email} wants to {name}" />
+      <input type="hidden" name="subject" value="Newsfeed subscription — Clowns Without Borders" />
+      <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
       <input
         id="newsfeed"
         type="email"
-        name="newsfeed"
-        bind:value={email}
+        name="email"
         placeholder="your@email.com"
         required
         class="bg-transition input-reset br0 ba bw2 w-50 w-60-ns w-60-m w-60-l bg-white-80 b--secondary-fore f6 f5-ns pv3 db active pa3"
@@ -91,7 +58,8 @@ class="{ submitted ? 'ping' : '' }">
       <input
         class="{ isSubmitting ? "no-select" : "pointer" } bg-transition input-reset pointer br0 f6 f5-ns pv3 ba bw2 b--secondary-fore white ttu tracked-mega bg-black-30 hover-bg-secondary-fore w-50 w-40-ns w-40-m w-40-l db b system tc"
         type="submit"
-        value="Subscribe">
+        value={isSubmitting ? 'Sending…' : 'Subscribe'}
+        disabled={isSubmitting}>
       {:else}
       <div class="fn fl-l w-20 pr2-l">
         <div class="w3 h3">
@@ -106,25 +74,17 @@ class="{ submitted ? 'ping' : '' }">
     </div>
   </div><!-- /Three columns -->
 
-
+  {#if errorMessage}<p role="alert" class="red">{errorMessage}</p>{/if}
 </form>
 
 <style>
 .lh-none {
   line-height: 0;
 }
+.honeypot { display: none; }
 .active:focus {
   background-color: white;
   /* border-color: var(--egyptian); */
-}
-
-.ping {
-  transform: scale(1.1);
-  transition:
-    transform 3s ease-out,
-    opacity 3s 33s ease-out; /* , opacity 3s ease-out */
-  transform-origin: top center;
-  opacity: 0;
 }
 
 /* NOT Inclusively Hidden: css-tricks.com/inclusively-hidden/ */

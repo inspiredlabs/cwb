@@ -1,6 +1,5 @@
 <script>
 import { page } from '$app/stores';
-import logo from '$lib/images/cwb.svg';
 let alt = 'CWB.ORG.UK Logo';
 </script>
 
@@ -11,7 +10,7 @@ let alt = 'CWB.ORG.UK Logo';
 		class="h3 h3"
 		href="/">
 			<img
-			src={logo} alt={alt} />
+			src="/images/cwb.svg" alt={alt} />
 		</a>
 	</div>
 
@@ -24,8 +23,8 @@ let alt = 'CWB.ORG.UK Logo';
 				<li class="{about.header}">
 					<a
 						class="no-underline link o-80 glow inherit underline-hover transition"
-						class:active={$page.path === `${about.href}`}
-						sveltekit:prefetch href="{about.href}"
+						class:active={$page.url.pathname === `${about.href}`}
+						data-sveltekit-preload-data="hover" href="{about.href}"
 					>{about.title}</a>
 				</li>
 			{/each}
@@ -38,8 +37,8 @@ let alt = 'CWB.ORG.UK Logo';
 				<li class="{support.header}">
 					<a
 						class="no-underline link o-80 glow inherit underline-hover transition"
-						class:active={$page.path === `${support.href}`}
-						sveltekit:prefetch href="{support.href}"
+						class:active={$page.url.pathname === `${support.href}`}
+						data-sveltekit-preload-data="hover" href="{support.href}"
 					>{support.title}</a>
 				</li>
 			{/each}
@@ -52,8 +51,8 @@ let alt = 'CWB.ORG.UK Logo';
 			<li class="{courses.header}">
 					<a
 						class="no-underline link o-80 glow inherit underline-hover transition"
-						class:active={$page.path === `${courses.href}`}
-						sveltekit:prefetch href="{courses.href}"
+						class:active={$page.url.pathname === `${courses.href}`}
+						data-sveltekit-preload-data="hover" href="{courses.href}"
 					>{courses.title}</a>
 				</li>
 			{/each}
@@ -66,8 +65,8 @@ let alt = 'CWB.ORG.UK Logo';
 				<li class="{regulation.header}">
 					<a
 						class="no-underline link o-80 glow inherit underline-hover transition"
-						class:active={$page.path === `${regulation.href}`}
-						sveltekit:prefetch href="{regulation.href}"
+						class:active={$page.url.pathname === `${regulation.href}`}
+						data-sveltekit-preload-data="hover" href="{regulation.href}"
 					>{regulation.title}</a>
 				</li>
 			{/each}
